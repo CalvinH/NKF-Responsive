@@ -29,7 +29,8 @@ APPS:
 
 + Hammer [ http://hammerformac.com/ ]
   + "Forget writing front-end code the old way. Built-in support for SASS, Coffescript, HAML & Markdown."
+    + Prepros [ http://alphapixels.com/prepros/ ]
+      + "Hammer alternative for Windows"
 
 + Anvil [ http://anvilformac.com/ ]
   + "menubar app for managing local website."
-
