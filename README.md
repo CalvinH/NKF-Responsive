@@ -22,6 +22,7 @@ CODE:
 + HAML [ http://haml.info/ ]
   + "markup language that’s used to cleanly and simply describe the HTML of any web document without the use of inline code."
   + Tutorial - http://haml.info/tutorial.html
+  + References - http://haml.info/docs/yardoc/file.REFERENCE.html
 
 APPS:
 + Sublime Text [ http://www.sublimetext.com/3 ]
