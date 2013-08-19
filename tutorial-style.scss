@@ -5,8 +5,10 @@
 
 ========================================================================== */
 #navbar {
-  width: 80%;
-  height: 23px; }
+	width:	80%;
+	height:	23px;
+}
+
 
 /* 
 
@@ -18,16 +20,16 @@ It’s a pain to repeat the beginning over and over again, especially when it ge
 Sass allows you to avoid this by nesting the child selectors within the parent selector.
 
 */
-#navbar {
-  width: 80%;
-  height: 24px; }
-  #navbar ul {
-    list-style-type: none; }
-  #navbar li {
-    float: left; }
-    #navbar li a {
-      font-weight: bold; }
 
+#navbar {
+	width:	80%;
+	height:	24px;
+
+	ul { list-style-type:none; }
+	li { float:left;
+		a { font-weight:bold;}
+	}
+}
 /*
 
 Notice how the output is formatted to reflect the original nesting of the selectors. 
@@ -42,12 +44,20 @@ of nesting.
 You can also nest properties, so you don’t have to repeat stuff like “border-left-” all the time.
 
 */
+
 .fakeshadow {
-  border-style: solid;
-  border-left-width: 4px;
-  border-left-color: #888;
-  border-right-width: 2px;
-  border-right-color: #ccc; }
+	border: {
+		style: solid;
+		left: {
+			width: 4px;
+			color: #888;
+		}
+		right: {
+			width: 2px;
+			color: #ccc;
+		}
+	}
+}
 
 /*
 Parent References
@@ -56,12 +66,12 @@ What about pseudoclasses, like :hover? There isn’t a space between them and th
  but it’s still possible to nest them. You just need to use the Sass special character &. In a selector,
   & will be replaced verbatim with the parent selector.
 */
+
 a {
-  color: #ce4dd6; }
-  a:hover {
-    color: #ffb3ff; }
-  a:visited {
-    color: #c458cb; }
+	color: #ce4dd6;
+	&:hover { color: #ffb3ff; }
+	&:visited { color: #c458cb; }
+}
 
 /*
 Variables
@@ -75,25 +85,33 @@ This means that changes that should be small, such as tweaking the coloring or t
 can be done in one place, not all over the stylesheet.
 
 */
+
+$main-color: #ce4dd6;
+$style: solid;
+
 #navbar {
-  border-bottom-color: #ce4dd6;
-  border-bottom-style: solid; }
+	border-bottom: {
+		color: $main-color;
+		style: $style;
+	}
+}
 
 a {
-  color: #ce4dd6; }
-  a:hover {
-    border-bottom: solid 1px; }
+	color: $main-color;
+	&:hover { border-bottom: $style 1px; }
+}
 
 /* CSS output */
 #navbar {
   border-bottom-color: #ce4dd6;
   border-bottom-style: solid; }
 
-a {
-  color: #ce4dd6; }
-
-a:hover {
-  border-bottom: solid 1px; }
+a { 
+	color: #ce4dd6;
+}
+	a:hover {
+		border-bottom: solid 1px;
+	}
 
 /* 
 
@@ -106,6 +124,30 @@ The standard math operations (+, -, *, /, and %) are supported for numbers, even
 For colors, there are all sorts of useful functions for changing the lightness, hue, saturation, and more.
 
 */
+
+#navbar {
+	$navbar-width: 800px;
+	$items: 5;
+	$navbar-color: #ce4dd6;
+
+	width: $navbar-width;
+	border-bottom: 2px solid $navbar-color;
+
+	li {
+
+		float: left;
+		width: $navbar-width/$items - 10px;
+
+		background-color:
+			lighten($navbar-color, 20%);
+		&:hover {
+			background-color:
+				lighten($navbar-color, 10%);
+		}
+	}
+}
+
+/*CSS*/
 #navbar {
   width: 800px;
   border-bottom: 2px solid #ce4dd6; }
@@ -116,19 +158,6 @@ For colors, there are all sorts of useful functions for changing the lightness, 
     #navbar li:hover {
       background-color: #d976e0; }
 
-/*CSS*/
-#navbar {
-  width: 800px;
-  border-bottom: 2px solid #ce4dd6; }
-
-#navbar li {
-  float: left;
-  width: 150px;
-  background-color: #e5a0e9; }
-
-#navbar li:hover {
-  background-color: #d976e0; }
-
 /*
 
 Interpolation
@@ -136,10 +165,16 @@ Interpolation
 Variables can be used for more than just property values. You can use # {} to insert them into property names or selectors.
 
 */
-.rounded-top-left {
-  border-top-left-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -webkit-border-top-left-radius: 10px; }
+
+$vert: top;
+$horz: left;
+$radius: 10px;
+
+.rounded-#{$vert}-#{$horz} {
+  border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
 
 /*CSS*/
 .rounded-top-left {
@@ -159,16 +194,18 @@ Mixins are defined using the “@mixin” directive, which takes a block of styl
 selector using the “@include” directive.
 
 */
+@mixin rounded-top-left {
+  $vert: top;
+  $horz: left;
+  $radius: 10px;
 
-#navbar li {
-  border-top-left-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -webkit-border-top-left-radius: 10px; }
+  border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
 
-#footer {
-  border-top-left-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -webkit-border-top-left-radius: 10px; }
+#navbar li { @include rounded-top-left; }
+#footer { @include rounded-top-left; }
 
 /* CSS */
 #navbar li {
@@ -192,22 +229,19 @@ Mixin arguments can also be given default values just like you’d declare them 
 choose not to pass that argument and it will be assigned the default value.
 
 */
-#navbar li {
-  border-top-left-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -webkit-border-top-left-radius: 10px; }
 
-#footer {
-  border-top-left-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -webkit-border-top-left-radius: 5px; }
+@mixin rounded($vert, $horz, $radius: 10px) {
+  border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
 
-#sidebar {
-  border-top-left-radius: 8px;
-  -moz-border-radius-topleft: 8px;
-  -webkit-border-top-left-radius: 8px; }
+#navbar li { @include rounded(top, left); }
+#footer { @include rounded(top, left, 5px); }
+#sidebar { @include rounded(top, left, 8px); }
 
 /* CSS */
+
 #navbar li {
   border-top-left-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -240,25 +274,25 @@ In order to support both .scss and .sass files, Sass allows files to be imported
 That means we can just import "rounded", rather than "rounded.scss".
 
 */
+
 /* _rounded.scss */
+
+@mixin rounded($vert, $horz, $radius: 10px) {
+  border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
+
 /* style.scss */
+
 /* - @import "rounded"; - */
-#navbar li {
-  border-top-left-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -webkit-border-top-left-radius: 10px; }
 
-#footer {
-  border-top-left-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -webkit-border-top-left-radius: 5px; }
-
-#sidebar {
-  border-top-left-radius: 8px;
-  -moz-border-radius-topleft: 8px;
-  -webkit-border-top-left-radius: 8px; }
+#navbar li { @include rounded(top, left); }
+#footer { @include rounded(top, left, 5px); }
+#sidebar { @include rounded(top, left, 8px); }
 
 /* CSS - output */
+
 #navbar li {
   border-top-left-radius: 10px;
   -moz-border-radius-topleft: 10px;

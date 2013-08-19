@@ -1,5 +1,12 @@
 /* ==========================================================================
 
+  NKF Responsive Stylesheet
+  Author: Calvin Harris
+  Version: 0.1 - Last Updated: 12th August, 2013
+
+========================================================================== */
+/* ==========================================================================
+
   Base Stylesheet - http://git.io/base
   Author: Matthew Hartman - http://www.matthewhartman.com.au/
   Version: 1.5 - Last Updated: 21st June, 2013
@@ -744,3 +751,4 @@ textarea {
   .show-mobile {
     display: block; } }
 /* End Mobile Media Query */
+/* NKF THEME */
