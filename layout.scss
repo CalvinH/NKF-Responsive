@@ -1,0 +1,53 @@
+/* ==========================================================================
+  
+  Layout Stylesheet - SMACCS [ http://smacss.com/book/type-layout ]
+  2.0 - Grid Layout (Responsive)
+
+   ========================================================================== */
+
+// ==========================================================================
+// -- Custom Website Styles for Desktop
+// ==========================================================================
+
+// Your custom website styles for desktop go here...
+/* Header */
+#header {}
+
+/* Main Navigation */
+#nav {}
+
+/* Main */
+#main {}
+
+/* Footer */
+#footer {}
+
+/* ==========================================================================
+/* -- Tablet Devices (Layout, Modifications, etc)
+   ========================================================================== */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+
+// ==========================================================================
+// -- Custom Website Styles for Tablet Devices
+// ==========================================================================
+
+// Your custom website styles for tablet devices go here...
+
+
+
+
+} /* End Tablet Media Query */
+
+
+/* ==========================================================================
+/* -- Mobile Devices (Layout, Modifications, etc)
+   ========================================================================== */
+@media only screen and (max-width: $mobile-breakpoint) {
+// ==========================================================================
+// -- Custom Website Styles for Mobile Devices
+// ==========================================================================
+
+// Your custom website styles for mobile devices go here...
+
+
+} /* End Mobile Media Query */

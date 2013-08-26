@@ -1,12 +1,15 @@
 /* ==========================================================================
 
-  NKF Responsive Stylesheet
+  NKF Theme Stylesheet
   Author: Calvin Harris
-  Version: 0.1 - Last Updated: 12th August, 2013
+  Version: 0.1 - Last Updated: 26th August, 2013
 
 ========================================================================== */
 
-@import "style"; // Import the base base framework styles
+@import "base"; // Import Base Rules
+@import "layout"; // Import Layout Rules
+@import "moudle"; // Import Module Rules
+@import "state"; // Import State Rules
 
 /* NKF THEME */
 

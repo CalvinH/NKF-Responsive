@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"wid",
+				"widows"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +15,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1191,
+				"buffer_size": 1267,
 				"line_ending": "Unix"
 			}
 		}
@@ -27,11 +31,15 @@
 				"Package Control: Install Package"
 			],
 			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
 				"Packa",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -54,10 +62,21 @@
 	},
 	"file_history":
 	[
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/mixins.scss",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/Build/BASE - readme.markdown",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/index.haml",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/sass/nkf.scss",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/sass/tutorial-style.scss",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/sass/mixins.scss",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/sass/style.scss",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/README.md",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/tutorial.haml",
+		"/Users/calvinh/Sites/GitHub/nkf-css-framework/scss/style.scss",
+		"/Users/calvinh/Sites/GitHub/NKF-Responsive/NKFResponsive.sublime-project"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -71,6 +90,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rounded",
+			"size",
+			"radius"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -97,20 +119,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1191,
+						"buffer_size": 1267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								816,
-								816
+								592,
+								592
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -155,7 +179,7 @@
 	"project": "NKFResponsive.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -13,11 +13,49 @@
 		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
-
-		%link{:rel =>"stylesheet", :href => "style.css"}
+		%link{:rel => "stylesheet", :href => "css/docs.css"}
+		%link{:rel => "stylesheet", :href => "css/nkf.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
+		#header
+			.container
+				.section.row
+					.col.six
+						.logo
+					.col.six
+						.sub
+						.search
+		#nav
+			.container
+				.section.row
+					%ul.col.twelve
+		#main
+			.container
+				.section.row
+					.left-column.col.eight
+						.rotating-stories
+							%ul.slidey
+							%ol.slide-markers
+						.one-column.left
+						.one-column.right
+						.one-column.right
+						.two-columns
+					.right-column.col.four
+						.addthis_box
+						.donate_button_v3
+						.local_events
+						.newsletter
+						.calendar
+						.social-connect
+						.blog
+						.resource-guide
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+
 		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
 		%script{:src => "js/default.js"}
 
@@ -26,11 +64,4 @@
 
 		%a{:name => "top"}
 
-		#header
-			.logo
-			.sub
-			.search
-		#nav
-			%ul
-		#main
-		#footer
+		
