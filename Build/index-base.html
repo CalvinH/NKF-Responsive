@@ -10,12 +10,246 @@
     <link href='/images/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
     <link href='/images/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
     <link href='style.css' rel='stylesheet'>
-    <!--[if lt IE9]> <script src="js/shiv.js"></script> <![endif]-->
+    <link href='css/docs.css' rel='stylesheet'>
+    <link href='css/nkf.css' rel='stylesheet'>
+    <!--[if lt IE9]> <script src="js/shiv.js </script> <![endif]-->
   </head>
   <body>
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <script src='js/default.js'></script>
     <!-- Google Analytics: change UA-XXXXX-X to your website's ID. -->
-    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-XXXXX-X', 'yoursite.com'); ga('send', 'pageview');</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;
+      i[r]=i[r]||function()
+      {(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+      a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;
+      a.src=g;m.parentNode.insertBefore(a,m)})
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-XXXXX-X', 'yoursite.com'); ga('send', 'pageview');
+    </script>
+    <div class='container'>
+      <h2>The Grid System</h2>
+      <p>The powerful grid system uses a variation of the 960 grid system. The syntax is super simple and it works accross all major browsers including Chrome, Safari, Firefox and even Internet Explorer 7+.</p>
+      <!-- Example 1 - This is the most basic example of how to use the grid. -->
+      <h2 class='h4'>Example 1</h2>
+      <p>This is the most basic example of how to use the grid.</p>
+      <!-- wrap columns within a .section or .clear div to clear the floating columns -->
+      <div class='section row row-one'>
+        <!-- Add a .col class followed with the column width in word value (one, two, three..., twelve) -->
+        <div class='col seven'>7</div>
+        <div class='col five'>5</div>
+        <!-- section or clear -->
+      </div>
+      <hr>
+      <!-- Example 2 - To make columns full width for Tablet, simply add the .tablet-full class -->
+      <!-- wrap columns within a .section or .clear div to clear the floating columns -->
+      <h2 class='h4'>Example 2</h2>
+      <p>To make columns full width for Tablet, simply add the .tablet-full class</p>
+      <div class='section row row-one'>
+        <!-- Add the .tablet-full class to make columns 100% width on tablet view -->
+        <div class='col seven tablet-full'>7</div>
+        <div class='col five tablet-full'>5</div>
+        <!-- section or clear -->
+      </div>
+      <hr>
+      <!-- Example 3 - Furthermore, you can make columns full width on Mobile by adding the .mobile-full class. -->
+      <!-- wrap columns within a .section or .clear div to clear the floating columns -->
+      <h2 class='h4'>Example 3</h2>
+      <p>Furthermore, you can make columns full width on Mobile by adding the .mobile-full class.</p>
+      <div class='section row row-one'>
+        <!-- Add the .mobile-full class to make columns 100% width on mobile view -->
+        <div class='col seven tablet-full mobile-full'>7</div>
+        <div class='col five tablet-full mobile-full'>5</div>
+        <!-- section or clear -->
+      </div>
+      <hr>
+      <!-- Mixed Example - The grid system also includes tablet and mobile specific column widths in case you would like to override the inherited default. See the example below for a better understanding. -->
+      <h2 class='h4'>Mixed Example</h2>
+      <p>The grid system also includes tablet and mobile specific column widths in case you would like to override the inherited default. See the example below for a better understanding.</p>
+      <div class='section row row-one'>
+        <div class='col one tablet-four mobile-eight'>1</div>
+        <div class='col eleven tablet-eight mobile-four'>11</div>
+      </div>
+      <div class='section row row-one'>
+        <div class='col two tablet-three mobile-nine'>2</div>
+        <div class='col ten tablet-nine mobile-three'>10</div>
+      </div>
+      <div class='section row row-one'>
+        <div class='col three tablet-eleven mobile-one'>3</div>
+        <div class='col nine tablet-one mobile-eleven'>9</div>
+      </div>
+      <div class='section row row-one'>
+        <div class='col four tablet-three mobile-nine'>4</div>
+        <div class='col eight tablet-nine mobile-three'>8</div>
+      </div>
+      <div class='section row row-one'>
+        <div class='col five tablet-full mobile-full'>5</div>
+        <div class='col seven tablet-full mobile-full'>7</div>
+      </div>
+      <hr>
+      <h1>Typography</h1>
+      <p>Base has a global default font size of 14px (which is converted into rem units for scalability and accessibility). This is applied to the < body > and all < p > tags.</p>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+      <hr>
+      <h2>Lists</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Lorem ipsum point</li>
+        <ul>
+          <li>Lorem ipsum point</li>
+          <li>Lorem ipsum point</li>
+          <li>Lorem ipsum point</li>
+          <ul>
+            <li>Lorem ipsum point</li>
+            <li>Lorem ipsum point</li>
+            <li>Lorem ipsum point</li>
+          </ul>
+        </ul>
+        <li>Lorem ipsum point</li>
+        <li>Lorem ipsum point</li>
+      </ul>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Lorem ipsum point</li>
+        <ol>
+          <li>Lorem ipsum point</li>
+          <li>Lorem ipsum point</li>
+          <li>Lorem ipsum point</li>
+          <ol>
+            <li>Lorem ipsum point</li>
+            <li>Lorem ipsum point</li>
+            <li>Lorem ipsum point</li>
+          </ol>
+        </ol>
+        <li>Lorem ipsum point</li>
+        <li>Lorem ipsum point</li>
+      </ol>
+      <h3>Definition List</h3>
+      <dl>
+        <dt>Lorem ipsum point</dt>
+        <dd>Lorem ipsum point</dd>
+        <dt>Lorem ipsum point</dt>
+        <dd>Lorem ipsum point</dd>
+        <dt>Lorem ipsum point</dt>
+        <dd>Lorem ipsum point</dd>
+      </dl>
+      <h2>Blockquote</h2>
+      <blockquote>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <cite>- John Doe</cite>
+      </blockquote>
+      <hr>
+      <h1>Tables</h1>
+      <table>
+        <caption>Table Caption (optional)</caption>
+        <thead>
+          <tr>
+            <th>Table Heading 1</th>
+            <th>Table Heading 2</th>
+            <th>Table Heading 3</th>
+            <th>Table Heading 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+          </tr>
+          <tr>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Table Footer 1</td>
+            <td>Table Footer 2</td>
+            <td>Table Footer 3</td>
+            <td>Table Footer 4</td>
+          </tr>
+        </tfoot>
+      </table>
+      <hr>
+      <h1>Form Elements</h1>
+      <form action='#' method='get'>
+        <fieldset class='row'>
+          <legend>Standard Input</legend>
+          <label for='name'>Your Full Name: (normal field)</label>
+          <input id='name' name='name' placeholder='Your Name...' type='text' value=''>
+        </fieldset>
+      </form>
+      <hr>
+        <fieldset class='row'>
+          <legend>Checkboxes and Radios</legend>
+          <span class='checkbox'>
+            <input id='checkbox' name='checkbox' type='checkbox'>
+            <label for='checkbox'>A single line label</label>
+          </span>
+          <span class='checkbox'>
+            <input id='multi-checkbox' name='multi-checkbox' type='checkbox'>
+            <label for='multi-checkbox'>
+              A label with
+              <br>
+              multiple
+              <br>
+              lines
+            </label>
+          </span>
+          <span class='checkbox'>
+            <input id='radio' name='radio' type='radio'>
+            <label for='radio'>A single line radio example</label>
+          </span>
+          <span class='checkbox'>
+            <input id='multi-radio' name='radio' type='radio'>
+            <label for='multi-radio'>
+              A label
+              <br>
+              with multiple
+              <br>
+              lines
+            </label>
+          </span>
+        </fieldset>
+      </hr>
+      <hr>
+        <fieldset class='row'>
+          <legend>Selects and Multi-Selects</legend>
+          <label for='select'>Select</label>
+          <select id='select' name='select'>
+            <optgroup label='Example'></optgroup>
+            <option value='excellent'>Excellent</option>
+            <option value='average'>Average</option>
+            <option value='poor'>Poor</option>
+          </select>
+          <div class='row'>
+            <label for='multi-select'>Multiple Select</label>
+            <select id='multi-select' multiple name='multi-select'>
+              <optgroup label='Example'></optgroup>
+              <option value='excellent'>Excellent</option>
+              <option value='average'>Average</option>
+              <option value='poor'>Poor</option>
+            </select>
+          </div>
+        </fieldset>
+      </hr>
+      <hr>
+        <fieldset class='row'>
+          <legend>textarea</legend>
+          <label for='textarea'>Textarea:</label>
+          <textarea id='textarea' name='textarea' rows='5'></textarea>
+        </fieldset>
+      </hr>
+      <hr>
+      <h1>Buttons</h1>
+    </div>
   </body>
 </html>

@@ -8,8 +8,14 @@
 
 @import "base"; // Import Base Rules
 @import "layout"; // Import Layout Rules
-@import "moudle"; // Import Module Rules
+//@import "moudle"; // Import Module Rules
 @import "state"; // Import State Rules
 
 /* NKF THEME */
-
+.row {
+	background:#eee;
+}
+.col .col {
+	background:#333;
+	color:#eee;
+} 
