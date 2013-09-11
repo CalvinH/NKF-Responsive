@@ -1,0 +1,90 @@
+/* ==========================================================================
+
+  Wireframe Stylesheet
+  Author: Calvin Harris
+  Version: 0.1 - Last Updated: 26th August, 2013
+
+========================================================================== */
+
+@import "nkf"; // Import Wireframe Rules
+
+/* colors */
+.orange{background:$primary-color;padding:10px 0;}
+.orange-light{background:$primary-color-light;padding:10px 0;} 
+.orange-lighter{background:$primary-color-lighter;padding:10px 0;}
+.orange-dark{background:$primary-color-dark;padding:10px 0;}
+.orange-darker{background:$primary-color-darker;padding:10px 0;}
+
+.black{background:$black-color; padding:10px 0;}
+.black-light{background:$black-color-light; padding:10px 0;}
+.black-lighter{background:$black-color-lighter; padding:10px 0;}
+.black-lightest{background:$black-color-lightest; padding:10px 0;}
+.white{background:$white-color; padding:10px 0;}
+
+.pms274{background:$PMS-274-color; padding:10px 0;}
+.pms274-light{background:$PMS-274-color-light; padding:10px 0;}
+.pms274-lighter{background:$PMS-274-color-lighter; padding:10px 0;}
+.pms274-dark{background:$PMS-274-color-dark; padding:10px 0;}
+.pms274-darker{background:$PMS-274-color-darker; padding:10px 0;}
+
+.reflexblue{background:$PMS-REFLEXBLUE-color; padding:10px 0;}
+.reflexblue-light{background:$PMS-REFLEXBLUE-color-light; padding:10px 0;}
+.reflexblue-lighter{background:$PMS-REFLEXBLUE-color-lighter; padding:10px 0;}
+.reflexblue-dark{background:$PMS-REFLEXBLUE-color-dark; padding:10px 0;}
+.reflexblue-darker{background:$PMS-REFLEXBLUE-color-darker; padding:10px 0;}
+
+.pms2727{background:$PMS-2727-color; padding:10px 0;}
+.pms2727-light{background:$PMS-2727-color-light; padding:10px 0;}
+.pms2727-lighter{background:$PMS-2727-color-lighter; padding:10px 0;}
+.pms2727-dark{background:$PMS-2727-color-dark; padding:10px 0;}
+.pms2727-darker{background:$PMS-2727-color-darker; padding:10px 0;}
+
+.pms3145{background:$PMS-3145-color; padding:10px 0;}
+.pms3145-light{background:$PMS-3145-color-light; padding:10px 0;}
+.pms3145-lighter{background:$PMS-3145-color-lighter; padding:10px 0;}
+.pms3145-dark{background:$PMS-3145-color-dark; padding:10px 0;}
+.pms3145-darker{background:$PMS-3145-color-darker; padding:10px 0;}
+
+.pms356{background:$PMS-356-color; padding:10px 0;}
+.pms356-light{background:$PMS-356-color-light; padding:10px 0;}
+.pms356-lighter{background:$PMS-356-color-lighter; padding:10px 0;}
+.pms356-dark{background:$PMS-356-color-dark; padding:10px 0;}
+.pms356-darker{background:$PMS-356-color-darker; padding:10px 0;}
+
+.pms383{background:$PMS-383-color; padding:10px 0;}
+.pms383-light{background:$PMS-383-color-light; padding:10px 0;}
+.pms383-lighter{background:$PMS-383-color-lighter; padding:10px 0;}
+.pms383-dark{background:$PMS-383-color-dark; padding:10px 0;}
+.pms383-darker{background:$PMS-383-color-darker; padding:10px 0;}
+
+.pms109{background:$PMS-109-color; padding:10px 0;}
+.pms109-light{background:$PMS-109-color-light; padding:10px 0;}
+.pms109-lighter{background:$PMS-109-color-lighter; padding:10px 0;}
+.pms109-dark{background:$PMS-109-color-dark; padding:10px 0;}
+.pms109-darker{background:$PMS-109-color-darker; padding:10px 0;}
+
+.pms1235{background:$PMS-1235-color; padding:10px 0;}
+.pms1235-light{background:$PMS-1235-color-light; padding:10px 0;}
+.pms1235-lighter{background:$PMS-1235-color-lighter; padding:10px 0;}
+.pms1235-dark{background:$PMS-1235-color-dark; padding:10px 0;}
+.pms1235-darker{background:$PMS-1235-color-darker; padding:10px 0;}
+
+.pms1795{background:$PMS-1795-color; padding:10px 0;}
+.pms1795-light{background:$PMS-1795-color-light; padding:10px 0;}
+.pms1795-lighter{background:$PMS-1795-color-lighter; padding:10px 0;}
+.pms1795-dark{background:$PMS-1795-color-dark; padding:10px 0;}
+.pms1795-darker{background:$PMS-1795-color-darker; padding:10px 0;}
+
+.pms484{background:$PMS-484-color; padding:10px 0;}
+.pms484-light{background:$PMS-484-color-light; padding:10px 0;}
+.pms484-lighter{background:$PMS-484-color-lighter; padding:10px 0;}
+.pms484-dark{background:$PMS-484-color-dark; padding:10px 0;}
+.pms484-darker{background:$PMS-484-color-darker; padding:10px 0;}
+/* for wireframing purposes only */
+.row {
+	background:#eee;
+}
+.col .col {
+	background:#333;
+	color:#eee;
+} 

@@ -1,5 +1,12 @@
 /* ==========================================================================
 
+  Wireframe Stylesheet
+  Author: Calvin Harris
+  Version: 0.1 - Last Updated: 26th August, 2013
+
+========================================================================== */
+/* ==========================================================================
+
   NKF Theme Stylesheet
   Author: Calvin Harris
   Version: 0.1 - Last Updated: 26th August, 2013
@@ -789,21 +796,6 @@ textarea {
   A message may be in a success or error state.
 
    ========================================================================== */
-/* ==========================================================================
-
-  Wireframe Stylesheet
-  Author: Calvin Harris
-  Version: 0.1 - Last Updated: 26th August, 2013
-
-========================================================================== */
-/* for wireframing purposes only */
-.row {
-  background: #eee; }
-
-.col .col {
-  background: #333;
-  color: #eee; }
-
 /* NKF THEME */
 /* COLORS */
 /* NKF ORANGE */
@@ -820,3 +812,251 @@ textarea {
 /* PMS 1235 */
 /* PMS 1795 */
 /* PMS 484 */
+/* colors */
+.orange {
+  background: #f15e22;
+  padding: 10px 0; }
+
+.orange-light {
+  background: #f48152;
+  padding: 10px 0; }
+
+.orange-lighter {
+  background: #f7a482;
+  padding: 10px 0; }
+
+.orange-dark {
+  background: #d3470d;
+  padding: 10px 0; }
+
+.orange-darker {
+  background: #a3360a;
+  padding: 10px 0; }
+
+.black {
+  background: black;
+  padding: 10px 0; }
+
+.black-light {
+  background: #1a1a1a;
+  padding: 10px 0; }
+
+.black-lighter {
+  background: #333333;
+  padding: 10px 0; }
+
+.black-lightest {
+  background: #4d4d4d;
+  padding: 10px 0; }
+
+.white {
+  background: white;
+  padding: 10px 0; }
+
+.pms274 {
+  background: #26225e;
+  padding: 10px 0; }
+
+.pms274-light {
+  background: #353083;
+  padding: 10px 0; }
+
+.pms274-lighter {
+  background: #443da9;
+  padding: 10px 0; }
+
+.pms274-dark {
+  background: #171439;
+  padding: 10px 0; }
+
+.pms274-darker {
+  background: #080713;
+  padding: 10px 0; }
+
+.reflexblue {
+  background: #1e4497;
+  padding: 10px 0; }
+
+.reflexblue-light {
+  background: #2657c2;
+  padding: 10px 0; }
+
+.reflexblue-lighter {
+  background: #4271d9;
+  padding: 10px 0; }
+
+.reflexblue-dark {
+  background: #16316c;
+  padding: 10px 0; }
+
+.reflexblue-darker {
+  background: #0d1e42;
+  padding: 10px 0; }
+
+.pms2727 {
+  background: #577bbd;
+  padding: 10px 0; }
+
+.pms2727-light {
+  background: #7c98cb;
+  padding: 10px 0; }
+
+.pms2727-lighter {
+  background: #a0b5da;
+  padding: 10px 0; }
+
+.pms2727-dark {
+  background: #3f62a2;
+  padding: 10px 0; }
+
+.pms2727-darker {
+  background: #314c7d;
+  padding: 10px 0; }
+
+.pms3145 {
+  background: #048499;
+  padding: 10px 0; }
+
+.pms3145-light {
+  background: #05afcb;
+  padding: 10px 0; }
+
+.pms3145-lighter {
+  background: #0ad7f9;
+  padding: 10px 0; }
+
+.pms3145-dark {
+  background: #035967;
+  padding: 10px 0; }
+
+.pms3145-darker {
+  background: #012e36;
+  padding: 10px 0; }
+
+.pms356 {
+  background: #018241;
+  padding: 10px 0; }
+
+.pms356-light {
+  background: #01b55a;
+  padding: 10px 0; }
+
+.pms356-lighter {
+  background: #02e774;
+  padding: 10px 0; }
+
+.pms356-dark {
+  background: #014f28;
+  padding: 10px 0; }
+
+.pms356-darker {
+  background: #001d0e;
+  padding: 10px 0; }
+
+.pms383 {
+  background: #91ae3c;
+  padding: 10px 0; }
+
+.pms383-light {
+  background: #a9c558;
+  padding: 10px 0; }
+
+.pms383-lighter {
+  background: #bdd27e;
+  padding: 10px 0; }
+
+.pms383-dark {
+  background: #71882f;
+  padding: 10px 0; }
+
+.pms383-darker {
+  background: #526222;
+  padding: 10px 0; }
+
+.pms109 {
+  background: #fedc00;
+  padding: 10px 0; }
+
+.pms109-light {
+  background: #ffe432;
+  padding: 10px 0; }
+
+.pms109-lighter {
+  background: #ffea65;
+  padding: 10px 0; }
+
+.pms109-dark {
+  background: #cbb000;
+  padding: 10px 0; }
+
+.pms109-darker {
+  background: #988400;
+  padding: 10px 0; }
+
+.pms1235 {
+  background: #faad1d;
+  padding: 10px 0; }
+
+.pms1235-light {
+  background: #fbbf4f;
+  padding: 10px 0; }
+
+.pms1235-lighter {
+  background: #fcd181;
+  padding: 10px 0; }
+
+.pms1235-dark {
+  background: #df9305;
+  padding: 10px 0; }
+
+.pms1235-darker {
+  background: #ad7204;
+  padding: 10px 0; }
+
+.pms1795 {
+  background: #ec2126;
+  padding: 10px 0; }
+
+.pms1795-light {
+  background: #f05054;
+  padding: 10px 0; }
+
+.pms1795-lighter {
+  background: #f47f82;
+  padding: 10px 0; }
+
+.pms1795-dark {
+  background: #c91116;
+  padding: 10px 0; }
+
+.pms1795-darker {
+  background: #9a0d11;
+  padding: 10px 0; }
+
+.pms484 {
+  background: #9e2420;
+  padding: 10px 0; }
+
+.pms484-light {
+  background: #c82e29;
+  padding: 10px 0; }
+
+.pms484-lighter {
+  background: #da4e4a;
+  padding: 10px 0; }
+
+.pms484-dark {
+  background: #741a17;
+  padding: 10px 0; }
+
+.pms484-darker {
+  background: #49110f;
+  padding: 10px 0; }
+
+/* for wireframing purposes only */
+.row {
+  background: #eee; }
+
+.col .col {
+  background: #333;
+  color: #eee; }

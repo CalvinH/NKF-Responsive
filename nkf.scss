@@ -12,10 +12,81 @@
 @import "state"; // Import State Rules
 
 /* NKF THEME */
-.row {
-	background:#eee;
-}
-.col .col {
-	background:#333;
-	color:#eee;
-} 
+
+/* COLORS */
+$primary-color: #F15E22; /* NKF ORANGE */
+/* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */
+$primary-color-light:lighten($primary-color, 10%);
+$primary-color-lighter:lighten($primary-color, 20%);
+$primary-color-dark: darken($primary-color, 10%);
+$primary-color-darker: darken($primary-color, 20%);
+/* see - http://robots.thoughtbot.com/post/12974565313/controlling-color-with-sass-color-functions */
+	// border: 1px solid darken($primary-color, 20%);
+	// text-shadow: 0 -1px 0 darken($primary-color, 10%);
+	// @include box-shadow(inset 0 1px 0 lighten($primary-color, 20%));
+
+$black-color: #000000; /* NKF BLACK */
+$black-color-light: lighten($black-color,10%);
+$black-color-lighter: lighten($black-color,20%);
+$black-color-lightest: lighten($black-color,30%);
+$white-color: #FFFFFF;
+
+$PMS-274-color: #26225E; /* PMS 274 */
+$PMS-274-color-light:lighten($PMS-274-color,10%);
+$PMS-274-color-lighter:lighten($PMS-274-color,20%);
+$PMS-274-color-dark:darken($PMS-274-color,10%);
+$PMS-274-color-darker:darken($PMS-274-color,20%);
+
+$PMS-REFLEXBLUE-color: #1E4497; /* PMS REFLEXBLUE */
+$PMS-REFLEXBLUE-color-light:lighten($PMS-REFLEXBLUE-color,10%);
+$PMS-REFLEXBLUE-color-lighter:lighten($PMS-REFLEXBLUE-color,20%);
+$PMS-REFLEXBLUE-color-dark:darken($PMS-REFLEXBLUE-color,10%);
+$PMS-REFLEXBLUE-color-darker:darken($PMS-REFLEXBLUE-color,20%);
+
+$PMS-2727-color: #577BBD; /* PMS 2727 */
+$PMS-2727-color-light:lighten($PMS-2727-color, 10%);
+$PMS-2727-color-lighter:lighten($PMS-2727-color, 20%);
+$PMS-2727-color-dark:darken($PMS-2727-color, 10%);
+$PMS-2727-color-darker:darken($PMS-2727-color, 20%);
+
+$PMS-3145-color: #048499; /* PMS 3145 */
+$PMS-3145-color-light:lighten($PMS-3145-color, 10%);
+$PMS-3145-color-lighter:lighten($PMS-3145-color, 20%);
+$PMS-3145-color-dark:darken($PMS-3145-color, 10%);
+$PMS-3145-color-darker:darken($PMS-3145-color, 20%);
+
+$PMS-356-color: #018241; /* PMS 356 */
+$PMS-356-color-light:lighten($PMS-356-color, 10%);
+$PMS-356-color-lighter:lighten($PMS-356-color, 20%);
+$PMS-356-color-dark:darken($PMS-356-color, 10%);
+$PMS-356-color-darker:darken($PMS-356-color, 20%);
+
+$PMS-383-color: #91AE3C; /* PMS 383 */
+$PMS-383-color-light:lighten($PMS-383-color, 10%);
+$PMS-383-color-lighter:lighten($PMS-383-color, 20%);
+$PMS-383-color-dark:darken($PMS-383-color, 10%);
+$PMS-383-color-darker:darken($PMS-383-color, 20%);
+
+$PMS-109-color: #FEDC00; /* PMS 109 */
+$PMS-109-color-light:lighten($PMS-109-color, 10%);
+$PMS-109-color-lighter:lighten($PMS-109-color, 20%);
+$PMS-109-color-dark:darken($PMS-109-color, 10%);
+$PMS-109-color-darker:darken($PMS-109-color, 20%);
+
+$PMS-1235-color: #FAAD1D; /* PMS 1235 */
+$PMS-1235-color-light:lighten($PMS-1235-color, 10%);
+$PMS-1235-color-lighter:lighten($PMS-1235-color, 20%);
+$PMS-1235-color-dark:darken($PMS-1235-color, 10%);
+$PMS-1235-color-darker:darken($PMS-1235-color, 20%);
+
+$PMS-1795-color: #EC2126; /* PMS 1795 */
+$PMS-1795-color-light:lighten($PMS-1795-color, 10%);
+$PMS-1795-color-lighter:lighten($PMS-1795-color, 20%);
+$PMS-1795-color-dark:darken($PMS-1795-color, 10%);
+$PMS-1795-color-darker:darken($PMS-1795-color, 20%);
+
+$PMS-484-color: #9E2420; /* PMS 484 */
+$PMS-484-color-light:lighten($PMS-484-color, 10%);
+$PMS-484-color-lighter:lighten($PMS-484-color, 20%);
+$PMS-484-color-dark:darken($PMS-484-color, 10%);
+$PMS-484-color-darker:darken($PMS-484-color, 20%);
