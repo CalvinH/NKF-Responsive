@@ -797,6 +797,12 @@ textarea {
 
    ========================================================================== */
 /* NKF THEME */
+.container {
+  max-width: 990px; }
+
+.container-full {
+  max-width: 1010px; }
+
 /* COLORS */
 /* NKF ORANGE */
 /* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */

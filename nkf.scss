@@ -13,6 +13,15 @@
 
 /* NKF THEME */
 
+.container {
+	max-width:$desktop-container + 30px;
+	@extend .center;
+	}
+.container-full{
+	max-width:$desktop-container + 50px;
+	@extend .center;
+	}
+
 /* COLORS */
 $primary-color: #F15E22; /* NKF ORANGE */
 /* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */
