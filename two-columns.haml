@@ -2,7 +2,7 @@
 %html{:lang => "en", :class => "no-js"}
 	%head
 		%meta{:charset =>"utf-8"}
-		%title The National Kidney Foundation, Inc. - STYLES
+		%title The National Kidney Foundation, Inc.
 
 		%meta{:name => "National Kidney Foundation", :content => "The National Kidney Foundation provides information on kidney disease and organ donation. Learn risk factors, prevention tips and more to keep your kidneys healthy."}
 		%meta{:name => "description", :content => ""}
@@ -14,6 +14,7 @@
 		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
+		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
@@ -21,9 +22,9 @@
 			%nav.top-bar
 				%ul
 					%li
-						%a{:href => "index.html"} Landing
+						%a{:href => "index.html", :class => "current"} Landing
 					%li 
-						%a{:href => "styles.html", :class => "current"} Styles
+						%a{:href => "styles.html"} Styles
 					%li 
 						%a{:href => "home.html"} Home 
 					%li 
@@ -38,85 +39,33 @@
 						%a{:href => "three-columns.html"} Three-Columns
 		#main.main-topbar
 			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Two-Columns
+			.container
+				%h6 Two-Columns [Main + Side-bar (right)]
 				.section.row
-					.left-column.col.four.mobile-full
-						%ul.side-nav
-							%li
-								%a{:href => "grid.html"} Grid
-							%li
-								%a{:href => "color.html"} Color Palette
-							%li.active Typography
-							%li 
-								%a{:href => "tables.html"} Tables
-							%li 
-								%a{:href => "forms.html"} Forms
-							%li
-								%a{:href => "buttons.html"} Buttons
-					.right-column.col.eight.mobile-full
-						%h1.title Typography
-
-						%h1 Heading 1
-						%h2	Heading 2
-						%h3	Heading 3
-						%h4	Heading 4
-						%h5	Heading 5
-						%h6	Heading 6
-
-						%hr
-
-						%h2 List
-						%h3 Unordered List
-						%ul
-							%li Lorem ipsum
-							%li 
-								Lorem ipsum
-								%ul
-									%li Lorem ipsum
-									%li 
-										Lorem ipsum
-										%ul
-											%li Lorem ipsum
-											%li Lorem ipsum
-											%li Lorem ipsum
-									%li Lorem ipsum
-							%li Lorem ipsum
-						
-						%hr
-
-						%h3 Ordered List
-						%ol
-							%li Lorem ipsum
-							%li 
-								Lorem ipsum
-								%ol
-									%li Lorem ipsum
-									%li 
-										Lorem ipsum
-										%ol
-											%li Lorem ipsum
-											%li Lorem ipsum
-											%li Lorem ipsum
-									%li Lorem ipsum
-							%li Lorem ipsum
-
-						%hr
-
-						%h3 Definition List
-						%dl
-							%dt Lorem ipsum
-							%dd Lorem ipsum
-							%dt Lorem ipsum
-							%dd Lorem ipsum
-							%dt Lorem ipsum
-							%dd Lorem ipsum
-
-						%hr
-
-						%h3 Blockquote
-						%blockquote
-							%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							%cite &mdash; Jone Doe
-						
+					.left-column.col.eight.tablet-seven.mobile-full 
+						8d.7t.mfull
+						.rotating-stories
+							%ul.slidey
+							%ol.slide-markers
+						.one-column.left
+						.one-column.right
+						.one-column.right
+						.two-columns
+					.right-column.col.four.tablet-five.mobile-full
+						4d.5t.mfull
+						.addthis_box
+						.donate_button_v3
+						.local_events
+						.newsletter
+						.calendar
+						.social-connect
+						.blog
+						.resource-guide
 		#footer
 			.container
 				.section.row

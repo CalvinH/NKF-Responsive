@@ -13,24 +13,31 @@
 		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
-		%link{:rel => "stylesheet", :href => "css/docs.css"}
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
+		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
 		#header
-			.container
-				.section.row
-					.col.six
-						.logo
-					.col.six
-						.sub
-						.search
-		#nav
-			.container
-				.section.row
-					%ul.col.twelve
-		#main
+			%nav.top-bar
+				%ul
+					%li
+						%a{:href => "index.html", :class => "current"} Landing
+					%li 
+						%a{:href => "styles.html"} Styles
+					%li 
+						%a{:href => "home.html"} Home 
+					%li 
+						%a{:href => "two-deep.html"} Two-Deep
+					%li 
+						%a{:href => "three-deep.html"} Three-Deep
+					%li 
+						%a{:href => "fullwidth.html"} Full-Width
+					%li 
+						%a{:href => "two-columns.html"} Two-Columns
+					%li 
+						%a{:href => "three-columns.html"} Three-Columns
+		#main.main-topbar
 			.container
 				.section.row
 					.col.three.tablet-full.mobile-full
