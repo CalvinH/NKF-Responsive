@@ -14,16 +14,17 @@
 		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
+		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
 		#header
 			%nav.top-bar
-				%ul
+				%ul.col.twelve
 					%li
-						%a{:href => "index.html", :class => "current"} Landing
+						%a{:href => "index.html"} Landing
 					%li 
-						%a{:href => "styles.html"} Styles
+						%a{:href => "styles.html", :class => "current"} Styles
 					%li 
 						%a{:href => "home.html"} Home 
 					%li 
@@ -38,15 +39,66 @@
 						%a{:href => "three-columns.html"} Three-Columns
 		#main.main-topbar
 			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li 
+							%a{:href => "styles.html"} Styles
+						%li.active Grid
+			.container
+				%h6 one
 				.section.row
-					.col.six.tablet-full.mobile-full
-						%h2 NKF &mdash; Style Guide
-					.col.six.tablet-full.mobile-full
+					.col.one 1
+					.col.one 2
+					.col.one 3
+					.col.one 4
+					.col.one 5
+					.col.one 6
+					.col.one 7
+					.col.one 8
+					.col.one 9
+					.col.one 10
+					.col.one 11
+					.col.one 12
+			.container
+				%h6 Two
+				.section.row	
+					.col.two 1
+					.col.two 2
+					.col.two 3
+					.col.two 4
+					.col.two 5
+					.col.two 6
+			.container
+				%h6 Three
+				.section.row	
+					.col.three 1
+					.col.three 2
+					.col.three 3
+					.col.three 4
+			.container
+				%h6 Four
+				.section.row	
+					.col.four 1
+					.col.four 2
+					.col.four 3
+			.container
+				%h6 Six
+				.section.row	
+					.col.six 1
+					.col.six 2
+			.container
+				%h6 Six [tablet full-width ]
+				.section.row	
+					.col.six.tablet-full 1
+					.col.six.tablet-full 2
+
 		#footer
 			.container
 				.section.row
-					.left-column.col.eight
-					.right-column.col.four
+					.left-column.col.eight 8
+					.right-column.col.four 4
 
 		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
 		%script{:src => "js/default.js"}

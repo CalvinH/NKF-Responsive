@@ -7,13 +7,6 @@
 ========================================================================== */
 /* ==========================================================================
 
-  NKF Theme Stylesheet
-  Author: Calvin Harris
-  Version: 0.1 - Last Updated: 26th August, 2013
-
-========================================================================== */
-/* ==========================================================================
-
   Base Stylesheet - SMACCS [ http://smacss.com/book/type-base ]
   A Base rule is applied to an element using an element selector,
   a descendent selector, or a child selector, along with any pseudo-classes.
@@ -31,6 +24,262 @@
   Version: 1.5 - Last Updated: 21st June, 2013
 
 ========================================================================== */
+/* COLORS */
+/* NKF ORANGE */
+/* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */
+/* see - http://robots.thoughtbot.com/post/12974565313/controlling-color-with-sass-color-functions */
+/* NKF BLACK */
+/* PMS 274 */
+/* PMS REFLEXBLUE */
+/* PMS 2727 */
+/* PMS 3145 */
+/* PMS 356 */
+/* PMS 383 */
+/* PMS 109 */
+/* PMS 1235 */
+/* PMS 1795 */
+/* PMS 484 */
+/* COLORS */
+.orange {
+  background: #f15e22;
+  padding: 10px 0; }
+
+.orange-light {
+  background: #f48152;
+  padding: 10px 0; }
+
+.orange-lighter {
+  background: #f7a482;
+  padding: 10px 0; }
+
+.orange-dark {
+  background: #d3470d;
+  padding: 10px 0; }
+
+.orange-darker {
+  background: #a3360a;
+  padding: 10px 0; }
+
+.black {
+  background: black;
+  padding: 10px 0; }
+
+.black-light {
+  background: #1a1a1a;
+  padding: 10px 0; }
+
+.black-lighter {
+  background: #333333;
+  padding: 10px 0; }
+
+.black-lightest {
+  background: #4d4d4d;
+  padding: 10px 0; }
+
+.white {
+  background: white;
+  padding: 10px 0; }
+
+.pms274 {
+  background: #26225e;
+  padding: 10px 0; }
+
+.pms274-light {
+  background: #353083;
+  padding: 10px 0; }
+
+.pms274-lighter {
+  background: #443da9;
+  padding: 10px 0; }
+
+.pms274-dark {
+  background: #171439;
+  padding: 10px 0; }
+
+.pms274-darker {
+  background: #080713;
+  padding: 10px 0; }
+
+.reflexblue {
+  background: #1e4497;
+  padding: 10px 0; }
+
+.reflexblue-light {
+  background: #2657c2;
+  padding: 10px 0; }
+
+.reflexblue-lighter {
+  background: #4271d9;
+  padding: 10px 0; }
+
+.reflexblue-dark {
+  background: #16316c;
+  padding: 10px 0; }
+
+.reflexblue-darker {
+  background: #0d1e42;
+  padding: 10px 0; }
+
+.pms2727 {
+  background: #577bbd;
+  padding: 10px 0; }
+
+.pms2727-light {
+  background: #7c98cb;
+  padding: 10px 0; }
+
+.pms2727-lighter {
+  background: #a0b5da;
+  padding: 10px 0; }
+
+.pms2727-dark {
+  background: #3f62a2;
+  padding: 10px 0; }
+
+.pms2727-darker {
+  background: #314c7d;
+  padding: 10px 0; }
+
+.pms3145 {
+  background: #048499;
+  padding: 10px 0; }
+
+.pms3145-light {
+  background: #05afcb;
+  padding: 10px 0; }
+
+.pms3145-lighter {
+  background: #0ad7f9;
+  padding: 10px 0; }
+
+.pms3145-dark {
+  background: #035967;
+  padding: 10px 0; }
+
+.pms3145-darker {
+  background: #012e36;
+  padding: 10px 0; }
+
+.pms356 {
+  background: #018241;
+  padding: 10px 0; }
+
+.pms356-light {
+  background: #01b55a;
+  padding: 10px 0; }
+
+.pms356-lighter {
+  background: #02e774;
+  padding: 10px 0; }
+
+.pms356-dark {
+  background: #014f28;
+  padding: 10px 0; }
+
+.pms356-darker {
+  background: #001d0e;
+  padding: 10px 0; }
+
+.pms383 {
+  background: #91ae3c;
+  padding: 10px 0; }
+
+.pms383-light {
+  background: #a9c558;
+  padding: 10px 0; }
+
+.pms383-lighter {
+  background: #bdd27e;
+  padding: 10px 0; }
+
+.pms383-dark {
+  background: #71882f;
+  padding: 10px 0; }
+
+.pms383-darker {
+  background: #526222;
+  padding: 10px 0; }
+
+.pms109 {
+  background: #fedc00;
+  padding: 10px 0; }
+
+.pms109-light {
+  background: #ffe432;
+  padding: 10px 0; }
+
+.pms109-lighter {
+  background: #ffea65;
+  padding: 10px 0; }
+
+.pms109-dark {
+  background: #cbb000;
+  padding: 10px 0; }
+
+.pms109-darker {
+  background: #988400;
+  padding: 10px 0; }
+
+.pms1235 {
+  background: #faad1d;
+  padding: 10px 0; }
+
+.pms1235-light {
+  background: #fbbf4f;
+  padding: 10px 0; }
+
+.pms1235-lighter {
+  background: #fcd181;
+  padding: 10px 0; }
+
+.pms1235-dark {
+  background: #df9305;
+  padding: 10px 0; }
+
+.pms1235-darker {
+  background: #ad7204;
+  padding: 10px 0; }
+
+.pms1795 {
+  background: #ec2126;
+  padding: 10px 0; }
+
+.pms1795-light {
+  background: #f05054;
+  padding: 10px 0; }
+
+.pms1795-lighter {
+  background: #f47f82;
+  padding: 10px 0; }
+
+.pms1795-dark {
+  background: #c91116;
+  padding: 10px 0; }
+
+.pms1795-darker {
+  background: #9a0d11;
+  padding: 10px 0; }
+
+.pms484 {
+  background: #9e2420;
+  padding: 10px 0; }
+
+.pms484-light {
+  background: #c82e29;
+  padding: 10px 0; }
+
+.pms484-lighter {
+  background: #da4e4a;
+  padding: 10px 0; }
+
+.pms484-dark {
+  background: #741a17;
+  padding: 10px 0; }
+
+.pms484-darker {
+  background: #49110f;
+  padding: 10px 0; }
+
 /* General Resets */
 * {
   -webkit-box-sizing: border-box;
@@ -511,298 +760,6 @@ textarea {
   text-decoration: none;
   color: #999; }
 
-/* ==========================================================================
-/* 2.0 - Grid Layout (Responsive)
-   ========================================================================== */
-/* Sections & Content Blocks */
-.section {
-  position: relative; }
-
-/* Rows */
-.row {
-  margin: .5em 0; }
-
-.row-one {
-  margin: 1em 0; }
-
-.row-two {
-  margin: 2em 0; }
-
-.row-three {
-  margin: 3em 0; }
-
-.center, .container, .container-full {
-  margin-left: auto;
-  margin-right: auto; }
-
-.container {
-  max-width: 960px;
-  padding-left: 10px;
-  padding-right: 10px; }
-
-.container-full {
-  max-width: 980px; }
-
-/* Fluid Grid */
-.col {
-  margin-left: 2%;
-  float: left; }
-
-.col:first-child {
-  margin-left: 0; }
-
-/* Columns */
-.one {
-  width: 6.5%;
-  *width: expression(Math.floor(0.065 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.two {
-  width: 15%;
-  *width: expression(Math.floor(0.15 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.three, .quarter {
-  width: 23.5%;
-  *width: expression(Math.floor(0.235 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.four, .one-third {
-  width: 32%;
-  *width: expression(Math.floor(0.32 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.five {
-  width: 40.5%;
-  *width: expression(Math.floor(0.405 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.six, .half {
-  width: 49.0%;
-  *width: expression(Math.floor(0.49 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.seven {
-  width: 57.5%;
-  *width: expression(Math.floor(0.575 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.eight {
-  width: 66%;
-  *width: expression(Math.floor(0.66 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.nine {
-  width: 74.5%;
-  *width: expression(Math.floor(0.745 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.ten {
-  width: 83%;
-  *width: expression(Math.floor(0.83 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.eleven {
-  width: 91.5%;
-  *width: expression(Math.floor(0.915 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px"); }
-
-.twelve {
-  width: 100%; }
-
-/* ==========================================================================
-/* -- Tablet Devices (Layout, Modifications, etc)
-   ========================================================================== */
-@media only screen and (min-width: 740px) and (max-width: 999px) {
-  .container, .tablet-container {
-    width: 720px;
-    padding-left: 10px;
-    padding-right: 10px; }
-
-  /* Tablet Grid
-  * For stacking full width columns, please use the new class .tablet-full */
-  .tablet-one {
-    width: 6.5%; }
-
-  .tablet-two {
-    width: 15%; }
-
-  .tablet-three {
-    width: 23.5%; }
-
-  .tablet-four {
-    width: 32%; }
-
-  .tablet-five {
-    width: 40.5%; }
-
-  .tablet-six {
-    width: 49.0%; }
-
-  .tablet-seven {
-    width: 57.5%; }
-
-  .tablet-eight {
-    width: 66%; }
-
-  .tablet-nine {
-    width: 74.5%; }
-
-  .tablet-ten {
-    width: 83%; }
-
-  .tablet-eleven {
-    width: 91.5%; }
-
-  .tablet-twelve {
-    width: 100%; }
-
-  .tablet-full {
-    clear: both;
-    float: none;
-    width: 100%;
-    margin: 10px 0 0 0;
-    display: block; }
-
-  .tablet-full:first-child {
-    margin-top: 0; }
-
-  .tablet-center {
-    margin-left: auto;
-    margin-right: auto;
-    float: none; }
-
-  .tablet-left {
-    float: left; }
-
-  .tablet-right {
-    float: right; }
-
-  .tablet-no-float {
-    float: none; }
-
-  .tablet-center:first-child {
-    margin-left: auto; }
-
-  .tablet-center-text {
-    text-align: center; }
-
-  .no-tablet {
-    display: none; }
-
-  .show-tablet {
-    display: block; } }
-/* End Tablet Media Query */
-/* ==========================================================================
-/* -- Mobile Devices (Layout, Modifications, etc)
-   ========================================================================== */
-@media only screen and (max-width: 739px) {
-  /* Mobile Grid
-  * For stacking full width columns, please use the new class .mobile-full */
-  .mobile-one {
-    width: 6.5%; }
-
-  .mobile-two {
-    width: 15%; }
-
-  .mobile-three {
-    width: 23.5%; }
-
-  .mobile-four {
-    width: 32%; }
-
-  .mobile-five {
-    width: 40.5%; }
-
-  .mobile-six {
-    width: 49.0%; }
-
-  .mobile-seven {
-    width: 57.5%; }
-
-  .mobile-eight {
-    width: 66%; }
-
-  .mobile-nine {
-    width: 74.5%; }
-
-  .mobile-ten {
-    width: 83%; }
-
-  .mobile-eleven {
-    width: 91.5%; }
-
-  .mobile-twelve {
-    width: 100%; }
-
-  .mobile-full {
-    clear: both;
-    float: none;
-    width: 100%;
-    margin: 10px 0 0 0;
-    display: block; }
-
-  .mobile-full:first-child {
-    margin-top: 0; }
-
-  .mobile-center {
-    margin-left: auto;
-    margin-right: auto;
-    float: none; }
-
-  .mobile-center:first-child {
-    margin-left: auto; }
-
-  .mobile-center-text {
-    text-align: center; }
-
-  .mobile-left {
-    float: left; }
-
-  .mobile-right {
-    float: right; }
-
-  .mobile-no-float {
-    float: none; }
-
-  .container, .mobile-container {
-    padding-left: 20px;
-    padding-right: 20px; }
-
-  /* Mobile Tables */
-  table th,
-  table td {
-    padding: 4px; }
-
-  .no-mobile {
-    display: none; }
-
-  .show-mobile {
-    display: block; } }
-/* End Mobile Media Query */
-/* ==========================================================================
-  
-  Layout Stylesheet - SMACCS [ http://smacss.com/book/type-layout ]
-  2.0 - Grid Layout (Responsive)
-
-   ========================================================================== */
-/* Header */
-/* Main Navigation */
-/* Main */
-/* Footer */
-/* ==========================================================================
-/* -- Tablet Devices (Layout, Modifications, etc)
-   ========================================================================== */
-/* End Tablet Media Query */
-/* ==========================================================================
-/* -- Mobile Devices (Layout, Modifications, etc)
-   ========================================================================== */
-/* End Mobile Media Query */
-/* ==========================================================================
-  
-  State Stylesheet - SMACCS [ http://smacss.com/book/type-state ]
-  
-  A state is something that augments and overrides all other styles. 
-  For example, an accordion section may be in a collapsed or expanded state. 
-  A message may be in a success or error state.
-
-   ========================================================================== */
-/* NKF THEME */
-.container {
-  max-width: 990px; }
-
-.container-full {
-  max-width: 1010px; }
-
 /* COLORS */
 /* NKF ORANGE */
 /* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */
@@ -818,251 +775,37 @@ textarea {
 /* PMS 1235 */
 /* PMS 1795 */
 /* PMS 484 */
-/* colors */
-.orange {
-  background: #f15e22;
-  padding: 10px 0; }
-
-.orange-light {
-  background: #f48152;
-  padding: 10px 0; }
-
-.orange-lighter {
-  background: #f7a482;
-  padding: 10px 0; }
-
-.orange-dark {
-  background: #d3470d;
-  padding: 10px 0; }
-
-.orange-darker {
-  background: #a3360a;
-  padding: 10px 0; }
-
-.black {
-  background: black;
-  padding: 10px 0; }
-
-.black-light {
-  background: #1a1a1a;
-  padding: 10px 0; }
-
-.black-lighter {
-  background: #333333;
-  padding: 10px 0; }
-
-.black-lightest {
-  background: #4d4d4d;
-  padding: 10px 0; }
-
-.white {
-  background: white;
-  padding: 10px 0; }
-
-.pms274 {
-  background: #26225e;
-  padding: 10px 0; }
-
-.pms274-light {
-  background: #353083;
-  padding: 10px 0; }
-
-.pms274-lighter {
-  background: #443da9;
-  padding: 10px 0; }
-
-.pms274-dark {
-  background: #171439;
-  padding: 10px 0; }
-
-.pms274-darker {
-  background: #080713;
-  padding: 10px 0; }
-
-.reflexblue {
-  background: #1e4497;
-  padding: 10px 0; }
-
-.reflexblue-light {
-  background: #2657c2;
-  padding: 10px 0; }
-
-.reflexblue-lighter {
-  background: #4271d9;
-  padding: 10px 0; }
-
-.reflexblue-dark {
-  background: #16316c;
-  padding: 10px 0; }
-
-.reflexblue-darker {
-  background: #0d1e42;
-  padding: 10px 0; }
-
-.pms2727 {
-  background: #577bbd;
-  padding: 10px 0; }
-
-.pms2727-light {
-  background: #7c98cb;
-  padding: 10px 0; }
-
-.pms2727-lighter {
-  background: #a0b5da;
-  padding: 10px 0; }
-
-.pms2727-dark {
-  background: #3f62a2;
-  padding: 10px 0; }
-
-.pms2727-darker {
-  background: #314c7d;
-  padding: 10px 0; }
-
-.pms3145 {
-  background: #048499;
-  padding: 10px 0; }
-
-.pms3145-light {
-  background: #05afcb;
-  padding: 10px 0; }
-
-.pms3145-lighter {
-  background: #0ad7f9;
-  padding: 10px 0; }
-
-.pms3145-dark {
-  background: #035967;
-  padding: 10px 0; }
-
-.pms3145-darker {
-  background: #012e36;
-  padding: 10px 0; }
-
-.pms356 {
-  background: #018241;
-  padding: 10px 0; }
-
-.pms356-light {
-  background: #01b55a;
-  padding: 10px 0; }
-
-.pms356-lighter {
-  background: #02e774;
-  padding: 10px 0; }
-
-.pms356-dark {
-  background: #014f28;
-  padding: 10px 0; }
-
-.pms356-darker {
-  background: #001d0e;
-  padding: 10px 0; }
-
-.pms383 {
-  background: #91ae3c;
-  padding: 10px 0; }
-
-.pms383-light {
-  background: #a9c558;
-  padding: 10px 0; }
-
-.pms383-lighter {
-  background: #bdd27e;
-  padding: 10px 0; }
-
-.pms383-dark {
-  background: #71882f;
-  padding: 10px 0; }
-
-.pms383-darker {
-  background: #526222;
-  padding: 10px 0; }
-
-.pms109 {
-  background: #fedc00;
-  padding: 10px 0; }
-
-.pms109-light {
-  background: #ffe432;
-  padding: 10px 0; }
-
-.pms109-lighter {
-  background: #ffea65;
-  padding: 10px 0; }
-
-.pms109-dark {
-  background: #cbb000;
-  padding: 10px 0; }
-
-.pms109-darker {
-  background: #988400;
-  padding: 10px 0; }
-
-.pms1235 {
-  background: #faad1d;
-  padding: 10px 0; }
-
-.pms1235-light {
-  background: #fbbf4f;
-  padding: 10px 0; }
-
-.pms1235-lighter {
-  background: #fcd181;
-  padding: 10px 0; }
-
-.pms1235-dark {
-  background: #df9305;
-  padding: 10px 0; }
-
-.pms1235-darker {
-  background: #ad7204;
-  padding: 10px 0; }
-
-.pms1795 {
-  background: #ec2126;
-  padding: 10px 0; }
-
-.pms1795-light {
-  background: #f05054;
-  padding: 10px 0; }
-
-.pms1795-lighter {
-  background: #f47f82;
-  padding: 10px 0; }
-
-.pms1795-dark {
-  background: #c91116;
-  padding: 10px 0; }
-
-.pms1795-darker {
-  background: #9a0d11;
-  padding: 10px 0; }
-
-.pms484 {
-  background: #9e2420;
-  padding: 10px 0; }
-
-.pms484-light {
-  background: #c82e29;
-  padding: 10px 0; }
-
-.pms484-lighter {
-  background: #da4e4a;
-  padding: 10px 0; }
-
-.pms484-dark {
-  background: #741a17;
-  padding: 10px 0; }
-
-.pms484-darker {
-  background: #49110f;
-  padding: 10px 0; }
-
 /* for wireframing purposes only */
-.row {
-  background: #eee; }
+#main {
+  background: url(../images/grid.png) top center repeat-y; }
 
+/*
+.row {
+	background:rgba($black-color,0.2);
+}*/
+/* DOC THEME */
+.row .col {
+  background: rgba(236, 33, 38, 0.5);
+  color: white;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  text-transform: uppercase; }
+
+/*
 .col .col {
-  background: #333;
-  color: #eee; }
+	background:$black-color-lightest;
+	color:rgba($black-color,0.2);
+}
+*/
+/* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 999px) {
+  #main {
+    background: url(../images/grid-tablet.png) top center repeat-y; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  #main {
+    background-image: url(../images/grid-mobile.png);
+    background-position: center;
+    background-repeat: repeat-y; } }

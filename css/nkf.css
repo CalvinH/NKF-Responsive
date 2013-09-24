@@ -24,6 +24,262 @@
   Version: 1.5 - Last Updated: 21st June, 2013
 
 ========================================================================== */
+/* COLORS */
+/* NKF ORANGE */
+/* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */
+/* see - http://robots.thoughtbot.com/post/12974565313/controlling-color-with-sass-color-functions */
+/* NKF BLACK */
+/* PMS 274 */
+/* PMS REFLEXBLUE */
+/* PMS 2727 */
+/* PMS 3145 */
+/* PMS 356 */
+/* PMS 383 */
+/* PMS 109 */
+/* PMS 1235 */
+/* PMS 1795 */
+/* PMS 484 */
+/* COLORS */
+.orange {
+  background: #f15e22;
+  padding: 10px 0; }
+
+.orange-light {
+  background: #f48152;
+  padding: 10px 0; }
+
+.orange-lighter {
+  background: #f7a482;
+  padding: 10px 0; }
+
+.orange-dark {
+  background: #d3470d;
+  padding: 10px 0; }
+
+.orange-darker {
+  background: #a3360a;
+  padding: 10px 0; }
+
+.black {
+  background: black;
+  padding: 10px 0; }
+
+.black-light {
+  background: #1a1a1a;
+  padding: 10px 0; }
+
+.black-lighter {
+  background: #333333;
+  padding: 10px 0; }
+
+.black-lightest {
+  background: #4d4d4d;
+  padding: 10px 0; }
+
+.white {
+  background: white;
+  padding: 10px 0; }
+
+.pms274 {
+  background: #26225e;
+  padding: 10px 0; }
+
+.pms274-light {
+  background: #353083;
+  padding: 10px 0; }
+
+.pms274-lighter {
+  background: #443da9;
+  padding: 10px 0; }
+
+.pms274-dark {
+  background: #171439;
+  padding: 10px 0; }
+
+.pms274-darker {
+  background: #080713;
+  padding: 10px 0; }
+
+.reflexblue {
+  background: #1e4497;
+  padding: 10px 0; }
+
+.reflexblue-light {
+  background: #2657c2;
+  padding: 10px 0; }
+
+.reflexblue-lighter {
+  background: #4271d9;
+  padding: 10px 0; }
+
+.reflexblue-dark {
+  background: #16316c;
+  padding: 10px 0; }
+
+.reflexblue-darker {
+  background: #0d1e42;
+  padding: 10px 0; }
+
+.pms2727 {
+  background: #577bbd;
+  padding: 10px 0; }
+
+.pms2727-light {
+  background: #7c98cb;
+  padding: 10px 0; }
+
+.pms2727-lighter {
+  background: #a0b5da;
+  padding: 10px 0; }
+
+.pms2727-dark {
+  background: #3f62a2;
+  padding: 10px 0; }
+
+.pms2727-darker {
+  background: #314c7d;
+  padding: 10px 0; }
+
+.pms3145 {
+  background: #048499;
+  padding: 10px 0; }
+
+.pms3145-light {
+  background: #05afcb;
+  padding: 10px 0; }
+
+.pms3145-lighter {
+  background: #0ad7f9;
+  padding: 10px 0; }
+
+.pms3145-dark {
+  background: #035967;
+  padding: 10px 0; }
+
+.pms3145-darker {
+  background: #012e36;
+  padding: 10px 0; }
+
+.pms356 {
+  background: #018241;
+  padding: 10px 0; }
+
+.pms356-light {
+  background: #01b55a;
+  padding: 10px 0; }
+
+.pms356-lighter {
+  background: #02e774;
+  padding: 10px 0; }
+
+.pms356-dark {
+  background: #014f28;
+  padding: 10px 0; }
+
+.pms356-darker {
+  background: #001d0e;
+  padding: 10px 0; }
+
+.pms383 {
+  background: #91ae3c;
+  padding: 10px 0; }
+
+.pms383-light {
+  background: #a9c558;
+  padding: 10px 0; }
+
+.pms383-lighter {
+  background: #bdd27e;
+  padding: 10px 0; }
+
+.pms383-dark {
+  background: #71882f;
+  padding: 10px 0; }
+
+.pms383-darker {
+  background: #526222;
+  padding: 10px 0; }
+
+.pms109 {
+  background: #fedc00;
+  padding: 10px 0; }
+
+.pms109-light {
+  background: #ffe432;
+  padding: 10px 0; }
+
+.pms109-lighter {
+  background: #ffea65;
+  padding: 10px 0; }
+
+.pms109-dark {
+  background: #cbb000;
+  padding: 10px 0; }
+
+.pms109-darker {
+  background: #988400;
+  padding: 10px 0; }
+
+.pms1235 {
+  background: #faad1d;
+  padding: 10px 0; }
+
+.pms1235-light {
+  background: #fbbf4f;
+  padding: 10px 0; }
+
+.pms1235-lighter {
+  background: #fcd181;
+  padding: 10px 0; }
+
+.pms1235-dark {
+  background: #df9305;
+  padding: 10px 0; }
+
+.pms1235-darker {
+  background: #ad7204;
+  padding: 10px 0; }
+
+.pms1795 {
+  background: #ec2126;
+  padding: 10px 0; }
+
+.pms1795-light {
+  background: #f05054;
+  padding: 10px 0; }
+
+.pms1795-lighter {
+  background: #f47f82;
+  padding: 10px 0; }
+
+.pms1795-dark {
+  background: #c91116;
+  padding: 10px 0; }
+
+.pms1795-darker {
+  background: #9a0d11;
+  padding: 10px 0; }
+
+.pms484 {
+  background: #9e2420;
+  padding: 10px 0; }
+
+.pms484-light {
+  background: #c82e29;
+  padding: 10px 0; }
+
+.pms484-lighter {
+  background: #da4e4a;
+  padding: 10px 0; }
+
+.pms484-dark {
+  background: #741a17;
+  padding: 10px 0; }
+
+.pms484-darker {
+  background: #49110f;
+  padding: 10px 0; }
+
 /* General Resets */
 * {
   -webkit-box-sizing: border-box;
@@ -504,6 +760,24 @@ textarea {
   text-decoration: none;
   color: #999; }
 
+/* General Resets */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+html, button, input, select, textarea {
+  font-family: sans-serif; }
+
+body, form, fieldset, legend, input, select, textarea, button {
+  margin: 0; }
+
+html {
+  font-size: 100%; }
+
 /* ==========================================================================
 /* 2.0 - Grid Layout (Responsive)
    ========================================================================== */
@@ -762,24 +1036,249 @@ textarea {
   .show-mobile {
     display: block; } }
 /* End Mobile Media Query */
+/* Header */
+/* Main */
+#main.main-topbar {
+  margin-top: 40px; }
+
+/* Footer */
+/* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 999px) {
+  #main.main-topbar {
+    margin-top: 50px; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  #main.main-topbar {
+    margin-top: 0px; } }
 /* ==========================================================================
   
-  Layout Stylesheet - SMACCS [ http://smacss.com/book/type-layout ]
-  2.0 - Grid Layout (Responsive)
+  Module Stylesheet - SMACCS [ http://smacss.com/book/type-module ]
+  A Module is a more discrete component of the page.
+  Modules sit inside Layout components.
+  Modules can sometimes sit within other Modules, too. 
+  Each Module should be designed to exist as a standalone component.
 
    ========================================================================== */
-/* Header */
-/* Main Navigation */
-/* Main */
-/* Footer */
-/* ==========================================================================
-/* -- Tablet Devices (Layout, Modifications, etc)
-   ========================================================================== */
-/* End Tablet Media Query */
-/* ==========================================================================
-/* -- Mobile Devices (Layout, Modifications, etc)
-   ========================================================================== */
-/* End Mobile Media Query */
+/* ========= MASTHEAD ========= */
+/* Logo */
+/* searchbox */
+/* sub nav */
+.primary-nav {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #1a1a1a; }
+  .primary-nav ul {
+    line-height: normal;
+    list-style: none;
+    padding: 10px;
+    margin: 0; }
+    .primary-nav ul li {
+      float: left;
+      margin-left: 20px; }
+      .primary-nav ul li a {
+        text-decoration: none;
+        color: white; }
+      .primary-nav ul li a.current,
+      .primary-nav ul li a:hover {
+        color: #f15e22; }
+      .primary-nav ul li a:active {
+        color: #f7a482; }
+    .primary-nav ul li:first-child {
+      margin-left: 0; }
+
+@media only screen and (min-width: 720px) and (max-width: 979px) {
+  .primary-nav ul li {
+    margin-left: 5px; }
+    .primary-nav ul li a {
+      padding: 10px 15px; } }
+@media only screen and (max-width: 719px) {
+  .nav-toggle {
+    display: block;
+    background-color: #4d4d4d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; }
+
+  .nav-toggle:hover,
+  .nav-toggle:active,
+  .nav-toggle.active {
+    background-color: #4d4d4d;
+    color: #f15e22; }
+
+  .primary-nav {
+    float: none;
+    position: static; }
+
+  .primary-nav ul {
+    float: none;
+    margin: 0;
+    padding: 0; }
+
+  .primary-nav ul li {
+    float: none;
+    margin-left: 0; }
+
+  .primary-nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-transform: none;
+    background-color: #1a1a1a; }
+
+  .primary-nav ul li a:hover {
+    background-color: #4d4d4d; } }
+.side-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+  .side-nav li {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    .side-nav li a {
+      text-decoration: none; }
+    .side-nav li a.current,
+    .side-nav li a:hover {
+      color: #f15e22; }
+    .side-nav li a:active {
+      color: #f7a482; }
+    .side-nav li a:after {
+      content: " \00bb"; }
+  .side-nav li.active {
+    color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.1); }
+  .side-nav li:last-child {
+    border-bottom: none; }
+  .side-nav li:hover {
+    background: rgba(0, 0, 0, 0.05); }
+
+.top-bar {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: black; }
+  .top-bar ul {
+    line-height: normal;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .top-bar ul li {
+      float: left;
+      margin-left: 20px;
+      padding: 10px; }
+      .top-bar ul li a {
+        text-decoration: none;
+        color: white; }
+      .top-bar ul li a.current,
+      .top-bar ul li a:hover {
+        color: #f15e22; }
+      .top-bar ul li a:active {
+        color: #f7a482; }
+    .top-bar ul li:first-child {
+      margin-left: 0; }
+
+/*TABLET */
+@media only screen and (min-width: 740px) and (max-width: 999px) {
+  .top-bar ul li {
+    margin-left: 5px; }
+    .top-bar ul li a {
+      padding: 10px 15px; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .top-bar {
+    float: none;
+    position: static; }
+
+  .top-bar ul {
+    float: none;
+    margin: 0;
+    padding: 0; }
+
+  .top-bar ul li {
+    float: none;
+    margin-left: 0;
+    padding: 0; }
+
+  .top-bar ul li a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-transform: none;
+    background-color: #1a1a1a; }
+
+  .top-bar ul li a:hover {
+    background-color: #4d4d4d; } }
+/* ========== MAIN ========== */
+/* Rotating Stories */
+.crumb {
+  float: left;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3); }
+  .crumb ul {
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .crumb ul li {
+      float: left;
+      padding: 8px 5px;
+      margin: 0 2px;
+      color: #4d4d4d; }
+      .crumb ul li a {
+        text-decoration: none;
+        color: white;
+        padding-right: 10px; }
+      .crumb ul li a.current,
+      .crumb ul li a:hover {
+        color: #f15e22; }
+      .crumb ul li a:active {
+        color: #f7a482; }
+    .crumb ul li.active {
+      color: rgba(0, 0, 0, 0.4);
+      padding-right: 10px; }
+    .crumb ul li:first-child {
+      margin-left: 0; }
+    .crumb ul li:after {
+      content: " \2044"; }
+
+/* ==== Primary Sidebar ==== */
+/* Rotating Stories */
+/* AddThis */
+/* Donate Button */
+/* Local Events */
+/* Newsletters */
+/* Calendar */
+/* Social Connect */
+/* Blog */
+/* Resource Guide */
+/* AddThis */
+/* Blog */
+/* Blog */
+/* Calendar */
+/* Calendar */
+/* Donate Button */
+/* Donate Button */
+/* Local Events */
+/* Local Events */
+/* Newsletters */
+/* Newsletters */
+/* Resource Guide */
+/* Resource Guide */
+/* Social Connect */
+/* Social Connect */
+/* === FOOTER === */
 /* ==========================================================================
   
   State Stylesheet - SMACCS [ http://smacss.com/book/type-state ]
@@ -789,34 +1288,9 @@ textarea {
   A message may be in a success or error state.
 
    ========================================================================== */
-/* ==========================================================================
-
-  Wireframe Stylesheet
-  Author: Calvin Harris
-  Version: 0.1 - Last Updated: 26th August, 2013
-
-========================================================================== */
-/* for wireframing purposes only */
-.row {
-  background: #eee; }
-
-.col .col {
-  background: #333;
-  color: #eee; }
-
 /* NKF THEME */
-/* COLORS */
-/* NKF ORANGE */
-/* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */
-/* see - http://robots.thoughtbot.com/post/12974565313/controlling-color-with-sass-color-functions */
-/* NKF BLACK */
-/* PMS 274 */
-/* PMS REFLEXBLUE */
-/* PMS 2727 */
-/* PMS 3145 */
-/* PMS 356 */
-/* PMS 383 */
-/* PMS 109 */
-/* PMS 1235 */
-/* PMS 1795 */
-/* PMS 484 */
+.container {
+  max-width: 990px; }
+
+.container-full {
+  max-width: 1010px; }

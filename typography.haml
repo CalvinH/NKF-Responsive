@@ -2,7 +2,7 @@
 %html{:lang => "en", :class => "no-js"}
 	%head
 		%meta{:charset =>"utf-8"}
-		%title The National Kidney Foundation, Inc.
+		%title The National Kidney Foundation, Inc. - STYLES
 
 		%meta{:name => "National Kidney Foundation", :content => "The National Kidney Foundation provides information on kidney disease and organ donation. Learn risk factors, prevention tips and more to keep your kidneys healthy."}
 		%meta{:name => "description", :content => ""}
@@ -21,9 +21,9 @@
 			%nav.top-bar
 				%ul
 					%li
-						%a{:href => "index.html", :class => "current"} Landing
+						%a{:href => "index.html"} Landing
 					%li 
-						%a{:href => "styles.html"} Styles
+						%a{:href => "styles.html", :class => "current"} Styles
 					%li 
 						%a{:href => "home.html"} Home 
 					%li 
@@ -39,9 +39,84 @@
 		#main.main-topbar
 			.container
 				.section.row
-					.col.six.tablet-full.mobile-full
-						%h2 NKF &mdash; Style Guide
-					.col.six.tablet-full.mobile-full
+					.left-column.col.four.mobile-full
+						%ul.side-nav
+							%li
+								%a{:href => "grid.html"} Grid
+							%li
+								%a{:href => "color.html"} Color Palette
+							%li.active Typography
+							%li 
+								%a{:href => "tables.html"} Tables
+							%li 
+								%a{:href => "forms.html"} Forms
+							%li
+								%a{:href => "buttons.html"} Buttons
+					.right-column.col.eight.mobile-full
+						%h1.title Typography
+
+						%h1 Heading 1
+						%h2	Heading 2
+						%h3	Heading 3
+						%h4	Heading 4
+						%h5	Heading 5
+						%h6	Heading 6
+
+						%hr
+
+						%h2 List
+						%h3 Unordered List
+						%ul
+							%li Lorem ipsum
+							%li 
+								Lorem ipsum
+								%ul
+									%li Lorem ipsum
+									%li 
+										Lorem ipsum
+										%ul
+											%li Lorem ipsum
+											%li Lorem ipsum
+											%li Lorem ipsum
+									%li Lorem ipsum
+							%li Lorem ipsum
+						
+						%hr
+
+						%h3 Ordered List
+						%ol
+							%li Lorem ipsum
+							%li 
+								Lorem ipsum
+								%ol
+									%li Lorem ipsum
+									%li 
+										Lorem ipsum
+										%ol
+											%li Lorem ipsum
+											%li Lorem ipsum
+											%li Lorem ipsum
+									%li Lorem ipsum
+							%li Lorem ipsum
+
+						%hr
+
+						%h3 Definition List
+						%dl
+							%dt Lorem ipsum
+							%dd Lorem ipsum
+							%dt Lorem ipsum
+							%dd Lorem ipsum
+							%dt Lorem ipsum
+							%dd Lorem ipsum
+
+						%hr
+
+						%h3 Blockquote
+						%blockquote
+							%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							%cite &mdash; Jone Doe
+						
 		#footer
 			.container
 				.section.row

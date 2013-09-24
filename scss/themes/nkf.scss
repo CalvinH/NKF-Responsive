@@ -1,0 +1,25 @@
+/* ==========================================================================
+
+  NKF Theme Stylesheet
+  Author: Calvin Harris
+  Version: 0.1 - Last Updated: 26th August, 2013
+
+========================================================================== */
+@import "../base/_base"; // Import BASE Rules
+@import "../base/_reset"; // Import BASE reset Rules
+@import "../layout/_layout"; // Import Layout Rules [scss/layout]
+@import "../modules/_module"; // Import Module Rules [scss/]
+@import "../states/_state"; // Import State Rules
+
+
+/* NKF THEME */
+
+.container {
+	max-width:$desktop-container + 30px;
+	@extend .center;
+	}
+.container-full{
+	max-width:$desktop-container + 50px;
+	@extend .center;
+	}
+

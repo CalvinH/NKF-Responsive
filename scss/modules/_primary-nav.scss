@@ -1,0 +1,71 @@
+.primary-nav {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: $black-color-light;
+  ul {
+    line-height: normal;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+    li {float:left; margin-left: 20px;
+      a {text-decoration: none; color: $white-color;}
+      a.current,
+      a:hover {color:$primary-color;}
+      a:active {color: $primary-color-lighter;}
+    }
+    li:first-child{margin-left: 0;}
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 979px) {
+	.primary-nav ul li {
+  		margin-left: 5px;
+  			a {
+    			padding: 10px 15px;
+    		}
+  	}
+}
+@media only screen and (max-width: 719px) {
+	.nav-toggle {
+    display: block;
+    background-color: $black-color-lightest;
+    color: $white-color;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  	.nav-toggle:hover,
+  	.nav-toggle:active,
+  	.nav-toggle.active {
+    background-color: $black-color-lightest;
+    color: $primary-color;
+  	}
+  .primary-nav {
+    float: none;
+    position: static;
+  }
+ .primary-nav ul {
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+  .primary-nav ul li {
+    float: none;
+    margin-left: 0;
+  }
+	.primary-nav ul li a {
+    color: $white-color;
+    padding: 10px 20px;
+    display: block;
+    text-transform: none;
+    background-color: $black-color-light;
+  }
+  .primary-nav ul li a:hover {
+    background-color: $black-color-lightest;
+  }
+}

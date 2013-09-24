@@ -1,0 +1,14 @@
+.crumb {
+	float:left; width:100%;background:rgba($black-color,0.3);
+	ul{ display:block; margin:0; padding:0;
+		li { float:left;padding:8px 5px; margin:0 2px; color: $black-color-lightest;
+			a{text-decoration: none; color: $white-color; padding-right:10px;}
+			a.current,
+      		a:hover {color:$primary-color;}
+      		a:active {color: $primary-color-lighter;}
+		}
+		li.active {color:rgba($black-color,0.4); padding-right:10px;}
+		li:first-child{margin-left:0;}
+		li:after {content:" \2044";}
+	}
+}

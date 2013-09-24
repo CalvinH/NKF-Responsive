@@ -1,0 +1,375 @@
+/* COLORS */
+/* NKF ORANGE */
+/* see - http://blog.12spokes.com/web-design-development/simple-css-color-management-with-sass/ */
+/* see - http://robots.thoughtbot.com/post/12974565313/controlling-color-with-sass-color-functions */
+/* NKF BLACK */
+/* PMS 274 */
+/* PMS REFLEXBLUE */
+/* PMS 2727 */
+/* PMS 3145 */
+/* PMS 356 */
+/* PMS 383 */
+/* PMS 109 */
+/* PMS 1235 */
+/* PMS 1795 */
+/* PMS 484 */
+/* COLORS */
+/* line 4, ../../scss/themes/nkf-color.scss */
+.orange {
+  background: #f15e22;
+  padding: 10px 0;
+}
+
+/* line 5, ../../scss/themes/nkf-color.scss */
+.orange-light {
+  background: #f48152;
+  padding: 10px 0;
+}
+
+/* line 6, ../../scss/themes/nkf-color.scss */
+.orange-lighter {
+  background: #f7a482;
+  padding: 10px 0;
+}
+
+/* line 7, ../../scss/themes/nkf-color.scss */
+.orange-dark {
+  background: #d3470d;
+  padding: 10px 0;
+}
+
+/* line 8, ../../scss/themes/nkf-color.scss */
+.orange-darker {
+  background: #a3360a;
+  padding: 10px 0;
+}
+
+/* line 10, ../../scss/themes/nkf-color.scss */
+.black {
+  background: black;
+  padding: 10px 0;
+}
+
+/* line 11, ../../scss/themes/nkf-color.scss */
+.black-light {
+  background: #1a1a1a;
+  padding: 10px 0;
+}
+
+/* line 12, ../../scss/themes/nkf-color.scss */
+.black-lighter {
+  background: #333333;
+  padding: 10px 0;
+}
+
+/* line 13, ../../scss/themes/nkf-color.scss */
+.black-lightest {
+  background: #4d4d4d;
+  padding: 10px 0;
+}
+
+/* line 14, ../../scss/themes/nkf-color.scss */
+.white {
+  background: white;
+  padding: 10px 0;
+}
+
+/* line 16, ../../scss/themes/nkf-color.scss */
+.pms274 {
+  background: #26225e;
+  padding: 10px 0;
+}
+
+/* line 17, ../../scss/themes/nkf-color.scss */
+.pms274-light {
+  background: #353083;
+  padding: 10px 0;
+}
+
+/* line 18, ../../scss/themes/nkf-color.scss */
+.pms274-lighter {
+  background: #443da9;
+  padding: 10px 0;
+}
+
+/* line 19, ../../scss/themes/nkf-color.scss */
+.pms274-dark {
+  background: #171439;
+  padding: 10px 0;
+}
+
+/* line 20, ../../scss/themes/nkf-color.scss */
+.pms274-darker {
+  background: #080713;
+  padding: 10px 0;
+}
+
+/* line 22, ../../scss/themes/nkf-color.scss */
+.reflexblue {
+  background: #1e4497;
+  padding: 10px 0;
+}
+
+/* line 23, ../../scss/themes/nkf-color.scss */
+.reflexblue-light {
+  background: #2657c2;
+  padding: 10px 0;
+}
+
+/* line 24, ../../scss/themes/nkf-color.scss */
+.reflexblue-lighter {
+  background: #4271d9;
+  padding: 10px 0;
+}
+
+/* line 25, ../../scss/themes/nkf-color.scss */
+.reflexblue-dark {
+  background: #16316c;
+  padding: 10px 0;
+}
+
+/* line 26, ../../scss/themes/nkf-color.scss */
+.reflexblue-darker {
+  background: #0d1e42;
+  padding: 10px 0;
+}
+
+/* line 28, ../../scss/themes/nkf-color.scss */
+.pms2727 {
+  background: #577bbd;
+  padding: 10px 0;
+}
+
+/* line 29, ../../scss/themes/nkf-color.scss */
+.pms2727-light {
+  background: #7c98cb;
+  padding: 10px 0;
+}
+
+/* line 30, ../../scss/themes/nkf-color.scss */
+.pms2727-lighter {
+  background: #a0b5da;
+  padding: 10px 0;
+}
+
+/* line 31, ../../scss/themes/nkf-color.scss */
+.pms2727-dark {
+  background: #3f62a2;
+  padding: 10px 0;
+}
+
+/* line 32, ../../scss/themes/nkf-color.scss */
+.pms2727-darker {
+  background: #314c7d;
+  padding: 10px 0;
+}
+
+/* line 34, ../../scss/themes/nkf-color.scss */
+.pms3145 {
+  background: #048499;
+  padding: 10px 0;
+}
+
+/* line 35, ../../scss/themes/nkf-color.scss */
+.pms3145-light {
+  background: #05afcb;
+  padding: 10px 0;
+}
+
+/* line 36, ../../scss/themes/nkf-color.scss */
+.pms3145-lighter {
+  background: #0ad7f9;
+  padding: 10px 0;
+}
+
+/* line 37, ../../scss/themes/nkf-color.scss */
+.pms3145-dark {
+  background: #035967;
+  padding: 10px 0;
+}
+
+/* line 38, ../../scss/themes/nkf-color.scss */
+.pms3145-darker {
+  background: #012e36;
+  padding: 10px 0;
+}
+
+/* line 40, ../../scss/themes/nkf-color.scss */
+.pms356 {
+  background: #018241;
+  padding: 10px 0;
+}
+
+/* line 41, ../../scss/themes/nkf-color.scss */
+.pms356-light {
+  background: #01b55a;
+  padding: 10px 0;
+}
+
+/* line 42, ../../scss/themes/nkf-color.scss */
+.pms356-lighter {
+  background: #02e774;
+  padding: 10px 0;
+}
+
+/* line 43, ../../scss/themes/nkf-color.scss */
+.pms356-dark {
+  background: #014f28;
+  padding: 10px 0;
+}
+
+/* line 44, ../../scss/themes/nkf-color.scss */
+.pms356-darker {
+  background: #001d0e;
+  padding: 10px 0;
+}
+
+/* line 46, ../../scss/themes/nkf-color.scss */
+.pms383 {
+  background: #91ae3c;
+  padding: 10px 0;
+}
+
+/* line 47, ../../scss/themes/nkf-color.scss */
+.pms383-light {
+  background: #a9c558;
+  padding: 10px 0;
+}
+
+/* line 48, ../../scss/themes/nkf-color.scss */
+.pms383-lighter {
+  background: #bdd27e;
+  padding: 10px 0;
+}
+
+/* line 49, ../../scss/themes/nkf-color.scss */
+.pms383-dark {
+  background: #71882f;
+  padding: 10px 0;
+}
+
+/* line 50, ../../scss/themes/nkf-color.scss */
+.pms383-darker {
+  background: #526222;
+  padding: 10px 0;
+}
+
+/* line 52, ../../scss/themes/nkf-color.scss */
+.pms109 {
+  background: #fedc00;
+  padding: 10px 0;
+}
+
+/* line 53, ../../scss/themes/nkf-color.scss */
+.pms109-light {
+  background: #ffe432;
+  padding: 10px 0;
+}
+
+/* line 54, ../../scss/themes/nkf-color.scss */
+.pms109-lighter {
+  background: #ffea65;
+  padding: 10px 0;
+}
+
+/* line 55, ../../scss/themes/nkf-color.scss */
+.pms109-dark {
+  background: #cbb000;
+  padding: 10px 0;
+}
+
+/* line 56, ../../scss/themes/nkf-color.scss */
+.pms109-darker {
+  background: #988400;
+  padding: 10px 0;
+}
+
+/* line 58, ../../scss/themes/nkf-color.scss */
+.pms1235 {
+  background: #faad1d;
+  padding: 10px 0;
+}
+
+/* line 59, ../../scss/themes/nkf-color.scss */
+.pms1235-light {
+  background: #fbbf4f;
+  padding: 10px 0;
+}
+
+/* line 60, ../../scss/themes/nkf-color.scss */
+.pms1235-lighter {
+  background: #fcd181;
+  padding: 10px 0;
+}
+
+/* line 61, ../../scss/themes/nkf-color.scss */
+.pms1235-dark {
+  background: #df9305;
+  padding: 10px 0;
+}
+
+/* line 62, ../../scss/themes/nkf-color.scss */
+.pms1235-darker {
+  background: #ad7204;
+  padding: 10px 0;
+}
+
+/* line 64, ../../scss/themes/nkf-color.scss */
+.pms1795 {
+  background: #ec2126;
+  padding: 10px 0;
+}
+
+/* line 65, ../../scss/themes/nkf-color.scss */
+.pms1795-light {
+  background: #f05054;
+  padding: 10px 0;
+}
+
+/* line 66, ../../scss/themes/nkf-color.scss */
+.pms1795-lighter {
+  background: #f47f82;
+  padding: 10px 0;
+}
+
+/* line 67, ../../scss/themes/nkf-color.scss */
+.pms1795-dark {
+  background: #c91116;
+  padding: 10px 0;
+}
+
+/* line 68, ../../scss/themes/nkf-color.scss */
+.pms1795-darker {
+  background: #9a0d11;
+  padding: 10px 0;
+}
+
+/* line 70, ../../scss/themes/nkf-color.scss */
+.pms484 {
+  background: #9e2420;
+  padding: 10px 0;
+}
+
+/* line 71, ../../scss/themes/nkf-color.scss */
+.pms484-light {
+  background: #c82e29;
+  padding: 10px 0;
+}
+
+/* line 72, ../../scss/themes/nkf-color.scss */
+.pms484-lighter {
+  background: #da4e4a;
+  padding: 10px 0;
+}
+
+/* line 73, ../../scss/themes/nkf-color.scss */
+.pms484-dark {
+  background: #741a17;
+  padding: 10px 0;
+}
+
+/* line 74, ../../scss/themes/nkf-color.scss */
+.pms484-darker {
+  background: #49110f;
+  padding: 10px 0;
+}

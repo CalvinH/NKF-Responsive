@@ -1,0 +1,30 @@
+@import "_grid";
+/* Header */
+#header {}
+/* Main */
+#main {
+	
+}
+#main.main-topbar{margin-top:40px;}
+/* Footer */
+#footer {}
+
+/* TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+	#header{}
+
+	#main{}
+	#main.main-topbar{margin-top:50px;}
+
+	#footer{}
+}
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+	#header{}
+
+	#main{}
+	#main.main-topbar{margin-top:0px;}
+	#main.main-topbar{}
+
+	#footer{}
+}
