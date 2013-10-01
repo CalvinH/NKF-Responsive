@@ -13,43 +13,85 @@
 		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
-		%link{:rel => "stylesheet", :href => "css/docs.css"}
+		
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
+		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
+		%nav.top-bar
+			%ul
+				%li
+					%a{:href => "index.html", :class => "current"} Landing
+				%li 
+					%a{:href => "styles.html"} Styles
+				%li 
+					%a{:href => "home.html"} Home 
+				%li 
+					%a{:href => "two-deep.html"} Two-Deep
+				%li 
+					%a{:href => "three-deep.html"} Three-Deep
+				%li 
+					%a{:href => "fullwidth.html"} Full-Width
+				%li 
+					%a{:href => "two-columns.html"} Two-Columns
+				%li 
+					%a{:href => "three-columns.html"} Three-Columns
+		#billboard
+			.container
+				%h1 HOME
 		#header
+
 			.container
 				.section.row
 					.col.six
-						.logo
+						.logo logo [ 6d.]
 					.col.six
-						.sub
-						.search
+						.sub sub-nav [ 6d.]
+						.search search box [ 6d.]
 		#nav
 			.container
 				.section.row
-					%ul.col.twelve
+					%ul.col.twelve primary nav [ 12d. ]
 		#main
 			.container
 				.section.row
-					.left-column.col.eight.mobile-full
+					.left-column.col.eight.mobile-full 
+						Left Column [ 8d. ]
 						.rotating-stories
-							%ul.slidey
-							%ol.slide-markers
-						.one-column.left
-						.one-column.right
-						.one-column.right
-						.two-columns
+							%ul.slidey slide-images
+							%ol.slide-markers slidey-markers
+						.section.row
+							.col.six.one-column.left two-column story
+							.col.six.one-column.right two-column story
+						.section.row
+							.col.four three-column story
+							.col.four three-column story
+							.col.four three-column story
+						.section.row
+							.col.three four-column story
+							.col.three four-column story
+							.col.three four-column story
+							.col.three four-column story
+						.section.row
+							.col.two six-column story
+							.col.two six-column story
+							.col.two six-column story
+							.col.two six-column story
+							.col.two six-column story
+							.col.two six-column story
+						.section.row	
+							.col.twelve.two-columns full-width story
 					.right-column.col.four.mobile-full
-						.addthis_box
-						.donate_button_v3
-						.local_events
-						.newsletter
-						.calendar
-						.social-connect
-						.blog
-						.resource-guide
+						Right Column [ 4d. ]
+						.addthis_box addthis-box
+						.donate_button_v3 donate-button
+						.local_events local-events
+						.newsletter newsletter
+						.calendar calendar
+						.social-connect social-connect
+						.blog blog
+						.resource-guide resource guide
 		#footer
 			.container
 				.section.row

@@ -18,6 +18,9 @@
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
+		#billboard
+			.container
+				%h1 Three-Columns
 		#header
 			%nav.top-bar
 				%ul
@@ -39,25 +42,30 @@
 						%a{:href => "three-columns.html"} Three-Columns
 		#main.main-topbar
 			.container
+				%h6 Three-Columns [Side-bar (left) + Main + SideBar (right)]
 				.section.row
-					.col.three.tablet-full.mobile-full
-					.left-column.col.five.tablet-seven.mobile-full
-						.rotating-stories
-							%ul.slidey
-							%ol.slide-markers
-						.one-column.left
-						.one-column.right
-						.one-column.right
-						.two-columns
-					.right-column.col.four.tablet-five.mobile-full
-						.addthis_box
-						.donate_button_v3
-						.local_events
-						.newsletter
-						.calendar
-						.social-connect
-						.blog
-						.resource-guide
+					.col.two.tablet-full.mobile-full.left-column
+					
+					.col.six.tablet-seven.mobile-full.middle-column
+						
+					.col.four.tablet-five.mobile-full.right-column
+			.container
+				%h6 Three-Columns [Side-bar (primary) + SideBar (secondary) + Main]
+				.section.row
+					.col.two.tablet-full.mobile-full.left-column
+					
+					.col.four.tablet-seven.mobile-full.middle-column
+						
+					.col.six.tablet-five.mobile-full.right-column
+			.container
+				%h6 Three-Columns [Main + Side-bar (primary) + SideBar (secondary)]
+				.section.row
+					.col.six.tablet-full.mobile-full.left-column
+					
+					.col.two.tablet-seven.mobile-full.middle-column
+						
+					.col.four.tablet-five.mobile-full.right-column
+						
 		#footer
 			.container
 				.section.row

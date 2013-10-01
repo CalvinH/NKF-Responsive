@@ -803,12 +803,12 @@ html {
   margin-right: auto; }
 
 .container {
-  max-width: 960px;
+  max-width: 990px;
   padding-left: 10px;
   padding-right: 10px; }
 
 .container-full {
-  max-width: 980px; }
+  max-width: 1010px; }
 
 /* Fluid Grid */
 .col {
@@ -869,7 +869,7 @@ html {
 /* ==========================================================================
 /* -- Tablet Devices (Layout, Modifications, etc)
    ========================================================================== */
-@media only screen and (min-width: 740px) and (max-width: 999px) {
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
   .container, .tablet-container {
     width: 720px;
     padding-left: 10px;
@@ -1037,19 +1037,28 @@ html {
     display: block; } }
 /* End Mobile Media Query */
 /* Header */
+/* TABLET */
+/* MOBILE */
 /* Main */
 #main.main-topbar {
   margin-top: 40px; }
 
-/* Footer */
 /* TABLET */
-@media only screen and (min-width: 740px) and (max-width: 999px) {
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
   #main.main-topbar {
     margin-top: 50px; } }
 /* MOBILE */
 @media only screen and (max-width: 739px) {
   #main.main-topbar {
     margin-top: 0px; } }
+/* Footer */
+/* TABLET */
+/* MOBILE */
+.fixed {
+  position: fixed; }
+
+/* TABLET */
+/* MOBILE */
 /* ==========================================================================
   
   Module Stylesheet - SMACCS [ http://smacss.com/book/type-module ]
@@ -1137,7 +1146,6 @@ html {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2); }
   .side-nav li {
     text-align: left;
@@ -1190,8 +1198,16 @@ html {
     .top-bar ul li:first-child {
       margin-left: 0; }
 
+.top-bar-fixed-top,
+.top-bar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0; }
+
 /*TABLET */
-@media only screen and (min-width: 740px) and (max-width: 999px) {
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
   .top-bar ul li {
     margin-left: 5px; }
     .top-bar ul li a {
@@ -1290,7 +1306,7 @@ html {
    ========================================================================== */
 /* NKF THEME */
 .container {
-  max-width: 990px; }
+  max-width: 1020px; }
 
 .container-full {
-  max-width: 1010px; }
+  max-width: 1040px; }

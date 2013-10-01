@@ -8,8 +8,12 @@
 @import "../base/_base";
 @import "../utilities/_nkf-color-palette";
 /* for wireframing purposes only */
-
-#main {background:url(../images/grid.png)top center repeat-y;}
+#billboard {margin-top:60px;
+	h1 {}
+	}
+#header,
+#main,
+#footer {background:url(../images/grid.png)top center repeat-y;}
 /*
 .row {
 	background:rgba($black-color,0.2);

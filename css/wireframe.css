@@ -776,7 +776,12 @@ textarea {
 /* PMS 1795 */
 /* PMS 484 */
 /* for wireframing purposes only */
-#main {
+#billboard {
+  margin-top: 60px; }
+
+#header,
+#main,
+#footer {
   background: url(../images/grid.png) top center repeat-y; }
 
 /*
@@ -800,7 +805,7 @@ textarea {
 }
 */
 /* TABLET */
-@media only screen and (min-width: 740px) and (max-width: 999px) {
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
   #main {
     background: url(../images/grid-tablet.png) top center repeat-y; } }
 /* MOBILE */
