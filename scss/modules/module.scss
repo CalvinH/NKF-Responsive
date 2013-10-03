@@ -17,15 +17,17 @@
 @import "primary-nav";
 @import "side-nav";
 @import "top-bar"; //fixed top-bar
+@import "bottom-bar"; //fixed bottom-bar
 
 /* ========== MAIN ========== */
 /* Rotating Stories */
 @import "crumb";
 @import "news-alert";
 @import "carousel";
+@import "titles";
 
 /* ==== Primary Sidebar ==== */
-@import "addthis"; /* AddThis */
+@import "share-box"; /* AddThis */
 @import "blog-list"; /* Blog */
 @import "calendar"; /* Calendar */
 @import "donate-button"; /* Donate Button */

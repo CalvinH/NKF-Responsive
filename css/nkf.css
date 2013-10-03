@@ -1058,7 +1058,293 @@ html {
   position: fixed; }
 
 /* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .tablet-push {
+    position: relative;
+    right: auto;
+    left: 0; }
+
+  /* to be used in conjunction with tablet-full */
+  .push-1 {
+    position: relative;
+    left: 6.5%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-2 {
+    position: relative;
+    left: 15%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-3 {
+    position: relative;
+    left: 23.5%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-4 {
+    position: relative;
+    left: 32%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-5 {
+    position: relative;
+    left: 40.5%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-6 {
+    position: relative;
+    left: 49%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-7 {
+    position: relative;
+    left: 57.5%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-8 {
+    position: relative;
+    left: 66%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-9 {
+    position: relative;
+    left: 74.5%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-10 {
+    position: relative;
+    left: 83%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .push-11 {
+    position: relative;
+    left: 91.5%;
+    right: auto;
+    margin-left: 2% !important; }
+
+  .tablet-pull {
+    position: relative;
+    left: auto; }
+
+  /* to be used in conjunction with tablet-full */
+  .pull-1 {
+    position: relative;
+    right: 6.5%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-2 {
+    position: relative;
+    right: 15%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-3 {
+    position: relative;
+    right: 23.5%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-4 {
+    position: relative;
+    right: 32%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-5 {
+    position: relative;
+    right: 40.5%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-6 {
+    position: relative;
+    right: 49%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-7 {
+    position: relative;
+    right: 57.5%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-8 {
+    position: relative;
+    right: 66%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-9 {
+    position: relative;
+    right: 74.5%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-10 {
+    position: relative;
+    right: 83%;
+    left: auto;
+    margin-left: 0%; }
+
+  .pull-11 {
+    position: relative;
+    right: 91.5%;
+    left: auto;
+    margin-left: 0%; } }
 /* MOBILE */
+@media only screen and (max-width: 739px) {
+  .mobile-push {
+    position: relative;
+    right: auto;
+    left: 0; }
+
+  /* to be used in conjunction with mobile-full */
+  .push-1 {
+    position: relative;
+    left: 6.5%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-2 {
+    position: relative;
+    left: 15%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-3 {
+    position: relative;
+    left: 23.5%;
+    right: auto; }
+
+  .push-4 {
+    position: relative;
+    left: 32%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-5 {
+    position: relative;
+    left: 40.5%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-6 {
+    position: relative;
+    left: 49%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-7 {
+    position: relative;
+    left: 57.5%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-8 {
+    position: relative;
+    left: 66%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-9 {
+    position: relative;
+    left: 74.5%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-10 {
+    position: relative;
+    left: 83%;
+    right: auto;
+    margin-left: 0%; }
+
+  .push-11 {
+    position: relative;
+    left: 91.5%;
+    right: auto;
+    margin-left: 0%; }
+
+  .mobile-pull {
+    position: relative;
+    left: auto;
+    right: 0; }
+
+  /* to be used in conjunction with mobile-full */
+  .pull-1 {
+    position: relative;
+    right: 6.5%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-2 {
+    position: relative;
+    right: 15%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-3 {
+    position: relative;
+    right: 23.5%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-4 {
+    position: relative;
+    right: 32%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-5 {
+    position: relative;
+    right: 40.5%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-6 {
+    position: relative;
+    right: 49%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-7 {
+    position: relative;
+    right: 57.5%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-8 {
+    position: relative;
+    right: 66%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-9 {
+    position: relative;
+    right: 74.5%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-10 {
+    position: relative;
+    right: 83%;
+    left: auto;
+    margin-left: 2%; }
+
+  .pull-11 {
+    position: relative;
+    right: 91.5%;
+    left: auto;
+    margin-left: 2%; } }
 /* ==========================================================================
   
   Module Stylesheet - SMACCS [ http://smacss.com/book/type-module ]
@@ -1143,7 +1429,7 @@ html {
   .primary-nav ul li a:hover {
     background-color: #4d4d4d; } }
 .side-nav {
-  list-style: none;
+  list-style: none inside;
   margin: 0;
   padding: 0;
   border: 1px solid rgba(0, 0, 0, 0.2); }
@@ -1237,6 +1523,75 @@ html {
 
   .top-bar ul li a:hover {
     background-color: #4d4d4d; } }
+.bottom-bar {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: normal;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: black; }
+  .bottom-bar ul {
+    line-height: normal;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .bottom-bar ul li {
+      float: left;
+      margin-left: 20px;
+      padding: 10px; }
+      .bottom-bar ul li a {
+        text-decoration: none;
+        color: white; }
+      .bottom-bar ul li a.current,
+      .bottom-bar ul li a:hover {
+        color: #f15e22; }
+      .bottom-bar ul li a:active {
+        color: #f7a482; }
+    .bottom-bar ul li:first-child {
+      margin-left: 0; }
+
+.bottom-bar-fixed-top,
+.bottom-bar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0; }
+
+/*TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .bottom-bar ul li {
+    margin-left: 5px; }
+    .bottom-bar ul li a {
+      padding: 10px 15px; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .bottom-bar {
+    float: none;
+    position: static; }
+
+  .bottom-bar ul {
+    float: none;
+    margin: 0;
+    padding: 0; }
+
+  .bottom-bar ul li {
+    float: none;
+    margin-left: 0;
+    padding: 0; }
+
+  .bottom-bar ul li a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-transform: none;
+    background-color: #1a1a1a; }
+
+  .bottom-bar ul li a:hover {
+    background-color: #4d4d4d; } }
 /* ========== MAIN ========== */
 /* Rotating Stories */
 .crumb {
@@ -1256,7 +1611,6 @@ html {
         text-decoration: none;
         color: white;
         padding-right: 10px; }
-      .crumb ul li a.current,
       .crumb ul li a:hover {
         color: #f15e22; }
       .crumb ul li a:active {
@@ -1268,6 +1622,29 @@ html {
       margin-left: 0; }
     .crumb ul li:after {
       content: " \2044"; }
+    .crumb ul li.unavailable {
+      color: rgba(0, 0, 0, 0.2); }
+    .crumb ul li.current {
+      color: #f15e22; }
+
+/* Titles */
+.title-top {
+  border-top: 1px solid #ccc; }
+
+.title-middle {
+  position: relative;
+  border-top: 1px solid #ccc;
+  margin-top: 60px; }
+  .title-middle h1 {
+    position: relative;
+    top: -20px;
+    float: left;
+    max-width: 80%;
+    background: #fff;
+    padding-right: 10px; }
+
+.title-bottom {
+  border-bottom: 1px solid #ccc; }
 
 /* ==== Primary Sidebar ==== */
 /* Rotating Stories */
@@ -1304,6 +1681,8 @@ html {
   A message may be in a success or error state.
 
    ========================================================================== */
+/* TABLET */
+/* MOBILE */
 /* NKF THEME */
 .container {
   max-width: 1020px; }

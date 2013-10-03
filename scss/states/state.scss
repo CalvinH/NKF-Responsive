@@ -7,3 +7,10 @@
   A message may be in a success or error state.
 
    ========================================================================== */
+
+
+/* TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {}
+
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {}

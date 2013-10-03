@@ -20,7 +20,8 @@
 	%body
 		#billboard
 			.container
-				%h1 Two-Columns
+				.title-middle
+					%h1 Two-Columns
 		#header
 			%nav.top-bar
 				%ul
@@ -40,6 +41,8 @@
 						%a{:href => "two-columns.html"} Two-Columns
 					%li 
 						%a{:href => "three-columns.html"} Three-Columns
+					%li
+						%a{:href => "footer.html"} Footer
 		#main.main-topbar
 			.container
 				%nav.crumb
@@ -48,7 +51,6 @@
 							%a{:href => "index.html"} Landing
 						%li.active Two-Columns
 			.container
-				%h6 Two-Columns [Main + Side-bar (right)]
 				.section.row
 					.left-column.col.eight.tablet-seven.mobile-full 
 						8d.7t.mfull
@@ -69,8 +71,21 @@
 						.social-connect
 						.blog
 						.resource-guide
+		#footer
 			.container
-				%h6 Two-Columns [Side-bar (left) + Main]
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+
+		%hr
+		#main.main-topbar
+			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Two-Columns
+			.container
 				.section.row
 					.col.four.tablet-five.mobile-full.left-column
 						8d.5t.mfull
@@ -83,6 +98,8 @@
 				.section.row
 					.left-column.col.eight
 					.right-column.col.four
+
+		%hr
 
 		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
 		%script{:src => "js/default.js"}

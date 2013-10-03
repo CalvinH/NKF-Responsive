@@ -1,0 +1,25 @@
+/* Titles */
+.title-top {border-top:1px solid #ccc;
+	h1 {
+		.small{}
+	}
+	h2 {
+		.small{}
+	}
+}
+.title-middle { position:relative;border-top:1px solid #ccc; margin-top:60px;
+	h1 { position:relative; top:-20px; float:left; max-width:80%; background:#fff; padding-right:10px;
+		.small{}
+	}
+	h2 {
+		.small{}
+	}
+}
+.title-bottom { border-bottom:1px solid #ccc;
+	h1 {
+		.small{}
+	}
+	h2 {
+		.small{}
+	}
+}

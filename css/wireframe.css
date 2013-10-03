@@ -797,6 +797,11 @@ textarea {
   padding-bottom: 4px;
   text-align: center;
   text-transform: uppercase; }
+  .row .col .col {
+    background: rgba(4, 132, 153, 0.5); }
+
+#footer .row .col {
+  background: rgba(38, 34, 94, 0.5); }
 
 /*
 .col .col {

@@ -159,7 +159,6 @@ Mixins are defined using the “@mixin” directive, which takes a block of styl
 selector using the “@include” directive.
 
 */
-
 #navbar li {
   border-top-left-radius: 10px;
   -moz-border-radius-topleft: 10px;

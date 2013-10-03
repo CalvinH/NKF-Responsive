@@ -1,0 +1,117 @@
+!!!5
+%html{:lang => "en", :class => "no-js"}
+	%head
+		%meta{:charset =>"utf-8"}
+		%title The National Kidney Foundation, Inc.
+
+		%meta{:name => "National Kidney Foundation", :content => "The National Kidney Foundation provides information on kidney disease and organ donation. Learn risk factors, prevention tips and more to keep your kidneys healthy."}
+		%meta{:name => "description", :content => ""}
+		%meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+
+		%link{:rel => "shortcut icon", :href => "/images/favicon.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "57x57", :href => "/images/apple-touch-icon.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
+		%link{:rel => "stylesheet", :href => "css/nkf.css"}
+		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
+		/ [if lt IE9] <script src="js/shiv.js"></script>
+
+	%body
+		#billboard
+			.container
+				.title-middle
+					%h1 Columns
+
+			%nav.top-bar
+				%ul
+					%li
+						%a{:href => "index.html"} Landing
+					%li 
+						%a{:href => "styles.html", :class => "current"} Styles
+					%li 
+						%a{:href => "home.html"} Home 
+					%li 
+						%a{:href => "two-deep.html"} Two-Deep
+					%li 
+						%a{:href => "three-deep.html"} Three-Deep
+					%li 
+						%a{:href => "fullwidth.html"} Full-Width
+					%li 
+						%a{:href => "two-columns.html"} Two-Columns
+					%li 
+						%a{:href => "three-columns.html"} Three-Columns
+					%li
+						%a{:href => "footer.html"} Footer
+		#main.main-topbar
+			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li 
+							%a{:href => "styles.html"} Styles
+						%li.active Grid
+			.container
+				%h6 one
+				.section.row
+					.col.one 1
+					.col.one 2
+					.col.one 3
+					.col.one 4
+					.col.one 5
+					.col.one 6
+					.col.one 7
+					.col.one 8
+					.col.one 9
+					.col.one 10
+					.col.one 11
+					.col.one 12
+			.container
+				%h6 Two
+				.section.row	
+					.col.two 1
+					.col.two 2
+					.col.two 3
+					.col.two 4
+					.col.two 5
+					.col.two 6
+			.container
+				%h6 Three
+				.section.row	
+					.col.three 1
+					.col.three 2
+					.col.three 3
+					.col.three 4
+			.container
+				%h6 Four
+				.section.row	
+					.col.four 1
+					.col.four 2
+					.col.four 3
+			.container
+				%h6 Six
+				.section.row	
+					.col.six 1
+					.col.six 2
+			.container
+				%h6 Six [tablet full-width ]
+				.section.row	
+					.col.six.tablet-full 1
+					.col.six.tablet-full 2
+
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight 8
+					.right-column.col.four 4
+
+		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+		%script{:src => "js/default.js"}
+
+		/ Google Analytics: change UA-XXXXX-X to your website's ID.
+		%script (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-2200653-1', 'kidney.org'); ga('send', 'pageview');
+
+		%a{:name => "top"}
+
+		

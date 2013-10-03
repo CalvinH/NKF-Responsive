@@ -20,7 +20,8 @@
 	%body
 		#billboard
 			.container
-				%h1 Three-Columns
+				.title-middle
+					%h1 Three-Columns
 		#header
 			%nav.top-bar
 				%ul
@@ -40,37 +41,141 @@
 						%a{:href => "two-columns.html"} Two-Columns
 					%li 
 						%a{:href => "three-columns.html"} Three-Columns
-		#main.main-topbar
+					%li
+						%a{:href => "footer.html"} Footer
+		#main.main-topbar	
 			.container
-				%h6 Three-Columns [Side-bar (left) + Main + SideBar (right)]
-				.section.row
-					.col.two.tablet-full.mobile-full.left-column
-					
-					.col.six.tablet-seven.mobile-full.middle-column
-						
-					.col.four.tablet-five.mobile-full.right-column
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Three-Columns
 			.container
-				%h6 Three-Columns [Side-bar (primary) + SideBar (secondary) + Main]
-				.section.row
-					.col.two.tablet-full.mobile-full.left-column
-					
-					.col.four.tablet-seven.mobile-full.middle-column
-						
-					.col.six.tablet-five.mobile-full.right-column
-			.container
-				%h6 Three-Columns [Main + Side-bar (primary) + SideBar (secondary)]
 				.section.row
 					.col.six.tablet-full.mobile-full.left-column
-					
+						main content
 					.col.two.tablet-seven.mobile-full.middle-column
-						
+						secondary sidebar
 					.col.four.tablet-five.mobile-full.right-column
-						
+						primary 
 		#footer
 			.container
 				.section.row
 					.left-column.col.eight
 					.right-column.col.four
+
+		%hr
+		#main.main-topbar
+			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Three-Columns
+			.container
+				.section.row
+					.col.six.tablet-full.mobile-full.left-column
+						main content
+					.col.four.tablet-five.mobile-full.right-column
+						primary sidebar
+					.col.two.tablet-seven.mobile-full.middle-column
+						secondary sidebar
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+		%hr
+		#main.main-topbar
+			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Three-Columns
+			.container
+				.section.row
+					.col.two.tablet-full.mobile-full.left-column
+						secondary sidebar
+					
+					.col.six.tablet-seven.mobile-full.middle-column
+						main content
+					.col.four.tablet-five.mobile-full.right-column
+						primary sidebar
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+		%hr
+		#main.main-topbar
+			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Three-Columns
+			.container
+				.section.row
+					.col.four.tablet-full.mobile-full.right-column
+						primary sidebar
+					.col.six.tablet-full.mobile-full.middle-column
+						main content
+					
+					.col.two.tablet-full.mobile-full.left-column
+						secondary sidebar
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+		%hr
+		#main.main-topbar			
+			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Three-Columns
+			.container
+				.section.row
+					.col.two.tablet-full.mobile-full.left-column
+						secondary sidebar
+					.col.four.tablet-seven.mobile-full.middle-column
+						primary sidebar
+					.col.six.tablet-five.mobile-full.right-column
+						main content
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+
+		%hr
+		#main.main-topbar	
+			.container
+				%nav.crumb
+					%ul
+						%li 
+							%a{:href => "index.html"} Landing
+						%li.active Three-Columns
+			.container
+				.section.row
+					.col.four.tablet-seven.mobile-full.middle-column
+						primary sidebar
+					.col.two.tablet-full.mobile-full.left-column
+						secondary sidebar
+					.col.six.tablet-five.mobile-full.right-column
+						main content
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+
+		%hr
+
+
 
 		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
 		%script{:src => "js/default.js"}

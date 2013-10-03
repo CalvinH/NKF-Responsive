@@ -1,1 +1,8 @@
-.sub {}
+.sub-nav {
+	dt a,
+	dd a,
+	li a {}
+	dt.active a,
+	dd.active a,
+	li.active a {}
+}

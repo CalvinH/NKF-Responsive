@@ -1,13 +1,83 @@
-.pull-left {}
-.pull-right {}
-.push-left {}
-.push-right {}
 .muted {}
 .clearfix {}
 .fixed {position:fixed;}
 // .no-margin {margin-left:0;margin-top:10px;}
 /* TABLET */
-@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {}
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+.tablet-push {position:relative; right:auto; left:0;} /* to be used in conjunction with tablet-full */
+.push-1 {position:relative; left:6.5%; right:auto; margin-left:2% !important;}
+.push-2 {position:relative; left:15%; right:auto; margin-left:2% !important;}
+.push-3 {position:relative; left:23.5%; right:auto; margin-left:2% !important;}
+.push-4 {position:relative; left:32%; right:auto; margin-left:2% !important;}
+.push-5 {position:relative; left:40.5%; right:auto; margin-left:2% !important;}
+.push-6 {position:relative; left:49%; right:auto; margin-left:2% !important;}
+.push-7 {position:relative; left:57.5%; right:auto; margin-left:2% !important;}
+.push-8 {position:relative; left:66%; right:auto; margin-left:2% !important;}
+.push-9 {position:relative; left:74.5%; right:auto; margin-left:2% !important;}
+.push-10 {position:relative; left:83%; right:auto; margin-left:2% !important;}
+.push-11 {position:relative; left:91.5%; right:auto; margin-left:2% !important;}
+
+.tablet-pull {position:relative;left:auto;} /* to be used in conjunction with tablet-full */
+.pull-1 {position:relative; right:6.5%; left:auto; margin-left:0%;}
+.pull-2 {position:relative; right:15%; left:auto; margin-left:0%;}
+.pull-3 {position:relative; right:23.5%; left:auto; margin-left:0%;}
+.pull-4 {position:relative; right:32%; left:auto; margin-left:0%;}
+.pull-5 {position:relative; right:40.5%; left:auto; margin-left:0%;}
+.pull-6 {position:relative; right:49%; left:auto; margin-left:0%;}
+.pull-7 {position:relative; right:57.5%; left:auto; margin-left:0%;}
+.pull-8 {position:relative; right:66%; left:auto; margin-left:0%;}
+.pull-9 {position:relative; right:74.5%; left:auto; margin-left:0%;}
+.pull-10 {position:relative; right:83%; left:auto; margin-left:0%;}
+.pull-11 {position:relative; right:91.5%; left:auto; margin-left:0%;}
+}
+
+
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {
+.mobile-push {position:relative; right:auto; left:0;} /* to be used in conjunction with mobile-full */
+.push-1 {position:relative; left:6.5%; right:auto;margin-left:0%;
+}
+.push-2 {position:relative; left:15%; right:auto;  margin-left:0%;
+}
+.push-3 {position:relative; left:23.5%; right:auto;
+}
+.push-4 {position:relative; left:32%; right:auto; margin-left:0%;
+
+}
+.push-5 {position:relative; left:40.5%; right:auto; margin-left:0%;
+}
+.push-6 {position:relative; left:49%; right:auto; margin-left:0%;
+}
+.push-7 {position:relative; left:57.5%; right:auto; margin-left:0%;
+}
+.push-8 {position:relative; left:66%; right:auto; margin-left:0%;
+}
+.push-9 {position:relative; left:74.5%; right:auto; margin-left:0%;
+}
+.push-10 {position:relative; left:83%; right:auto; margin-left:0%;
+}
+.push-11 {position:relative; left:91.5%; right:auto; margin-left:0%;
+}
+.mobile-pull {position:relative; left:auto; right:0;} /* to be used in conjunction with mobile-full */
+.pull-1 {position:relative; right:6.5%; left:auto; margin-left:2%;
+}
+.pull-2 {position:relative; right:15%; left:auto; margin-left:2%;}
+.pull-3 {position:relative; right:23.5%; left:auto; margin-left:2%;
+}
+.pull-4 {position:relative; right:32%; left:auto; margin-left:2%;
+}
+.pull-5 {position:relative; right:40.5%; left:auto;  margin-left:2%;
+}
+.pull-6 {position:relative; right:49%; left:auto; margin-left:2%;
+}
+.pull-7 {position:relative; right:57.5%; left:auto; margin-left:2%;
+}
+.pull-8 {position:relative; right:66%; left:auto; margin-left:2%;
+}
+.pull-9 {position:relative; right:74.5%; left:auto; margin-left:2%;
+}
+.pull-10 {position:relative; right:83%; left:auto; margin-left:2%;
+}
+.pull-11 {position:relative; right:91.5%; left:auto; margin-left:2%;
+}
 }

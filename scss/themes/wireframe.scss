@@ -28,7 +28,9 @@
 		padding-bottom: 4px;
 		text-align: center;
 		text-transform: uppercase;
+		.col {background: rgba($PMS-3145-color,0.5);}
 	}
+	#footer .row .col{background: rgba($PMS-274-color,0.5);}
 /*
 .col .col {
 	background:$black-color-lightest;
