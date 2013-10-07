@@ -2,7 +2,7 @@
 <html class='no-js' lang='en'>
   <head>
     <meta charset='utf-8'>
-    <title>The National Kidney Foundation, Inc. - STYLES</title>
+    <title>The National Kidney Foundation, Inc.</title>
     <meta content='The National Kidney Foundation provides information on kidney disease and organ donation. Learn risk factors, prevention tips and more to keep your kidneys healthy.' name='National Kidney Foundation'>
     <meta content='' name='description'>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
@@ -12,10 +12,16 @@
     <link href='/images/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
     <link href='http://www.kidney.org/Icons_144.png' rel='apple-touch-icon' sizes='144x144'>
     <link href='css/nkf.css' rel='stylesheet'>
+    <link href='css/wireframe.css' rel='stylesheet'>
     <!--[if lt IE9]> <script src="js/shiv.js"></script> <![endif]-->
   </head>
   <body>
-    <div id='header'>
+    <div id='billboard'>
+      <div class='container'>
+        <div class='title-middle'>
+          <h1>Columns</h1>
+        </div>
+      </div>
       <nav class='top-bar'>
         <ul>
           <li>
@@ -42,78 +48,91 @@
           <li>
             <a href='three-columns.html'>Three-Columns</a>
           </li>
+          <li>
+            <a href='footer.html'>Footer</a>
+          </li>
         </ul>
       </nav>
     </div>
     <div class='main-topbar' id='main'>
       <div class='container'>
+        <nav class='crumb'>
+          <ul>
+            <li>
+              <a href='index.html'>Landing</a>
+            </li>
+            <li>
+              <a href='styles.html'>Styles</a>
+            </li>
+            <li class='active'>Grid</li>
+          </ul>
+        </nav>
+      </div>
+      <div class='container'>
+        <h6>one</h6>
         <div class='section row'>
-          <div class='left-column col four mobile-full'>
-            <ul class='side-nav'>
-              <li>
-                <a href='grid.html'>Grid</a>
-              </li>
-              <li>
-                <a href='color.html'>Color Palette</a>
-              </li>
-              <li>
-                <a href='typography.html'>Typography</a>
-              </li>
-              <li class='active'>Tables</li>
-              <li>
-                <a href='forms.html'>Forms</a>
-              </li>
-              <li>
-                <a href='buttons.html'>Buttons</a>
-              </li>
-            </ul>
-          </div>
-          <div class='right-column col eight mobile-full'>
-            <div class='title title-middle'>
-              <h1>Tables</h1>
-            </div>
-            <table>
-              <caption>Table Caption (optional)</caption>
-              <thead>
-                <tr>
-                  <th>Table Heading 1</th>
-                  <th>Table Heading 2</th>
-                  <th>Table Heading 3</th>
-                  <th>Table Heading 4</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                </tr>
-                <tr>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td>Table Footer 1</td>
-                  <td>Table Footer 2</td>
-                  <td>Table Footer 3</td>
-                  <td>Table Footer 4</td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
+          <div class='col one'>1</div>
+          <div class='col one'>2</div>
+          <div class='col one'>3</div>
+          <div class='col one'>4</div>
+          <div class='col one'>5</div>
+          <div class='col one'>6</div>
+          <div class='col one'>7</div>
+          <div class='col one'>8</div>
+          <div class='col one'>9</div>
+          <div class='col one'>10</div>
+          <div class='col one'>11</div>
+          <div class='col one'>12</div>
+        </div>
+      </div>
+      <div class='container'>
+        <h6>Two</h6>
+        <div class='section row'>
+          <div class='col two'>1</div>
+          <div class='col two'>2</div>
+          <div class='col two'>3</div>
+          <div class='col two'>4</div>
+          <div class='col two'>5</div>
+          <div class='col two'>6</div>
+        </div>
+      </div>
+      <div class='container'>
+        <h6>Three</h6>
+        <div class='section row'>
+          <div class='col three'>1</div>
+          <div class='col three'>2</div>
+          <div class='col three'>3</div>
+          <div class='col three'>4</div>
+        </div>
+      </div>
+      <div class='container'>
+        <h6>Four</h6>
+        <div class='section row'>
+          <div class='col four'>1</div>
+          <div class='col four'>2</div>
+          <div class='col four'>3</div>
+        </div>
+      </div>
+      <div class='container'>
+        <h6>Six</h6>
+        <div class='section row'>
+          <div class='col six'>1</div>
+          <div class='col six'>2</div>
+        </div>
+      </div>
+      <div class='container'>
+        <h6>Six [tablet full-width ]</h6>
+        <div class='section row'>
+          <div class='col six tablet-full'>1</div>
+          <div class='col six tablet-full'>2</div>
         </div>
       </div>
     </div>
     <div id='footer'>
       <div class='container'>
         <div class='section row'>
-          <div class='left-column col eight'></div>
-          <div class='right-column col four'></div>
+          <div class='left-column col eight'>8</div>
+          <div class='right-column col four'>4</div>
         </div>
       </div>
     </div>

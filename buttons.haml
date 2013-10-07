@@ -42,7 +42,7 @@
 		#main.main-topbar
 			.container
 				.section.row
-					.left-column.col.four.mobile-full
+					.left-column.col.four.tablet-two.mobile-full
 						%ul.side-nav
 							%li
 								%a{:href => "grid.html"} Grid
@@ -55,12 +55,13 @@
 							%li 
 								%a{:href => "forms.html"} Forms
 							%li.active Buttons
-					.right-column.col.eight.mobile-full
-						.title-middle
+					.right-column.col.eight.tablet-ten.mobile-full
+						.title.title-middle
 							%h1 Buttons
 						.section.row
-							.col.twelve.tablet-six.mobile-six
-								%h2 Form Buttons
+							.col.twelve.tablet-full.mobile-full
+								.title.title-top
+									%h2 Form Buttons
 								%input{:class => "button orange-button mobile-full", :type => "submit", :value => "Submit"}
 								%input{:class => "button orange-button mobile-full", :type => "reset", :value => "Reset"}
 								%input{:class => "button orange-button mobile-full", :disabled => "", :type => "submit", :value => "Disabled Submit"}
@@ -68,11 +69,30 @@
 								%input{:class => "no-style-button mobile-full", :type => "submit", :value => "No Style Submit"}
 								%input{:class => "no-style-button mobile-full", :type => "submit", :value => "No Style Submit Disabled", :disabled => ""}
 								  
-								%hr
-
-								%h2 Standard Buttons</h2>
+								.title.title-top
+									%h2 Standard Buttons
 								%a{:href => "#", :class => "button orange-button mobile-full", :title => "Hello :)"} Hello
 								%a{:href => "#", :class => "no-style-button mobile-full", :title => "Hello :)"} Hello
+
+								.title.title-top
+									%h2 Sizes
+								%a{:href => "#", :class => "button button-small orange-button mobile-full", :title => "Small :)"} Small
+								%a{:href => "#", :class => "button button-large orange-button mobile-full", :title => "large :)"} large
+
+								.title.title-top
+									%h2 Custom Colors
+								%a{:href => "#", :class => "button verydarkblue-button mobile-full", :title => "Very Dark Blue :)"} Very Dark Blue
+								%a{:href => "#", :class => "button darkblue-button mobile-full", :title => "Dark Blue :)"} Dark Blue
+								%a{:href => "#", :class => "button moderateblue-button mobile-full", :title => "Blue :)"} Moderate Blue
+								%p
+								%a{:href => "#", :class => "button darkcyan-button mobile-full", :title => "Dark Cyan :)"} Dark Cyan
+								%a{:href => "#", :class => "button darkgreen-button mobile-full", :title => "Dark Green :)"} Dark Green
+								%a{:href => "#", :class => "button green-button mobile-full", :title => "Green :)"} Green
+								%a{:href => "#", :class => "button yellow-button mobile-full", :title => "Yellow :)"} Yellow
+								%p
+								%a{:href => "#", :class => "button vividorange-button mobile-full", :title => "Vivid Orange :)"} Vivid Orange
+								%a{:href => "#", :class => "button vividred-button mobile-full", :title => "Vivid Red :)"} Vivid Red
+								%a{:href => "#", :class => "button darkred-button mobile-full", :title => "Vivid Red :)"} Dark Red
 
 
 		#footer

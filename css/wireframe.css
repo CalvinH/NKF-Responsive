@@ -80,6 +80,7 @@
   background: white;
   padding: 10px 0; }
 
+/* VERY DARK BLUE | http://www.colorhexa.com/26225e */
 .pms274 {
   background: #26225e;
   padding: 10px 0; }
@@ -100,6 +101,7 @@
   background: #080713;
   padding: 10px 0; }
 
+/* DARK BLUE | http://www.colorhexa.com/1e4497 */
 .reflexblue {
   background: #1e4497;
   padding: 10px 0; }
@@ -120,6 +122,7 @@
   background: #0d1e42;
   padding: 10px 0; }
 
+/* MODERATE BLUE | http://www.colorhexa.com/577bbd */
 .pms2727 {
   background: #577bbd;
   padding: 10px 0; }
@@ -140,6 +143,7 @@
   background: #314c7d;
   padding: 10px 0; }
 
+/* DARK CYAN | http://www.colorhexa.com/048499 */
 .pms3145 {
   background: #048499;
   padding: 10px 0; }
@@ -160,6 +164,7 @@
   background: #012e36;
   padding: 10px 0; }
 
+/* DARK GREEN | http://www.colorhexa.com/018241 */
 .pms356 {
   background: #018241;
   padding: 10px 0; }
@@ -180,6 +185,7 @@
   background: #001d0e;
   padding: 10px 0; }
 
+/* Green | http://www.colorhexa.com/91ae3c */
 .pms383 {
   background: #91ae3c;
   padding: 10px 0; }
@@ -200,6 +206,7 @@
   background: #526222;
   padding: 10px 0; }
 
+/* YELLOW | http://www.colorhexa.com/fedc00 */
 .pms109 {
   background: #fedc00;
   padding: 10px 0; }
@@ -220,6 +227,7 @@
   background: #988400;
   padding: 10px 0; }
 
+/* VIVID ORANGE | http://www.colorhexa.com/faad1d */
 .pms1235 {
   background: #faad1d;
   padding: 10px 0; }
@@ -240,6 +248,7 @@
   background: #ad7204;
   padding: 10px 0; }
 
+/* VIVID RED | http://www.colorhexa.com/ec2126 */
 .pms1795 {
   background: #ec2126;
   padding: 10px 0; }
@@ -260,6 +269,7 @@
   background: #9a0d11;
   padding: 10px 0; }
 
+/* DARK RED | http://www.colorhexa.com/9e2420 */
 .pms484 {
   background: #9e2420;
   padding: 10px 0; }
@@ -683,7 +693,6 @@ button, input {
 button, select {
   text-transform: none; }
 
-/* Buttons */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -717,7 +726,7 @@ textarea {
   vertical-align: top;
   resize: none; }
 
-/* Custom Buttons */
+/* ========== Custom Buttons ========== */
 .button {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -728,14 +737,125 @@ textarea {
   text-decoration: none;
   text-align: center; }
 
+.button-small {
+  padding: 0.5em 1.5em; }
+
+.button-large {
+  /*padding:2em 6em;*/
+  font-size: 1.3em;
+  text-transform: uppercase; }
+
+/* == NKF ORANGE == */
 .orange-button {
-  background-color: #fee9cc; }
+  background-color: #f15e22;
+  color: white; }
   .orange-button:hover {
-    background-color: #ffe0b5;
-    -webkit-tap-highlight-color: #fdeed8; }
+    background-color: #d3470d;
+    -webkit-tap-highlight-color: #a3360a; }
   .orange-button:active {
     background-color: #fdeed8; }
 
+/* == PMS 274 == */
+.verydarkblue-button {
+  background-color: #26225e;
+  color: white; }
+  .verydarkblue-button:hover {
+    background-color: #171439;
+    -webkit-tap-highlight-color: #080713; }
+  .verydarkblue-button:active {
+    background-color: #fdeed8; }
+
+/* == RELEX BLUE == */
+.darkblue-button {
+  background-color: #1e4497;
+  color: white; }
+  .darkblue-button:hover {
+    background-color: #16316c;
+    -webkit-tap-highlight-color: #0d1e42; }
+  .darkblue-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS 2727 == */
+.moderateblue-button {
+  background-color: #577bbd;
+  color: white; }
+  .moderateblue-button:hover {
+    background-color: #3f62a2;
+    -webkit-tap-highlight-color: #314c7d; }
+  .moderateblue-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS 3145 == */
+.darkcyan-button {
+  background-color: #048499;
+  color: white; }
+  .darkcyan-button:hover {
+    background-color: #035967;
+    -webkit-tap-highlight-color: #012e36; }
+  .darkcyan-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS 356 == */
+.darkgreen-button {
+  background-color: #018241;
+  color: white; }
+  .darkgreen-button:hover {
+    background-color: #014f28;
+    -webkit-tap-highlight-color: #001d0e; }
+  .darkgreen-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS383 == */
+.green-button {
+  background-color: #91ae3c;
+  color: white; }
+  .green-button:hover {
+    background-color: #71882f;
+    -webkit-tap-highlight-color: #526222; }
+  .green-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS109 == */
+.yellow-button {
+  background-color: #fedc00;
+  color: black; }
+  .yellow-button:hover {
+    background-color: #cbb000;
+    -webkit-tap-highlight-color: #988400; }
+  .yellow-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS1235 == */
+.vividorange-button {
+  background-color: #faad1d;
+  color: white; }
+  .vividorange-button:hover {
+    background-color: #df9305;
+    -webkit-tap-highlight-color: #ad7204; }
+  .vividorange-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS1795 == */
+.vividred-button {
+  background-color: #ec2126;
+  color: white; }
+  .vividred-button:hover {
+    background-color: #c91116;
+    -webkit-tap-highlight-color: #9a0d11; }
+  .vividred-button:active {
+    background-color: #fdeed8; }
+
+/* == PMS484 == */
+.darkred-button {
+  background-color: #9e2420;
+  color: white; }
+  .darkred-button:hover {
+    background-color: #741a17;
+    -webkit-tap-highlight-color: #49110f; }
+  .darkred-button:active {
+    background-color: #fdeed8; }
+
+/* ========== Button States ========== */
 .button[disabled],
 .button.disabled {
   color: #999;

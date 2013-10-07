@@ -20,7 +20,7 @@
 	%body
 		#billboard
 			.container
-				.title-middle
+				.title.title-middle
 					%h1 Two-Columns
 		#header
 			%nav.top-bar
@@ -43,13 +43,8 @@
 						%a{:href => "three-columns.html"} Three-Columns
 					%li
 						%a{:href => "footer.html"} Footer
+		%a{:id => "mp"}
 		#main.main-topbar
-			.container
-				%nav.crumb
-					%ul
-						%li 
-							%a{:href => "index.html"} Landing
-						%li.active Two-Columns
 			.container
 				.section.row
 					.left-column.col.eight.tablet-seven.mobile-full 
@@ -78,13 +73,8 @@
 					.right-column.col.four
 
 		%hr
+		%a{:id => "#pm"}
 		#main.main-topbar
-			.container
-				%nav.crumb
-					%ul
-						%li 
-							%a{:href => "index.html"} Landing
-						%li.active Two-Columns
 			.container
 				.section.row
 					.col.four.tablet-five.mobile-full.left-column
@@ -98,7 +88,38 @@
 				.section.row
 					.left-column.col.eight
 					.right-column.col.four
-
+		%hr
+		%a{:id => "#ms"}
+		#main.main-topbar
+			.container
+				.section.row
+					.col.ten.tablet-five.mobile-full.left-column
+						10d.5t.mfull
+						
+					.col.two.tablet-seven.mobile-full.right-column
+						2d.7t.mfull
+						
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
+		%hr
+		%a{:id => "#sm"}
+		#main.main-topbar
+			.container
+				.section.row
+					.col.two.tablet-five.mobile-full.left-column
+						2d.5t.mfull
+						
+					.col.ten.tablet-seven.mobile-full.right-column
+						10d.7t.mfull
+						
+		#footer
+			.container
+				.section.row
+					.left-column.col.eight
+					.right-column.col.four
 		%hr
 
 		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}

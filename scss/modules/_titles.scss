@@ -1,5 +1,6 @@
 /* Titles */
-.title-top {border-top:1px solid #ccc;
+.title {}
+.title-top {border-top:1px solid #ccc; padding-top:10px; margin-top:20px;
 	h1 {
 		.small{}
 	}
@@ -7,15 +8,14 @@
 		.small{}
 	}
 }
-.title-middle { position:relative;border-top:1px solid #ccc; margin-top:60px;
-	h1 { position:relative; top:-20px; float:left; max-width:80%; background:#fff; padding-right:10px;
+.title-middle { position:relative;border-top:1px solid #ccc; margin-top:20px; margin-bottom:55px;
+	h1 { position:relative; top:-25px; float:left; max-width:80%; background:#fff; padding-right:10px;
 		.small{}
 	}
-	h2 {
-		.small{}
+	h2 { position:relative; top:-20px; float:left; max-width:80%; background:#fff; padding-right:10px;
 	}
 }
-.title-bottom { border-bottom:1px solid #ccc;
+.title-bottom { border-bottom:1px solid #ccc; margin-bottom:10px;
 	h1 {
 		.small{}
 	}

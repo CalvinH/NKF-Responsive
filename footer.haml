@@ -20,8 +20,13 @@
 	%body
 		#billboard
 			.container
-				.title-middle
+				.title.title-middle
 					%h1 Footers
+				%nav.crumb
+					%ul
+						%li
+							%a{:href => ""} a
+						%li.active a
 		#header
 			%nav.top-bar
 				%ul
@@ -43,7 +48,15 @@
 						%a{:href => "three-columns.html"} Three-Columns
 					%li
 						%a{:href => "footer.html"} Footer
-		#main.main-topbar	
+		
+
+
+		%a{:id => "full"}
+		#billboard
+			.container
+				.title.title-top
+					%h2 Full-Width
+		#main
 			.container
 				.section.row
 					.col.twelve.left-column
@@ -54,9 +67,12 @@
 				.section.row
 					.col.twelve.left-column
 						full-width footer
-					
-
-		%hr
+		
+		%a{:id => "two-column"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Two-Columns
 		#main.main-topbar
 
 			.container
@@ -71,8 +87,12 @@
 						two-column footer
 					.col.six.right-column
 						two-column footer
-
-		%hr
+		
+		%a{:id => "three-column"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Three-Columns
 		#main.main-topbar
 			.container
 				.section.row
@@ -89,7 +109,11 @@
 					.col.four.right-column
 						three column footer
 
-		%hr
+		%a{:id => "four-column"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Four-Columns
 		#main.main-topbar
 			.container
 				.section.row
@@ -108,7 +132,12 @@
 					.col.three.right-column
 						four column footer
 
-		%hr
+		%a{:id => "two-column[4+8]"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Two-Columns
+					%p [  4  ][  8  ]
 		#main.main-topbar			
 			.container
 				.section.row
@@ -123,7 +152,12 @@
 					.col.eight.right-column
 						two column footer
 
-		%hr
+		%a{:id => "two-column[8+4]"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Two-Columns
+					%p [  8  ][  4  ]
 		#main.main-topbar	
 			.container
 				.section.row
@@ -138,7 +172,12 @@
 					.col.four.right-column
 						two column footer
 
-		%hr
+		%a{:id => "three-column[3+6+3]"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Three-Columns
+					%p [  3  ][  6  ][  3  ]
 		#main.main-topbar	
 			.container
 				.section.row
@@ -149,13 +188,18 @@
 			.container
 				.section.row
 					.col.three.left-column
-						two column footer
+						three column footer
 					.col.six.middle-column
-						two column footer
+						three column footer
 					.col.three.right-column
-						two column footer
+						three column footer
 
-		%hr
+		%a{:id => "three-column[3+3+6]"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Three-Columns
+					%p [  3  ][  3  ][  6  ]
 		#main.main-topbar	
 			.container
 				.section.row
@@ -172,7 +216,12 @@
 					.col.six.left-column
 						three column footer
 
-		%hr
+		%a{:id => "three-column[6+3+3]"}
+		#billboard	
+			.container
+				.title.title-top
+					%h2 Three-Columns
+					%p [  6  ][  3  ][  3  ]
 		#main.main-topbar	
 			.container
 				.section.row

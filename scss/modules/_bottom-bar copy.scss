@@ -1,0 +1,58 @@
+.bottom-bar {
+  font-size: 12px; font-size: 0.75rem; line-height: normal; position: absolute; bottom: 0; left: 0; z-index: 9999; width: 100%; background-color: $black-color;
+  ul { line-height: normal; list-style: none;padding:0;margin: 0;
+    li {float:left; margin-left: 20px; padding: 10px; 
+      a {text-decoration: none; color: $white-color;}
+      a.current,
+      a:hover {color:$primary-color;}
+      a:active {color: $primary-color-lighter;}
+    }
+    li:first-child{margin-left:0;}
+  }
+}
+
+.bottom-bar-fixed-top,
+.bottom-bar-fixed-bottom {
+  position:fixed;
+  right:0;
+  left:0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+/*TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+	.bottom-bar ul li {
+  		margin-left: 5px;
+  			a {
+    			padding: 10px 15px;
+    		}
+  	}
+}
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+  .bottom-bar {
+    float: none;
+    position: static;
+  }
+ .bottom-bar ul {
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+  .bottom-bar ul li {
+    float: none;
+    margin-left: 0;
+    padding:0;
+  }
+	.bottom-bar ul li a {
+    color: $white-color;
+    padding: 10px 20px;
+    display: block;
+    text-transform: none;
+    background-color: $black-color-light;
+  }
+  .bottom-bar ul li a:hover {
+    background-color: $black-color-lightest;
+  }
+}

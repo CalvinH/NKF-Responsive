@@ -1,0 +1,37 @@
+/* 1.4 Tables
+   ========================================================================== */
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  word-wrap: break-word; // CSS3 Browsers
+  -ms-word-wrap: break-word; // IE8
+  *white-space: normal;  // IE7
+}
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+table thead th {
+  vertical-align: bottom;
+  font-weight: bold;
+  background-color: #e1e1e1;
+  color: #333;
+}
+table tfoot td {
+  font-weight: bold;
+}
+table caption {
+  padding: 0.5em;
+  font-style: italic;
+  background-color: #eee;
+  border-bottom: 0;
+  font-weight: bold;
+}

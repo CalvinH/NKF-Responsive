@@ -1,0 +1,195 @@
+/* ========== Custom Buttons ========== */
+.button {
+  @include rounded(5);
+  border: 0;
+  padding: 1em 3em;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  @extend .inline-block;
+}
+  	.button-small {padding:0.5em 1.5em;}
+  	.button-large {/*padding:2em 6em;*/font-size:1.3em; text-transform:uppercase;}
+
+/* == NKF ORANGE == */
+.orange-button {
+  background-color: $primary-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $primary-color-dark;
+    -webkit-tap-highlight-color: $primary-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS 274 == */
+.verydarkblue-button {
+  background-color: $PMS-274-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-274-color-dark;
+    -webkit-tap-highlight-color: $PMS-274-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == RELEX BLUE == */
+.darkblue-button {
+  background-color: $PMS-REFLEXBLUE-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-REFLEXBLUE-color-dark;
+    -webkit-tap-highlight-color: $PMS-REFLEXBLUE-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS 2727 == */
+.moderateblue-button {
+  background-color: $PMS-2727-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-2727-color-dark;
+    -webkit-tap-highlight-color: $PMS-2727-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS 3145 == */
+.darkcyan-button {
+  background-color: $PMS-3145-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-3145-color-dark;
+    -webkit-tap-highlight-color: $PMS-3145-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS 356 == */
+.darkgreen-button {
+  background-color: $PMS-356-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-356-color-dark;
+    -webkit-tap-highlight-color: $PMS-356-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS383 == */
+.green-button {
+  background-color: $PMS-383-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-383-color-dark;
+    -webkit-tap-highlight-color: $PMS-383-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS109 == */
+.yellow-button {
+  background-color: $PMS-109-color;
+  color:$black-color;
+
+  &:hover {
+    background-color: $PMS-109-color-dark;
+    -webkit-tap-highlight-color: $PMS-109-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS1235 == */
+.vividorange-button {
+  background-color: $PMS-1235-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-1235-color-dark;
+    -webkit-tap-highlight-color: $PMS-1235-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS1795 == */
+.vividred-button {
+  background-color: $PMS-1795-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-1795-color-dark;
+    -webkit-tap-highlight-color: $PMS-1795-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* == PMS484 == */
+.darkred-button {
+  background-color: $PMS-484-color;
+  color:$white-color;
+
+  &:hover {
+    background-color: $PMS-484-color-dark;
+    -webkit-tap-highlight-color: $PMS-484-color-darker;
+  } // end hover
+  &:active {
+    background-color: #fdeed8;
+  } // end hover
+}
+
+/* ========== Button States ========== */
+
+.button[disabled],
+.button.disabled {
+  color: #999;
+  background-color: #f1f1f1;
+}
+
+.no-style-button {
+  @include font-size(13);
+  color: #f30;
+  text-decoration: underline;
+  border: 0;
+  background: transparent;
+  height: auto;
+  padding: 0;
+  cursor: pointer;
+  outline: 0;
+
+  &:hover {
+  text-decoration: none;
+  } // end hover
+}
+.no-style-button[disabled],
+.no-style-button.disabled {
+  text-decoration: none;
+  color: #999;
+}
