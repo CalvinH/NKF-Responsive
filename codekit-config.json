@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8326",
+  "creatorBuild" : "8348",
   "files" : {
     "\/fullwidth.html" : {
       "ignoreWasSetByUser" : 0,
@@ -86,6 +86,22 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/modules.haml" : {
+      "inputAbbreviatedPath" : "\/modules.haml",
+      "outputAbbreviatedPath" : "\/modules.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
     "\/images\/grid\/wireframe-twocolumn-mp.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -157,18 +173,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/modules\/_local-events.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_local-events.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_local-events.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/typography.haml" : {
       "inputAbbreviatedPath" : "\/typography.haml",
       "outputAbbreviatedPath" : "\/typography.html",
@@ -184,6 +188,18 @@
       "hidden" : 0,
       "fileType" : 256,
       "outputStyle" : 0
+    },
+    "\/scss\/modules\/_local-events.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/modules\/_local-events.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_local-events.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/grid\/wireframe-fullwidth.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -254,15 +270,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/modules\/_blog-list.scss" : {
+    "\/scss\/modules\/_dropdown.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_blog-list.scss",
+      "inputAbbreviatedPath" : "\/scss\/modules\/_dropdown.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_blog-list.css",
+      "outputAbbreviatedPath" : "\/css\/_dropdown.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -297,6 +313,18 @@
       "hidden" : 0,
       "fileType" : 256,
       "outputStyle" : 0
+    },
+    "\/scss\/modules\/_blog-list.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/modules\/_blog-list.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_blog-list.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/grid\/columns-two.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -459,6 +487,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/three-columns.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/layout.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layout.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -837,6 +874,22 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/layout.haml" : {
+      "inputAbbreviatedPath" : "\/layout.haml",
+      "outputAbbreviatedPath" : "\/layout.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
     "\/images\/grid\/wireframe-footer-fullwidth.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1069,6 +1122,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/modules\/_footnotes.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/modules\/_footnotes.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_footnotes.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/layout\/layout.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1136,6 +1201,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/modules.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/three-deep.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1144,6 +1218,18 @@
       "inputAbbreviatedPath" : "\/three-deep.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/scss\/modules\/_icon.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/modules\/_icon.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_icon.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/modules\/_newsletters.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1286,6 +1372,24 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
+    "\/two-deep.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/two-deep.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/columns.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/columns.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/home.haml" : {
       "inputAbbreviatedPath" : "\/home.haml",
       "outputAbbreviatedPath" : "\/home.html",
@@ -1301,24 +1405,6 @@
       "hidden" : 0,
       "fileType" : 256,
       "outputStyle" : 0
-    },
-    "\/columns.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/columns.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/two-deep.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/two-deep.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/scss\/themes\/nkf-color.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1521,6 +1607,7 @@
       "trailing" : 1,
       "nonew" : 1,
       "es3" : 0,
+      "freeze" : true,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
@@ -1556,6 +1643,7 @@
       "unused" : 1,
       "debug" : 0,
       "bitwise" : 1,
+      "notypeof" : true,
       "white" : 0,
       "browser" : 1,
       "worker" : 0,
@@ -1582,7 +1670,6 @@
       "newcap" : 0,
       "sloppy" : 0,
       "closure" : 0,
-      "es5" : 0,
       "browser" : 1,
       "properties" : 0,
       "plusplus" : 0,
@@ -1592,8 +1679,8 @@
       "evil" : 0,
       "node" : 0,
       "rhino" : 0,
-      "ass" : 0,
-      "devel" : 0
+      "devel" : 0,
+      "ass" : 0
     },
     "uglifyFlags" : {
       "no-mangle-functions" : 0,

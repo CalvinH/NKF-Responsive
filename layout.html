@@ -16,13 +16,13 @@
   </head>
   <body>
     <div id='header'>
-      <nav class='top-bar top-bar-fixed-top'>
+      <nav class='top-bar'>
         <ul>
           <li>
-            <a class='current' href='index.html'>Landing</a>
+            <a href='index.html'>Landing</a>
           </li>
           <li>
-            <a href='styles.html'>Styles</a>
+            <a class='current' href='styles.html'>Styles</a>
           </li>
           <li>
             <a href='home.html'>Home</a>
@@ -51,39 +51,56 @@
     <div class='main-topbar' id='main'>
       <div class='container'>
         <div class='section row'>
-          <div class='col six tablet-full mobile-full'>
-            <h2>NKF &mdash; Framework</h2>
-            <p>A Scalable + Modular Framewwork for the NKF</p>
-            <h3>Styles</h3>
-            <p>
-              Style Guide + Responsive Deliverables based on the NKF Brand ID.
-              <sup>1</sup>
-            </p>
-            <h4>Grid</h4>
-            <h4>Layout</h4>
-            <h4>Color Palette</h4>
-            <h4>Typography</h4>
-            <h4>Tables</h4>
-            <h4>Forms</h4>
-            <h4>Buttons</h4>
-            <h4>Modules</h4>
+          <div class='left-column col four mobile-full'>
+            <ul class='side-nav'>
+              <li>
+                <a href='grid.html'>Grid</a>
+              </li>
+              <li class='active'>Layout</li>
+              <li>
+                <a href='color.html'>Color Palette</a>
+              </li>
+              <li>
+                <a href='typography.html'>Typography</a>
+              </li>
+              <li>
+                <a href='tables.html'>Tables</a>
+              </li>
+              <li>
+                <a href='forms.html'>Forms</a>
+              </li>
+              <li>
+                <a href='buttons.html'>Buttons</a>
+              </li>
+            </ul>
           </div>
-          <div class='col six tablet-full mobile-full'></div>
-          <div class='col twelve'>
-            <div class='footnotes'>
-              <ol>
-                <li>
-                  <p>
-                    <a href='http://daverupert.com/2013/04/responsive-deliverables/?codekitCB=404060364.670257'>Responsive Deliverables</a>
-                    &mdash; DaveRupert.com
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <a>Test</a>
-                  </p>
-                </li>
-              </ol>
+          <div class='right-column col eight mobile-full'>
+            <div class='title title-middle'>
+              <a id='grid'></a>
+              <h1>Layout</h1>
+            </div>
+            <div class='section row'>
+              <div class='col four mobile-full'>
+                <a href='home.html'>
+                  <img src='images/grid/grid.jpg' style='width:100%; height:auto;'>
+                  <p>Home</p>
+                </a>
+                <p>primary landing page</p>
+              </div>
+              <div class='col four mobile-full'>
+                <a href='two-deep.html'>
+                  <img src='images/grid/grid.jpg' style='width:100%; height:auto;'>
+                  <p>Two-Deep</p>
+                </a>
+                <p>secondary landing page (category / tag / archive)</p>
+              </div>
+              <div class='col four mobile-full'>
+                <a href='three-deep.html'>
+                  <img src='images/grid/grid.jpg' style='width:100%; height:auto;'>
+                  <p>Three-Deep</p>
+                </a>
+                <p>content page (post [date-driven] / page[static])</p>
+              </div>
             </div>
           </div>
         </div>

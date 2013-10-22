@@ -45,6 +45,8 @@
 					.left-column.col.four.mobile-full
 						%ul.side-nav
 							%li.active Grid
+							%li
+								%a{:href => "layout.html"} Layout
 							%li 
 								%a{:href => "color.html"} Color Palette
 							%li 
@@ -57,6 +59,7 @@
 								%a{:href => "buttons.html"} Buttons
 					.right-column.col.eight.mobile-full
 						.title.title-middle
+							%a{:id => "grid"}
 							%h1 Grid
 						.section.row
 							.col.three.mobile-full
@@ -78,6 +81,7 @@
 						.section.row
 							.col.twelve
 								.title.title-top
+									%a{:id => "main"}
 									%h3 MAIN
 						.section.row
 							.col.two.mobile-full
@@ -130,6 +134,7 @@
 						.section.row
 							.col.twelve
 								.title.title-top
+									%a{:id => "footer"}
 									%h3 FOOTER
 						.section.row
 							.col.three.mobile-full

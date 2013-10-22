@@ -1,16 +1,18 @@
 .top-bar {
   font-size: 12px; font-size: 0.75rem; line-height: normal; position: absolute; top: 0; left: 0; z-index: 9999; width: 100%; background-color: $black-color;
+  h1{padding:2px 20px; font-size:2em;}
   ul { line-height: normal; list-style: none;padding:0;margin: 0;
     li {float:left; margin-left: 20px; padding: 10px; 
-      a {text-decoration: none; color: $white-color;}
-      a.current,
-      a:hover {color:$primary-color;}
-      a:active {color: $primary-color-lighter;}
+      a {text-decoration: none; color: $white-color;
+        &.current,
+        &:hover {color:$primary-color;}
+        &:hover {background:$white-color; padding:13px;}
+        &:active {color: $primary-color-lighter;}
+      }
+      &:first-child{margin-left:0;}
     }
-    li:first-child{margin-left:0;}
   }
 }
-
 .top-bar-fixed-top,
 .top-bar-fixed-bottom {
   position:fixed;
@@ -22,37 +24,45 @@
 
 /*TABLET */
 @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
-	.top-bar ul li {
+	.top-bar{
+    h1,
+    h1.left,
+    h1.right {width:100%;text-align:center;}
+    ul li {
   		margin-left: 5px;
   			a {
     			padding: 10px 15px;
     		}
+      }
   	}
-}
+  }
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {
   .top-bar {
     float: none;
     position: static;
-  }
- .top-bar ul {
-    float: none;
-    margin: 0;
-    padding: 0;
-  }
-  .top-bar ul li {
-    float: none;
-    margin-left: 0;
-    padding:0;
-  }
-	.top-bar ul li a {
-    color: $white-color;
-    padding: 10px 20px;
-    display: block;
-    text-transform: none;
-    background-color: $black-color-light;
-  }
-  .top-bar ul li a:hover {
-    background-color: $black-color-lightest;
+    h1,
+    h1.left,
+    h1.right {width:100%;text-align:center;}
+    ul {
+      float: none;
+      margin: 0;
+      padding: 0;
+      li {
+      float: none;
+      margin-left: 0;
+      padding:0;
+        a {
+        color: $white-color;
+        padding: 10px 20px;
+        display: block;
+        text-transform: none;
+        background-color: $black-color-light;
+        }
+        a:hover {
+        background-color: $black-color-lightest;
+        }
+      }
+    }
   }
 }

@@ -17,16 +17,7 @@
 		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
-	%body
-		#billboard
-			.container
-				.title.title-middle
-					%h1 Footers
-				%nav.crumb
-					%ul
-						%li
-							%a{:href => ""} a
-						%li.active a
+	%body		
 		#header
 			%nav.top-bar
 				%ul
@@ -48,12 +39,20 @@
 						%a{:href => "three-columns.html"} Three-Columns
 					%li
 						%a{:href => "footer.html"} Footer
-		
-
+				
 
 		%a{:id => "full"}
 		#billboard
 			.container
+				.title.title-middle
+					%h1 Footers
+				%nav.crumb.clear
+					%ul
+						%li
+							%a{:href => "grid.html"} Grid
+						%li.active Footers
+						
+
 				.title.title-top
 					%h2 Full-Width
 		#main

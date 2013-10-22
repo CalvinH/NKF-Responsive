@@ -1,0 +1,17 @@
+.footnotes {
+	font-size:0.8em;
+	ol{line-height: normal; margin:0; padding:0; 
+		li { float:left; padding: 10px 7px; margin:0 7px;
+			p{margin-bottom:0; color: $black-color-lightest;}
+			a{text-decoration: none; padding-right:10px;}
+      		a:hover {color:$primary-color;}
+      		a:active {color: $primary-color-lighter;}
+		}
+		li.active {}
+		li:first-child{}
+		li:after {}
+		li.active:after{}
+		li.unavailable{}
+		li.current {}
+	}
+}

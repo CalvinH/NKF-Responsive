@@ -1584,6 +1584,9 @@ html {
   z-index: 9999;
   width: 100%;
   background-color: black; }
+  .top-bar h1 {
+    padding: 2px 20px;
+    font-size: 2em; }
   .top-bar ul {
     line-height: normal;
     list-style: none;
@@ -1596,13 +1599,15 @@ html {
       .top-bar ul li a {
         text-decoration: none;
         color: white; }
-      .top-bar ul li a.current,
-      .top-bar ul li a:hover {
-        color: #f15e22; }
-      .top-bar ul li a:active {
-        color: #f7a482; }
-    .top-bar ul li:first-child {
-      margin-left: 0; }
+        .top-bar ul li a.current, .top-bar ul li a:hover {
+          color: #f15e22; }
+        .top-bar ul li a:hover {
+          background: white;
+          padding: 13px; }
+        .top-bar ul li a:active {
+          color: #f7a482; }
+      .top-bar ul li:first-child {
+        margin-left: 0; }
 
 .top-bar-fixed-top,
 .top-bar-fixed-bottom {
@@ -1614,6 +1619,11 @@ html {
 
 /*TABLET */
 @media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .top-bar h1,
+  .top-bar h1.left,
+  .top-bar h1.right {
+    width: 100%;
+    text-align: center; }
   .top-bar ul li {
     margin-left: 5px; }
     .top-bar ul li a {
@@ -1623,26 +1633,27 @@ html {
   .top-bar {
     float: none;
     position: static; }
-
-  .top-bar ul {
-    float: none;
-    margin: 0;
-    padding: 0; }
-
-  .top-bar ul li {
-    float: none;
-    margin-left: 0;
-    padding: 0; }
-
-  .top-bar ul li a {
-    color: white;
-    padding: 10px 20px;
-    display: block;
-    text-transform: none;
-    background-color: #1a1a1a; }
-
-  .top-bar ul li a:hover {
-    background-color: #4d4d4d; } }
+    .top-bar h1,
+    .top-bar h1.left,
+    .top-bar h1.right {
+      width: 100%;
+      text-align: center; }
+    .top-bar ul {
+      float: none;
+      margin: 0;
+      padding: 0; }
+      .top-bar ul li {
+        float: none;
+        margin-left: 0;
+        padding: 0; }
+        .top-bar ul li a {
+          color: white;
+          padding: 10px 20px;
+          display: block;
+          text-transform: none;
+          background-color: #1a1a1a; }
+        .top-bar ul li a:hover {
+          background-color: #4d4d4d; } }
 .bottom-bar {
   font-size: 12px;
   font-size: 0.75rem;
@@ -1712,24 +1723,71 @@ html {
 
   .bottom-bar ul li a:hover {
     background-color: #4d4d4d; } }
+.dropdown ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background: white;
+  padding: 10px 0; }
+  .dropdown ul.dropdown-menu li {
+    clear: left;
+    margin: 0; }
+    .dropdown ul.dropdown-menu li:hover {
+      padding: 0; }
+    .dropdown ul.dropdown-menu li.menu-item {
+      color: #f15e22;
+      display: block;
+      padding: 10px;
+      text-decoration: none; }
+      .dropdown ul.dropdown-menu li.menu-item a {
+        color: #f15e22; }
+        .dropdown ul.dropdown-menu li.menu-item a:hover {
+          padding: 0; }
+.dropdown:hover ul.dropdown-menu {
+  display: block;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2); }
+  .dropdown:hover ul.dropdown-menu li:hover {
+    padding: 10px; }
+    .dropdown:hover ul.dropdown-menu li:hover ul {
+      display: block;
+      left: 100%;
+      top: 0;
+      width: 150px;
+      -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2); }
+.dropdown.dropdown-menu:hover {
+  display: block; }
+
+/*TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .dropwdown ul.dropdown-menu li {
+    margin-left: 5px; }
+    .dropwdown ul.dropdown-menu li.menu-item a {
+      padding: 10px 15px; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .dropwdown ul.dropdown-menu li {
+    margin-left: 5px; }
+    .dropwdown ul.dropdown-menu li.menu-item a {
+      padding: 10px 15px; } }
 /* ========== MAIN ========== */
 /* Rotating Stories */
 .crumb {
-  float: left;
   width: 100%;
-  background: rgba(0, 0, 0, 0.1); }
+  line-height: normal;
+  display: block; }
   .crumb ul {
-    display: block;
+    line-height: normal;
     margin: 0;
     padding: 0; }
     .crumb ul li {
       float: left;
-      padding: 8px 5px;
-      margin: 0 2px;
-      color: #4d4d4d; }
+      padding: 10px 7px;
+      color: black; }
       .crumb ul li a {
         text-decoration: none;
-        color: white;
+        color: #4d4d4d;
         padding-right: 10px; }
       .crumb ul li a:hover {
         color: #f15e22; }
@@ -1741,13 +1799,20 @@ html {
     .crumb ul li:first-child {
       margin-left: 0; }
     .crumb ul li:after {
-      content: " \2044"; }
+      content: " \2044";
+      color: rgba(0, 0, 0, 0.2); }
+    .crumb ul li.active:after {
+      content: ""; }
     .crumb ul li.unavailable {
       color: rgba(0, 0, 0, 0.2); }
     .crumb ul li.current {
-      color: #f15e22; }
+      color: #f15e22;
+      padding-right: 10px; }
 
 /* Titles */
+.title {
+  clear: both; }
+
 .title-top {
   border-top: 1px solid #ccc;
   padding-top: 10px;
@@ -1777,6 +1842,40 @@ html {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px; }
 
+.title-module {
+  text-align: right;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 5px;
+  position: relative; }
+  .title-module img {
+    float: left;
+    margin-left: 2px;
+    margin-top: -15px;
+    margin-bottom: 10px; }
+
+.footnotes {
+  font-size: 0.8em; }
+  .footnotes ol {
+    line-height: normal;
+    margin: 0;
+    padding: 0; }
+    .footnotes ol li {
+      float: left;
+      padding: 10px 7px;
+      margin: 0 7px; }
+      .footnotes ol li p {
+        margin-bottom: 0;
+        color: #4d4d4d; }
+      .footnotes ol li a {
+        text-decoration: none;
+        padding-right: 10px; }
+      .footnotes ol li a:hover {
+        color: #f15e22; }
+      .footnotes ol li a:active {
+        color: #f7a482; }
+
 /* ==== Primary Sidebar ==== */
 /* Rotating Stories */
 /* AddThis */
@@ -1789,18 +1888,113 @@ html {
 /* Resource Guide */
 /* AddThis */
 /* Blog */
+.blog-list {
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+  .blog-list h4 {
+    padding: 5px;
+    text-align: right;
+    margin: 0; }
+  .blog-list ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0; }
+  .blog-list li {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: 1em; }
+  .blog-list li:after {
+    content: " |"; }
+  .blog-list li:last-child:after {
+    content: ""; }
+
 /* Blog */
 /* Calendar */
+.calendar {
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+  .calendar .calendar-events {
+    height: 220px;
+    overflow: auto;
+    clear: both; }
+  .calendar h4 {
+    padding: 5px;
+    text-align: right;
+    margin: 0; }
+  .calendar h5 {
+    margin: 0;
+    margin-right: 10px;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.2); }
+  .calendar ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0; }
+  .calendar li {
+    padding: 10px; }
+    .calendar li .calendar-event-title {
+      margin-bottom: 5px; }
+  .calendar li:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.1); }
+  .calendar li:nth-child(even) {
+    background: rgba(0, 0, 0, 0.05); }
+
 /* Calendar */
 /* Donate Button */
 /* Donate Button */
 /* Local Events */
+.local-events {
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+  .local-events h4 {
+    padding: 5px;
+    text-align: right;
+    margin: 0; }
+  .local-events form {
+    padding: 10px;
+    margin: 0;
+    float: left;
+    clear: left; }
+  .local-events form.state {
+    clear: left;
+    float: left; }
+  .local-events form.zip {
+    float: right; }
+
 /* Local Events */
 /* Newsletters */
+.newsletters {
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+  .newsletters h4 {
+    padding: 5px;
+    text-align: right;
+    margin: 0; }
+  .newsletters form {
+    padding: 10px;
+    margin: 0;
+    float: left;
+    clear: left; }
+  .newsletters p {
+    float: right;
+    padding: 10px;
+    margin: 0; }
+
 /* Newsletters */
 /* Resource Guide */
 /* Resource Guide */
 /* Social Connect */
+.social-connect {
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+  .social-connect h4 {
+    padding: 5px;
+    text-align: right;
+    margin: 0; }
+  .social-connect ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0; }
+  .social-connect li {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: 1em; }
+
 /* Social Connect */
 /* === FOOTER === */
 /* ==========================================================================

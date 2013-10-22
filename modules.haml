@@ -1,0 +1,242 @@
+!!!5
+%html{:lang => "en", :class => "no-js"}
+	%head
+		%meta{:charset =>"utf-8"}
+		%title The National Kidney Foundation, Inc.
+
+		%meta{:name => "National Kidney Foundation", :content => "The National Kidney Foundation provides information on kidney disease and organ donation. Learn risk factors, prevention tips and more to keep your kidneys healthy."}
+		%meta{:name => "description", :content => ""}
+		%meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+
+		%link{:rel => "shortcut icon", :href => "/images/favicon.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "57x57", :href => "/images/apple-touch-icon.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
+		%link{:rel => "stylesheet", :href => "css/nkf.css"}
+		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
+		/ [if lt IE9] <script src => "js/shiv.js"}</script>
+
+	%body		
+		#header
+			%nav.top-bar
+				%ul
+					%li
+						%a{:href => "index.html", :class => "current"} Landing
+					%li 
+						%a{:href => "styles.html"} Styles
+					%li 
+						%a{:href => "home.html"} Home 
+					%li 
+						%a{:href => "two-deep.html"} Two-Deep
+					%li 
+						%a{:href => "three-deep.html"} Three-Deep
+					%li 
+						%a{:href => "fullwidth.html"} Full-Width
+					%li 
+						%a{:href => "two-columns.html"} Two-Columns
+					%li 
+						%a{:href => "three-columns.html"} Three-Columns
+					%li
+						%a{:href => "footer.html"} Footer
+				
+
+		%a{:id => "full"}
+		#billboard
+			.container
+				.title.title-middle
+					%h1 Modules
+				%nav.crumb
+					%ul
+						%li.active Modules
+
+				.title.title-top
+					%h2 Blog List
+					.blog-list.clear
+						%h4.title.title-module 
+							%img{:src => "http://placehold.it/36"}
+							Read Our Blogs
+						%ul
+							%li 
+								%a{:href => ""} Ask The Doctor
+							%li 
+								%a{:href => ""} Advocacy in Action
+							%li 
+								%a{:href => ""} Staying Healthy
+							%li 
+								%a{:href => ""} Kidney Walk Talk
+							%li 
+								%a{:href => ""} The Pressure Point
+				.title.title-top
+					%h2 Calendar
+					.calendar
+						%h4.title.title-module 
+							%img{:src => "http://placehold.it/36"}
+							Calendar of Events
+						.calendar-events
+							%h5 October
+							%ul
+								%li
+									.calendar-event-title
+										%a{:href => "", :class => "info"}Patient Empowerment Workshop
+									.calendar-event-date
+										October 17, 2013
+								%li
+									.calendar-event-title
+										%a{:href => "", :class => "info"}Kidney Assessment
+									.calendar-event-date
+										October 19, 2013
+							%h5 November
+							%ul
+								%li
+									.calendar-event-title
+										%a{:href => "", :class => "info"}Patient Empowerment Workshop
+									.calendar-event-date
+										October 17, 2013
+								%li
+									.calendar-event-title
+										%a{:href => "", :class => "info"}Kidney Assessment
+									.calendar-event-date
+										October 19, 2013
+								%li
+									.calendar-event-title
+										%a{:href => "", :class => "info"}Kidney Assessment
+									.calendar-event-date
+										October 19, 2013
+								%li
+									.calendar-event-title
+										%a{:href => "", :class => "info"}Kidney Assessment
+									.calendar-event-date
+										October 19, 2013
+								%li
+									.calendar-event-title
+										%a{:href => "", :class => "info"}Kidney Assessment
+									.calendar-event-date
+										October 19, 2013
+				.title.title-top
+					%h2 Carousel
+				.title.title-top
+					%h2 Donate Button
+				.title.title-top
+					%h2 Local Events
+					.local-events.clear
+						%h4.title.title-module 
+							%img{:src => "http://placehold.it/36"}
+							Find local offices & events
+						%form.zip{:name => "zip_lookup", :action => "/about/local_info.cfm?search=zip", :method => "POST"}
+							%input{:type => "Text", :name => "zip", :size => "10", :maxlength => "5", :value => "Search By Zip", :style => "font-size: 0.9em;", :onfocus => "clearIt(this)"}
+							%input{:name => "Subscribe", :type => "submit", :id => "email-btn", :value => "Go", :title => "Search By Zip"}
+						%form.state
+							%label{:for => "select"}
+							%select{:name => "select", :size => "1", :id => "select", :onchange => "if (this.selectedIndex>0)location.href=this.options[this.selectedIndex].value;"}
+								%option{:value => ""}Search By State
+								%option{:value => "/about/local_info.cfm?search=state&state=AL"}Alabama
+								%option{:value => "/about/local_info.cfm?search=state&state=AK"}Alaska
+								%option{:value => "/about/local_info.cfm?search=state&state=AZ"}Arizona
+								%option{:value => "/about/local_info.cfm?search=state&state=AR"}Arkansas
+								%option{:value => "/about/local_info.cfm?search=state&state=CA"}California
+								%option{:value => "/about/local_info.cfm?search=state&state=CO"}Colorado
+								%option{:value => "/about/local_info.cfm?search=state&state=CT"}Connecticut
+								%option{:value => "/about/local_info.cfm?search=state&state=DE"}Delaware
+								%option{:value => "/about/local_info.cfm?search=state&state=FL"}Florida
+								%option{:value => "/about/local_info.cfm?search=state&state=GA"}Georgia
+								%option{:value => "/about/local_info.cfm?search=state&state=HI"}Hawaii
+								%option{:value => "/about/local_info.cfm?search=state&state=ID"}Idaho
+								%option{:value => "/about/local_info.cfm?search=state&state=IL"}Illinois
+								%option{:value => "/about/local_info.cfm?search=state&state=IN"}Indiana
+								%option{:value => "/about/local_info.cfm?search=state&state=IA"}Iowa
+								%option{:value => "/about/local_info.cfm?search=state&state=KS"}Kansas
+								%option{:value => "/about/local_info.cfm?search=state&state=KY"}Kentucky
+								%option{:value => "/about/local_info.cfm?search=state&state=LA"}Louisiana
+								%option{:value => "/about/local_info.cfm?search=state&state=ME"}Maine
+								%option{:value => "/about/local_info.cfm?search=state&state=MD"}Maryland
+								%option{:value => "/about/local_info.cfm?search=state&state=MA"}Massachusetts
+								%option{:value => "/about/local_info.cfm?search=state&state=MI"}Michigan
+								%option{:value => "/about/local_info.cfm?search=state&state=MN"}Minnesota
+								%option{:value => "/about/local_info.cfm?search=state&state=MS"}Mississippi
+								%option{:value => "/about/local_info.cfm?search=state&state=MO"}Missouri
+								%option{:value => "/about/local_info.cfm?search=state&state=MT"}Montana
+								%option{:value => "/about/local_info.cfm?search=state&state=NE"}Nebraska
+								%option{:value => "/about/local_info.cfm?search=state&state=NV"}Nevada
+								%option{:value => "/about/local_info.cfm?search=state&state=NH"}New Hampshire
+								%option{:value => "/about/local_info.cfm?search=state&state=NJ"}New Jersey
+								%option{:value => "/about/local_info.cfm?search=state&state=NM"}New Mexico
+								%option{:value => "/about/local_info.cfm?search=state&state=NY"}New York
+								%option{:value => "/about/local_info.cfm?search=state&state=NC"}North Carolina
+								%option{:value => "/about/local_info.cfm?search=state&state=ND"}North Dakota
+								%option{:value => "/about/local_info.cfm?search=state&state=OH"}Ohio
+								%option{:value => "/about/local_info.cfm?search=state&state=OK"}Oklahoma
+								%option{:value => "/about/local_info.cfm?search=state&state=OR"}Oregon
+								%option{:value => "/about/local_info.cfm?search=state&state=PA"}Pennsylvania
+								%option{:value => "/about/local_info.cfm?search=state&state=PR"}Puerto Rico
+								%option{:value => "/about/local_info.cfm?search=state&state=RI"}Rhode Island
+								%option{:value => "/about/local_info.cfm?search=state&state=SC"}South Carolina
+								%option{:value => "/about/local_info.cfm?search=state&state=SD"}South Dakota
+								%option{:value => "/about/local_info.cfm?search=state&state=TN"}Tennessee
+								%option{:value => "/about/local_info.cfm?search=state&state=TX"}Texas
+								%option{:value => "/about/local_info.cfm?search=state&state=UT"}Utah
+								%option{:value => "/about/local_info.cfm?search=state&state=VT"}Vermont
+								%option{:value => "/about/local_info.cfm?search=state&state=VA"}Virginia
+								%option{:value => "/about/local_info.cfm?search=state&state=WA"}Washington
+								%option{:value => "/about/local_info.cfm?search=state&state=DC"}Washington DC
+								%option{:value => "/about/local_info.cfm?search=state&state=WV"}West Virginia
+								%option{:value => "/about/local_info.cfm?search=state&state=WI"}Wisconsin
+								%option{:value => "/about/local_info.cfm?search=state&state=WY"}Wyoming
+				.title.title-top
+					%h2 News Alerts
+				.title.title-top
+					%h2 Newsletters
+					.newsletters.clear
+						%h4.title.title-module
+							%img{:src => "http://placehold.it/36"}
+							Love your kidneys newsletter
+						%form{:method => "post", :name => "profileform", :action => "https://kidney.informz.net/clk/remote_post.asp"}
+							%input{:type => "hidden", :name => "orig_email", :value => ""}
+							%input{:title => "Email Address", :type => "text", :name => "email", :size => "25", :maxlength => "100", :value => "", :id => "email-text", :placeholder => "Email Address"}
+							%input{:name => "Subscribe", :type => "submit", :id => "email-btn", :value => "Subscribe", :title => "Subscribe"}
+							%input{:type => "hidden", :name => "OptoutInfo", :value => ""}
+							%input{:type => "hidden", :name => "formats", :value => "3"}
+							%input{:type => "hidden", :name => "fid", :value => "637"}
+							%input{:type => "hidden", :name => "b", :value => "3069"}
+							%input{:type => "hidden", :name => "returnUrl", :value => "http://www.kidney.org/index-test.cfm?zmsg=1&codekitCB=403720470.454301"}
+						%p
+							%a{:href => "http://www.kidney.org/news/newsletters.cfm"} Sign up for other free newsletters
+				.title.title-top
+					%h2 Pagination
+				.title.title-top
+					%h2 Primary Nav
+				.title.title-top
+					%h2 Resource Guide
+				.title.title-top
+					%h2 Search Box
+				.title.title-top
+					%h2 Share Box
+				.title.title-top
+					%h2 Side Nav
+				.title.title-top
+					%h2 Social Connect
+					.social-connect.clear
+						%h4.title.title-module
+							%img{:src => "http://placehold.it/36"}
+							Connect with us
+						%ul
+							%li
+								%img{:src => "http://placehold.it/48"}
+							%li
+								%img{:src => "http://placehold.it/48"}
+							%li
+								%img{:src => "http://placehold.it/48"}
+							%li
+								%img{:src => "http://placehold.it/48"}
+							%li
+								%img{:src => "http://placehold.it/48"}
+							%li
+								%img{:src => "http://placehold.it/48"}
+							%li
+								%img{:src => "http://placehold.it/48"}
+				.title.title-top
+					%h2 Sub Nav
+				.title.title-top
+					%h2 Titles
+				.title.title-top
+					%h2 Top Bar

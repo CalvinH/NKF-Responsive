@@ -13,28 +13,17 @@
 		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
-		
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
-		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
-		#billboard
-			.container
-				.title-bottom
-					%h1 Three-Deep
-				%nav.crumb.clear
-					%ul
-						%li
-							%a{:href => "layout.html"} Layout
-						%li.active Three-Deep
 		#header
 			%nav.top-bar
 				%ul
 					%li
-						%a{:href => "index.html", :class => "current"} Landing
+						%a{:href => "index.html"} Landing
 					%li 
-						%a{:href => "styles.html"} Styles
+						%a{:href => "styles.html", :class => "current"} Styles
 					%li 
 						%a{:href => "home.html"} Home 
 					%li 
@@ -47,21 +36,48 @@
 						%a{:href => "two-columns.html"} Two-Columns
 					%li 
 						%a{:href => "three-columns.html"} Three-Columns
+					%li
+						%a{:href => "footer.html"} Footer
 		#main.main-topbar
+			
 			.container
 				.section.row
-					.left-column.col.eight.mobile-full Content Here
-						
-					.right-column.col.four.mobile-full
-						.addthis_box
-						.donate_button_v3
-						.local_events
-						.newsletter
-						.calendar
-						.social-connect
-						.blog
-						.resource-guide
-						
+					.left-column.col.four.mobile-full
+						%ul.side-nav
+							%li
+								%a{:href => "grid.html"} Grid
+							%li.active Layout
+							%li 
+								%a{:href => "color.html"} Color Palette
+							%li 
+								%a{:href => "typography.html"} Typography
+							%li 
+								%a{:href => "tables.html"} Tables
+							%li 
+								%a{:href => "forms.html"} Forms
+							%li
+								%a{:href => "buttons.html"} Buttons
+					.right-column.col.eight.mobile-full
+						.title.title-middle
+							%a{:id => "grid"}
+							%h1 Layout
+						.section.row
+							.col.four.mobile-full
+								%a{:href => "home.html"}
+									%img{:src => "images/grid/grid.jpg", :style => "width:100%; height:auto;"}
+									%p Home
+								%p primary landing page
+							.col.four.mobile-full
+								%a{:href => "two-deep.html"}
+									%img{:src => "images/grid/grid.jpg", :style => "width:100%; height:auto;"}
+									%p Two-Deep
+								%p secondary landing page (category / tag / archive)
+							.col.four.mobile-full
+								%a{:href => "three-deep.html"}
+									%img{:src => "images/grid/grid.jpg", :style => "width:100%; height:auto;"}
+									%p Three-Deep
+								%p content page (post [date-driven] / page[static])
+
 		#footer
 			.container
 				.section.row

@@ -13,36 +13,51 @@
 		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
+		
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
 		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
+		#header
+			%nav.top-bar
+				%h1.left NKF Style Guide
+				%ul
+					%li
+						%a{:href => "index.html", :class => "current"} Landing
+					%li.dropdown
+						%a{:href => "styles.html", :class => "dropdown-toggle"} Styles
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "grid.html", :class => "dropdown"} Grid
+								%ul
+									%li 
+										%a{:href => "fullwidth.html"} Full-Width
+									%li 
+										%a{:href => "two-columns.html"} Two-Columns
+									%li 
+										%a{:href => "three-columns.html"} Three-Columns
+									%li
+										%a{:href => "footer.html"} Footer 
+							%li.menu-item
+								%a{:href => "layout.html"} Layout
+								%ul
+									%li
+										%a{:href => "home.html"} Home
+									%li 
+										%a{:href => "two-deep.html"} Two-Deep
+									%li 
+										%a{:href => "three-deep.html"} Three-Deep
+							
 		#billboard
 			.container
 				.title-bottom
 					%h1 Two-Deep
-		#header
-			%nav.top-bar
-				%ul
-					%li
-						%a{:href => "index.html", :class => "current"} Landing
-					%li 
-						%a{:href => "styles.html"} Styles
-					%li 
-						%a{:href => "home.html"} Home 
-					%li 
-						%a{:href => "two-deep.html"} Two-Deep
-					%li 
-						%a{:href => "three-deep.html"} Three-Deep
-					%li 
-						%a{:href => "fullwidth.html"} Full-Width
-					%li 
-						%a{:href => "two-columns.html"} Two-Columns
-					%li 
-						%a{:href => "three-columns.html"} Three-Columns
-					%li
-						%a{:href => "footer.html"} Footer
+				%nav.crumb.clear
+					%ul
+						%li
+							%a{:href => "layout.html"} Layout
+						%li.active Two-Deep
 		#main.main-topbar
 			.container
 				.section.row

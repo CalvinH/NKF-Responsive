@@ -19,6 +19,15 @@
 		/ [if lt IE9] <script src="js/shiv.js"></script>
 
 	%body
+		#billboard
+			.container
+				.title-bottom
+					%h1 HOME
+				%nav.crumb.clear
+					%ul
+						%li
+							%a{:href => "layout.html"} Layout
+						%li.active Home
 		%nav.top-bar
 			%ul
 				%li
@@ -39,10 +48,7 @@
 					%a{:href => "three-columns.html"} Three-Columns
 				%li
 					%a{:href => "footer.html"} Footer
-		#billboard
-			.container
-				.title-bottom
-					%h1 HOME
+
 		#header
 
 			.container

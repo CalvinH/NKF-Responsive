@@ -1,2 +1,16 @@
 /* Social Connect */
-.social_connect {}
+.social-connect {
+	border:1px solid rgba($black-color,0.3);
+	.title-module:before {
+
+	}
+	h4 {
+		padding:5px;
+		text-align:right;
+		margin:0;
+
+	}
+	ul {list-style:none; padding:10px; margin:0; }
+	li {float:left; margin-left:3px;margin-bottom:1em; }
+	li:last-child{}
+}
