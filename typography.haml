@@ -18,26 +18,34 @@
 
 	%body
 		#header
-			%nav.top-bar.top-bar-fixed-top
+			%nav.top-bar
+				%h1.left NKF Style Guide
 				%ul
 					%li
-						%a{:href => "index.html"} Landing
-					%li 
-						%a{:href => "styles.html", :class => "current"} Styles
-					%li 
-						%a{:href => "home.html"} Home 
-					%li 
-						%a{:href => "two-deep.html"} Two-Deep
-					%li 
-						%a{:href => "three-deep.html"} Three-Deep
-					%li 
-						%a{:href => "fullwidth.html"} Full-Width
-					%li 
-						%a{:href => "two-columns.html"} Two-Columns
-					%li 
-						%a{:href => "three-columns.html"} Three-Columns
-					%li
-						%a{:href => "footer.html"} Footer
+						%a{:href => "index.html", :class => ""} Landing
+					%li.dropdown
+						%a{:href => "styles.html", :class => "current dropdown-toggle"} Styles
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "grid.html", :class => "dropdown"} Grid
+								%ul
+									%li 
+										%a{:href => "fullwidth.html"} Full-Width
+									%li 
+										%a{:href => "two-columns.html"} Two-Columns
+									%li 
+										%a{:href => "three-columns.html"} Three-Columns
+									%li
+										%a{:href => "footer.html"} Footer 
+							%li.menu-item
+								%a{:href => "layout.html"} Layout
+								%ul
+									%li
+										%a{:href => "home.html"} Home
+									%li 
+										%a{:href => "two-deep.html"} Two-Deep
+									%li 
+										%a{:href => "three-deep.html"} Three-Deep
 		#main.main-topbar
 			.container
 				.section.row

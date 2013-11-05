@@ -1,8 +1,16 @@
 .sub-nav {
+	
 	dt a,
 	dd a,
 	li a {}
 	dt.active a,
 	dd.active a,
 	li.active a {}
+	ul{width:/*460px*//*480px*/100%;float:left;}
+	li{list-style:none; float:left; padding:0 5px;}
+	li a{
+		text-decoration:none; color:$primary-color-darker;; font-family:Verdana, Geneva, sans-serif; font-size:10px;
+		&:hover{color:$primary-color;text-decoration:underline;}
+		&:visited{color:$primary-color-darker;}
+	}
 }

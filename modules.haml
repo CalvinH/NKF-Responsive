@@ -20,27 +20,33 @@
 	%body		
 		#header
 			%nav.top-bar
+				%h1.left NKF Style Guide
 				%ul
 					%li
-						%a{:href => "index.html", :class => "current"} Landing
-					%li 
-						%a{:href => "styles.html"} Styles
-					%li 
-						%a{:href => "home.html"} Home 
-					%li 
-						%a{:href => "two-deep.html"} Two-Deep
-					%li 
-						%a{:href => "three-deep.html"} Three-Deep
-					%li 
-						%a{:href => "fullwidth.html"} Full-Width
-					%li 
-						%a{:href => "two-columns.html"} Two-Columns
-					%li 
-						%a{:href => "three-columns.html"} Three-Columns
-					%li
-						%a{:href => "footer.html"} Footer
-				
-
+						%a{:href => "index.html", :class => ""} Landing
+					%li.dropdown
+						%a{:href => "styles.html", :class => "current dropdown-toggle"} Styles
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "grid.html", :class => "dropdown"} Grid
+								%ul
+									%li 
+										%a{:href => "fullwidth.html"} Full-Width
+									%li 
+										%a{:href => "two-columns.html"} Two-Columns
+									%li 
+										%a{:href => "three-columns.html"} Three-Columns
+									%li
+										%a{:href => "footer.html"} Footer 
+							%li.menu-item
+								%a{:href => "layout.html"} Layout
+								%ul
+									%li
+										%a{:href => "home.html"} Home
+									%li 
+										%a{:href => "two-deep.html"} Two-Deep
+									%li 
+										%a{:href => "three-deep.html"} Three-Deep
 		%a{:id => "full"}
 		#billboard
 			.container
@@ -205,6 +211,199 @@
 					%h2 Pagination
 				.title.title-top
 					%h2 Primary Nav
+					.primary-nav
+						%ul
+							%li.home
+								%a{:href => "http://www.kidney.org/index.cfm"} Home
+							%li.video
+								%a{:href => "http://www.kidney.org/videos/"} Real Stories 
+							%li.kd
+								%a{:href => "http://www.kidney.org/kidneydisease/"} Kidney Disease
+								.sublist.kidney
+									%ul
+										%li
+											%a{:href => "http://www.kidney.org/atoz/"} A to Z Health Guide
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/aboutckd.cfm"} About Chronic Kidney Disease
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/askthedoctor.cfm"} Ask the Doctor
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/howkidneyswrk.cfm"} How Your Kidneys Work
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/threesimpletests.cfm"} Three Simple Tests to Check for Kidney Disease
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/recentlydiagnosed.cfm"} Recently Diagnosed
+										%li
+											%a{:href => "http://www.kidney.org/news/keephealthy/index.cfm"} KEEP Healthy - Free Kidney Health checks</a></li>
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/kidneyquiz.cfm"} Kidney Quiz
+									.featured-story
+										%h1 Featured Story
+										.story
+											%img{:src => "https://www.kidney.org/patients/images/DrSpry.jpg", :alt => "CKD", :border => "0", :class => "thumb left"}
+											%h2 Ask the Doctor
+											%p 
+												Questions about kidney disease? Risk factors? Signs and symptoms? Are you concerned about yourself, a friend or family member?
+												%a{:href => "http://www.kidney.org/kidneydisease/askthedoctor.cfm"} Ask Dr. Spry.
+							%li.patients
+								%a{:href => "http://www.kidney.org/patients/"} Patients
+								.sublist.pat
+									%ul
+										%li
+											%a{:href => "http://www.kidney.org/patients/peers/index.cfm"} Peers Support
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/askthedoctor.cfm"} Ask the Doctor
+										%li
+											%a{:href => "http://www.kidney.org/patients/kidneykitchen/"} Kidney Kitchen
+										%li
+											%a{:href => "http://www.kidney.org/atoz/atozTopic_Dialysis.cfm"} Dialysis
+										%li
+											%a{:href => "http://www.kidney.org/kidneydisease/"} Chronic Kidney Disease
+										%li
+											%a{:href => "http://www.kidney.org/patients/resources.cfm"} Patient &amp; Family Resources
+										%li
+											%a{:href => "http://www.kidney.org/help/index.cfm"} Emergency Resources
+										%li
+											%a{:href => "http://www.kidney.org/about/membership.cfm?jointype=om"} Join the NKF Family
+										%li
+											%a{:href => "http://www.kidney.org/store/index.cfm"} NKF Store
+									.featured-story
+										%h1 Featured Story
+										.story
+											%a{:href => "http://www.kidney.org/patients/kidneyliving/index.cfm?utm_source=nkfnav&utm_medium=nav&utm_campaign=KidneyLivingNews"}
+												%img{:src => "https://www.kidney.org/images/kidneyLivingCover_new_ad.jpg", :border => "0", :class => "thumb left"}
+											%h2 Are you a dialysis patient?
+											%p
+												%a{:href => "http://www.kidney.org/patients/kidneyliving/index.cfm?utm_source=nkfnav&utm_medium=nav&utm_campaign=KidneyLivingNews"} Sign up for our FREE  magazine, Kidney Living
+							%li.organ
+								%a{:href => "http://www.kidney.org/transplantation/"}Organ Donation &amp; Transplantation
+								.sublist.organ
+									%ul
+										%li
+											%a{:href => "http://www.kidney.org/transplantation/beadonor.cfm"} Be An Organ Donor
+										%li
+											%a{:href => "http://www.kidney.org/transplantation/livingdonors/index.cfm"} Living Donation
+										%li
+											%a{:href => "http://www.kidney.org/transplantation/donorfamilies/index.cfm"} Donor Families
+										%li
+											%a{:href => "http://www.kidney.org/transplantation/transaction/index.cfm"}Transplantation
+										%li
+											%a{:href => "http://www.kidney.org/transplantation/endthewait/index.cfm"} End The Wait!
+										%li
+											%a{:href => "http://www.kidney.org/about/membership.cfm"} Join the NKF Family
+									.featured-story
+										%h1 Featured Story
+										.story
+											%img{:src => "https://www.kidney.org/transplantation/images/Waiting-Xavier_320.jpg", :alt => "CKD", :border => "0", :class => "thumb left"}
+											%h2 Be an Organ Donor
+											%p
+												Have you ever thought about donating an organ? Organ and tissue donation helps others by giving them a second chance at life.
+												%a{:href => "http://www.kidney.org/transplantation/beadonor.cfm"} Learn more 
+												about the donation process&ndash;and how to become an organ donor.
+							%li.professionals
+								%a{:href => "http://www.kidney.org/professionals/"} Professionals
+								.sublist.prof
+									%ul
+										%li
+											%a{:href => "http://www.kidney.org/professionals/kdoqi/gfr.cfm"} GFR
+										%li
+											%a{:href => "http://www.kidney.org/professionals/kls/cmeprograms.cfm"} CME/CE
+										%li
+											%a{:href => "http://www.kidney.org/professionals/physicians/index.cfm"} Physicians
+										%li
+											%a{:href => "http://www.kidney.org/professionals/CAP/index.cfm"} Advanced Practitioners
+										%li
+											%a{:href => "http://www.kidney.org/professionals/CNNT/index.cfm"} Nurses &amp; Technicians
+										%li
+											%a{:href => "http://www.kidney.org/professionals/CRN/index.cfm"} Dietitians
+										%li
+											%a{:href => "http://www.kidney.org/professionals/CNSW/index.cfm"} Social Workers
+										%li
+											%a{:href => "http://www.nkfclinicalmeetings.org/", :target => "_blank"} Spring Clinical Meetings
+										%li
+											%a{:href => "http://www.careers.kidney.org/"} Kidney Career Center
+										%li
+											%a{:href => "http://www.kidney.org/professionals/publications/index.cfm"} Journals
+										%li
+											%a{:href => "http://www.kidney.org/professionals/news/meetings.cfm"} Meetings
+										%li
+											%a{:href => "http://www.kidney.org/professionals/research/index.cfm"} Education &amp; Research
+										%li
+											%a{:href => "http://www.kidney.org/store/index.cfm"} NKF Store
+									.featured-story
+										%h1 Featured Story</h1>
+										.story
+											%img{:src => "https://www.kidney.org/professionals/images/GFR_320.jpg", :alt => "CKD", :border => "0", :class => "thumb left"}
+											%h2 GFR
+											%p
+												You can estimate a GFR for adults or children using our GFR calculators or read a list of frequently asked questions pertaining to the current recommendations for the estimation of GFR
+												%a{:href => "http://www.kidney.org/professionals/kdoqi/gfr.cfm"} Start here.
+							%li.events
+								%a{:href => "http://www.kidney.org/news/"}Events
+								.sublist.events
+									%ul
+										%li
+											%a{:href => "http://walk.kidney.org"} Kidney Walks
+										%li
+											%a{:href => "http://www.kidney.org/news/nkfgolfclassic/index.cfm"} NKF Cadillac Golf Classic
+										%li
+											%a{:href => "http://www.kidney.org/news/meetings/clinical/index.cfm"} Spring Clinical Meetings
+										%li
+											%a{:href => "http://www.kidney.org/news/keephealthy/index.cfm"} KEEP Healthy - Free Kidney Health checks
+									.featured-story
+										%h1 Featured Story</h1>
+										.story
+											%img{:src => "https://www.kidney.org/images/walk_320.jpg", :alt => "CKD", :border => "0", :class => "thumb left"}
+											%h2 Kidney Walk
+											%p Kidney Walks are designed to help people understand the need for early detection of kidney disease. In addition to raising funds for research and help for patients and their families, the Walk is a great way to bring the community together!
+											%p 
+												For more information about these and other 
+												%a{:href => "http://www.kidney.org/events/index.cfm"} events
+												please visit our Events section.
+							%li.advocacy
+								%a{:href =>"http://www.kidney.org/advocacy/"} Advocacy
+								.sublist.advocacy
+									%ul
+										%li
+											%a{:href => "http://www.kidney.org/advocacy/PublicPolicyPriorities.cfm"} Priorities for 113th Congress
+										%li
+											%a{:href => "http://www.kidney.org/advocacy/issues.cfm"} Issues and Legislation
+										%li
+											%a{:href => "http://www.kidney.org/takeaction/"} Take Action Center
+										%li
+											%a{:href => "http://www.kidney.org/advocacy/resources.cfm"} Advocacy Resources
+									.featured-story
+										%h1 Featured Story
+										.story
+											%a{:href => "http://donate.kidney.org/site/PageServer?pagename=ActionCenter"}
+												%img{:src => "https://www.kidney.org/advocacy/images/TakeAction_320.JPG", :alt => "CKD", :border => "0", :class => "thumb left"}
+											%h2 Take Action Center
+											%p Provides the latest information about legislation and policy relating to chronic kidney disease, transplantation and donation. The featured action alerts allow you to easily advocate to your Members of Congress on these issues.
+							%li.donate
+								%a{:href => "http://www.kidney.org/support/"} Donate
+								.sublist.donate
+									%ul>
+										%li
+											%a{:href => "https://www.kidney.org/members/source/donations/index.cfm"} Make A Gift
+										%li
+											%a{:href => "http://www.kidney.org/transplantation/beadonor.cfm"} Be an Organ Donor
+										%li
+											%a{:href => "http://www.kidney.org/support/kidneycars/"} Car Donation
+										%li
+											%a{:href => "http://www.kidney.org/support/volunteer.cfm"} Volunteer
+										%li
+											%a{:href => "http://www.kidney.org/support/corporate_support.cfm"} Corporate Support
+										%li
+											%a{:href => "http://www.kidney.org/support/corporate_partners.cfm"} Corporate Partners
+									.featured-story
+										%h1 Featured Story
+										.story
+											%a{:class => "various fancybox.iframe", :href => "http://www.youtube.com/embed/KZkL71rYz_M?autoplay=1"}
+												%img{:src => "https://www.kidney.org/images/bruce_video.jpg", :alt => "Bruce Skyer, Chief Executive Officer", :title => "Bruce Skyer, Chief Executive Officer", :class => "thumb left"}
+											%h2 About the NKF
+											%p
+												%a{:class => "various fancybox.iframe", :href => "http://www.youtube.com/embed/KZkL71rYz_M?autoplay=1"} 
+													Watch the Video
 				.title.title-top
 					%h2 Resource Guide
 				.title.title-top
@@ -213,6 +412,23 @@
 					%h2 Share Box
 				.title.title-top
 					%h2 Side Nav
+					%ul.side-nav.sidenav-fixed
+						%li
+							%a{:href => "grid.html"} Grid
+						%li
+							%a{:href => "layout.html"} Layout
+						%li
+							%a{:href => "color.html"} Color Palette
+						%li 
+							%a{:href => "typography.html"} Typography
+						%li 
+							%a{:href => "tables.html"} Tables
+						%li 
+							%a{:href => "forms.html"} Forms
+						%li
+							%a{:href => "buttons.html"} Buttons
+						%li 
+							%a{:href => "modules.html"} Modules
 				.title.title-top
 					%h2 Social Connect
 					.social-connect.clear
@@ -236,6 +452,22 @@
 								%img{:src => "http://placehold.it/48"}
 				.title.title-top
 					%h2 Sub Nav
+					.sub-nav
+						%ul
+							%li
+								%a{:href => "/atoz/atozTopic_Spanish_Brochures.cfm", :title => "En Espa&ntilde;ol", :style => "color:#F15E22 !important; font-weight:bold;"} En Espa&ntilde;ol
+							%li
+								%a{:href => "http://nkf.worksmartsuite.com/UserContentStart.aspx", :title => "Mission &amp; Vision"} NKF Store
+							%li
+								%a{:href => "/about/index.cfm", :title => "About Us"} About Us
+							%li
+								%a{:href => "/about/jobs.cfm", :title => "Career Opportunities"} Careers
+							%li
+								%a{:href => "/about/membership.cfm", :title => "Join NKF"} Join NKF
+							%li
+								%a{:href => "/news/newsroom/welcome.cfm", :title => "Newsroom"} Newsroom
+							%li
+								%a{:href => "/about/contact.cfm", :title => "Contact Us"} Contact Us
 				.title.title-top
 					%h2 Titles
 				.title.title-top

@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8348",
+  "creatorBuild" : "8376",
   "files" : {
     "\/fullwidth.html" : {
       "ignoreWasSetByUser" : 0,
@@ -469,6 +469,24 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/layout.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layout.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/three-columns.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/three-columns.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/modules\/module.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -480,24 +498,6 @@
       "outputAbbreviatedPath" : "\/css\/module.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/three-columns.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/three-columns.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/layout.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layout.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/images\/grid\/columns-three.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -764,17 +764,16 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/scss\/modules\/_titles.scss" : {
+    "\/images\/favicon.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_titles.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_titles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/images\/favicon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/favicon.png",
+      "initialSize" : 1268,
+      "fileType" : 8192
     },
     "\/scss\/layout\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -799,16 +798,17 @@
       "initialSize" : 1318,
       "fileType" : 8192
     },
-    "\/images\/favicon.png" : {
+    "\/scss\/modules\/_titles.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/favicon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/favicon.png",
-      "initialSize" : 1268,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/scss\/modules\/_titles.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_titles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/grid\/wireframe-threecolumn-pms.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1406,15 +1406,15 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/scss\/themes\/nkf-color.scss" : {
+    "\/tutorial-style.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/themes\/nkf-color.scss",
+      "inputAbbreviatedPath" : "\/tutorial-style.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/nkf-color.css",
+      "outputAbbreviatedPath" : "\/css\/tutorial-style.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1474,15 +1474,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/tutorial-style.scss" : {
+    "\/scss\/themes\/nkf-color.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/tutorial-style.scss",
+      "inputAbbreviatedPath" : "\/scss\/themes\/nkf-color.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/tutorial-style.css",
+      "outputAbbreviatedPath" : "\/css\/nkf-color.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
