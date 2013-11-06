@@ -1,18 +1,41 @@
 //icons - used to add an icon
-.icon {
-
+.icon{margin:0 -5px;padding:1.5em 0;
+	&:after{content:"";display:table;clear:both;}
+  ul {padding:0;}
+	li{float:left;display:inline-block;
+		a{display:inline-block;height:64px;width:64px;background-size:64px 64px;background-position:center center;background-repeat:no-repeat;margin:5px;text-indent:-9999em;
+		}
+	}
 }
+
+
       
 
 /*TABLET */
 @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
-  .icon {
-
+  .icon {margin:0 -5px; padding:1.5em 0;
+  	&:after{content:"";display:table;clear:both;}
+    ul {padding:0;}
+  	li {float:left;display:inline-block; margin:0 5px;
+  		a {display:inline-block; background-repeat:no-repeat;
+  			background-position:0 50%; background-size:48px; 
+  			color:#fff; font-size:0.8em; text-indent: 2.5em; text-align:center; line-height:4.5em; letter-spacing:0.1em; 
+  			height:48px; width:100%; min-width:120px; max-width:256px; margin:5px; text-decoration:none;
+  		}
+  	}
   }
 }
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {
-  .icon {
-
+  .icon {margin:0 -5px; padding:1.5em 0;
+  	&:after {content:"";display:table;clear:both;}
+    ul {padding:0;}
+  	li {float:left;display:inline-block; margin:0 5px;
+  		a {display:inline-block; background-repeat:no-repeat;
+  			background-position:0 50%; background-size:48px; 
+  			color:#fff; font-size:1em; text-indent: 0/*5.5em*/; text-align:center; line-height:3.5em; letter-spacing:0.1em; 
+  			height:48px; width:100%; min-width:300px; max-width:320px; margin:5px; text-decoration:none;
+  		}
+  	}
   }
 }

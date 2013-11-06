@@ -1,0 +1,31 @@
+//icons - used to add an icon
+.excerpt {
+	header{
+		h2{ color:$primary-color; border-top:$primary-color 1px solid; padding-top:5px; text-transform:uppercase; font-weight:lighter;
+			.photo { max-height:137px; overflow:hidden;
+				img{ width:100%; height:auto; border:none;}
+			}
+			a{ border:none; text-decoration:none; color:$PMS-274-color; font-weight:bold; text-transform:lowercase;
+				&:hover{}
+				&:visited{}
+				&:active{}
+			}
+		}
+	}
+	p{}
+	img{width:50%; border:1px solid #eee; padding:5px; margin-right:10px; margin-bottom:10px; box-sizing:border-box; }
+}
+      
+
+/*TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+  .excerpt {
+
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+  .excerpt {
+
+  }
+}
