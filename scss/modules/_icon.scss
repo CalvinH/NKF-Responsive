@@ -1,5 +1,5 @@
 //icons - used to add an icon
-.icon{margin:0 -5px;padding:1.5em 0;
+.icon{margin:0 -5px; padding:0;
 	&:after{content:"";display:table;clear:both;}
   ul {padding:0;}
 	li{float:left;display:inline-block;
@@ -13,28 +13,28 @@
 
 /*TABLET */
 @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
-  .icon {margin:0 -5px; padding:1.5em 0;
+  .icon {margin:0 -5px; padding:0;
   	&:after{content:"";display:table;clear:both;}
     ul {padding:0;}
   	li {float:left;display:inline-block; margin:0 5px;
   		a {display:inline-block; background-repeat:no-repeat;
   			background-position:0 50%; background-size:48px; 
   			color:#fff; font-size:0.8em; text-indent: 2.5em; text-align:center; line-height:4.5em; letter-spacing:0.1em; 
-  			height:48px; width:100%; min-width:120px; max-width:256px; margin:5px; text-decoration:none;
+  			height:48px; width:100%; min-width:215px; max-width:256px; margin:5px; text-decoration:none;
   		}
   	}
   }
 }
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {
-  .icon {margin:0 -5px; padding:1.5em 0;
+  .icon {margin:0 -5px; padding:0;
   	&:after {content:"";display:table;clear:both;}
     ul {padding:0;}
   	li {float:left;display:inline-block; margin:0 5px;
   		a {display:inline-block; background-repeat:no-repeat;
   			background-position:0 50%; background-size:48px; 
   			color:#fff; font-size:1em; text-indent: 0/*5.5em*/; text-align:center; line-height:3.5em; letter-spacing:0.1em; 
-  			height:48px; width:100%; min-width:300px; max-width:320px; margin:5px; text-decoration:none;
+  			height:48px; width:100%; min-width:320px; max-width:335px; margin:5px; text-decoration:none;
   		}
   	}
   }
