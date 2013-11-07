@@ -1,136 +1,43 @@
-.sublist{left:-999em;top:48px;display:block;position: absolute; z-index: 99999; padding:5px; border:1px solid #ea7125; border-top:none;background:#fff; -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2); -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2); -ms-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2); box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2);width:auto;}
-/*IE 6*/
-.primary-nav ul li.hover .sublist.kidney{width:280px}
-.primary-nav ul li.hover .sublist.organ{width:500px}
-.primary-nav ul li.hover .sublist.pat{width:500px}
-.primary-nav ul li.hover .sublist.prof{width:480px;}
-.primary-nav ul li.hover .sublist.advocacy{width:340px;}
-.primary-nav ul li.hover .sublist.events{width:350px;}
-.primary-nav ul li.hover .sublist.donate{width:500px;}
-
-/*IE 6*/
-.primary-nav li:hover .sublist{left:auto;margin-left:-18px;zoom:1;z-index:99999;}
-.primary-nav li a:hover .sublist{left:auto;margin-left:-18px;zoom:1;z-index:99999;}
-.primary-nav li .sublist.pat{margin-left:-21px;}
-.primary-nav li .sublist.prof{margin-left:-65px;}
-.primary-nav li .sublist.advocacy{margin-left:-150px;}
-.primary-nav li .sublist.events{margin-left:-70px;}
-.primary-nav li .sublist.donate{margin-left:-258px;}
-.primary-nav li .sublist ul { width: 100px;height:100%; margin-left:5px; margin-right:5px; float:left; padding:5px 10px; padding-left:0; 
-  a {background: none; border: 0 none; margin-right: 0; width:auto;}
-  li {margin:0; padding:0; font-size:8px; width:100px; padding:5px; border:none; padding-bottom:5px;}
-}
-.primary-nav li .sublist .featured-story {display:block; float:left; width:170px; border-left:1px solid #ccc; padding:0 10px;
-  h1 {border:none;height:0; margin-bottom:20px; text-transform:uppercase; font-weight:normal; font-size:10px;}
-  .story {
-    h2 {font-size:12px;}
-    img {max-width:150px; height:auto;}
-  }
-  p { font-weight:normal; color:#000;
-    a{
-      &:visited{color:#273C76;}
-      &:hover{color:#273C76; text-decoration:underline;}
+.sublist{left:-999em;top:48px;display:block;position: absolute; z-index: 99999; padding:5px; border:1px solid #ea7125; border-top:none;background:#fff; -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2); -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2); -ms-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2); box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, .2);width:auto;
+  &.kidney{width:300px;}     /* IE6 */
+  &.organ{width:/*500px*/300px;}      /* IE6 */
+  &.pat{width:/*500px*/300px; margin-left:-21px;}        /* IE6 */
+  &.prof{width:/*480px*/300px; margin-left:-65px;}       /* IE6 */
+  &.advocacy{width:/*340px*/300px; margin-left:-150px;
+    .featured-story{min-width:160px; width:auto;}
+    }   /* IE6 */
+  &.events{width:/*350px*/300px; margin-left:-70px;
+    .featured-story{min-width:160px; width:auto;}
+    }     /* IE6 */
+  &.donate{width:/*500px*/300px; margin-left:-258px;}     /* IE6 */
+  ul{ width: 100px;height:100%; margin-left:5px; margin-right:5px; float:left; padding:5px 10px; padding-left:0;
+    a{background: none; border: 0 none; margin-right: 0; width:auto;
+      &:hover {color:#344451 !important;}
+    }
+    li{margin:0; padding:0; font-size:8px; width:100px; padding:5px; border:none; border:none !important; height:auto;
+      &:hover {background:none;}
+      a {padding:0; height:auto; color:#273C76 !important;
+        &:hover {height:auto; color:#273C76 !important; text-decoration:underline;
+          > a {color:#344451 !important;}
+        }
+        &:visited {color:#273C76 !important;}
+      }
+      ul {margin: 2px 0 0 160px; visibility:hidden;}
     }
   }
-  a {padding:0; margin:0; width:auto; display:inline;}
 }
 
-.primary-nav li li ul { margin: 2px 0 0 160px; visibility:hidden;}
-.primary-nav li ul li:hover{background:none;}
-.primary-nav li li a{padding:0; height:auto; color:#273C76 !important;
-  &:hover{height:auto; color:#273C76 !important; text-decoration:underline;}
-}
-.primary-nav ul li .sublist ul li a:visited{ color:#273C76 !important;}
-.primary-nav ul li a:hover,
-.primary-nav ul li:hover > a {color:#344451 !important;}
-.primary-nav li ul a:hover,
-.primary-nav ul li li:hover > a  {color:#344451 !important;}
-
-li.donate {background:none; background:#ea7125;}
-
-body#home li.home,
-body#home-alt li.home,
-body#kidneydisease li.kd,
-body#patients li.patients,
-body#organ li.organ,
-body#professionals li.professionals,
-body#events li.events,
-body#advocacy li.advocacy,
-body#donate li.donate{background:url(/images/mainNav_back_current.jpg) left top repeat-x; padding:16px 20px 0 20px; /*text-transform:uppercase;*/ color:#b0232b; height:50px;}
-body#donate .primary-nav ul li.donate a {color:#b0232b;}
-body#home li.home a,
-body#home-alt li.home a,
-body#kidneydisease li.kd a,
-body#patients li.patients a,
-/* added by Brian Robilota:*/
-body#organ li.organ a,
-body#professionals li.professionals a,
-body#events li.events a,
-body#advocacy li.advocacy a,
-body#patients li.patients a {color:#F15E22;}
-
-.primary-nav li .sublist.pat{} 
-.primary-nav li .sublist.prof{}
-.primary-nav li .sublist.events .featured-story,
-.primary-nav li .sublist.advocacy .featured-story{width:160px;}
-.primary-nav li .sublist.donate{}
-
-
-.primary-nav ul li.organ {width:150px; padding:6px 20px 0 !important;}
-.primary-nav li .sublist ul li {border:none !important; padding-left:0 !important;
-padding-right:0 !important;}
-.primary-nav ul li a{color:$white-color; font-size:12px !important; /*letter-spacing:1px;*/ width:100%;}
-.primary-nav ul li:hover a{ background:$white-color url(/images/nav_bg.gif) left top repeat-x;}
-.primary-nav ul li a:hover{ color:$primary-color !important;}
-.primary-nav ul li:hover{ background:$white-color url(/images/nav_bg.gif) left top repeat-x !important;}
-.primary-nav ul li.organ:hover {padding-bottom:15px !important;}
-
-li.donate {background:none; background:$primary-color !important;}
+/*IE 6*/
+li:hover .sublist{left:auto;margin-left:-18px;zoom:1;z-index:99999;}
+a:hover .sublist{left:auto;margin-left:-18px;zoom:1;z-index:99999;}
 
 @media only screen and (min-width: 720px) and (max-width: 979px) {
-	.primary-nav ul{ width:100%; display:inline-table; background:$primary-color; }
-  .primary-nav ul li {
-  		margin-left: 5px;
-  			a {
-    			padding: 10px 15px;
-    		}
-  	}
+	.sublist{
+
+  }
 }
 @media only screen and (max-width: 719px) {
-	.nav-toggle {
-    display: block;
-    background-color: $black-color-lightest;
-    color: $white-color;
-    padding: 10px 20px;
-    text-decoration: none;
-  }
-  	.nav-toggle:hover,
-  	.nav-toggle:active,
-  	.nav-toggle.active {
-    background-color: $black-color-lightest;
-    color: $primary-color;
-  	}
-  .primary-nav {
-    float: none;
-    position: static;
-  }
- .primary-nav ul {
-    float: none;
-    margin: 0;
-    padding: 0;
-  }
-  .primary-nav ul li {
-    float: none;
-    margin-left: 0;
-  }
-	.primary-nav ul li a {
-    color: $white-color;
-    padding: 10px 20px;
-    display: block;
-    text-transform: none;
-    background-color: $black-color-light;
-  }
-  .primary-nav ul li a:hover {
-    background-color: $black-color-lightest;
+	.sublist{
+
   }
 }

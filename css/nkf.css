@@ -1518,194 +1518,43 @@ html {
       height: 50px;
       border-top: 1px solid #f15e22;
       font-family: 'myriad-pro',Verdana, Geneva, sans-serif; }
+      .primary-nav ul li.donate {
+        background: none;
+        background: #f15e22 !important; }
+      .primary-nav ul li.organ {
+        width: 150px !important;
+        padding: 6px 20px 0 !important; }
+        .primary-nav ul li.organ:hover {
+          padding-bottom: 15px !important; }
       .primary-nav ul li a {
         color: white;
         text-decoration: none;
         font-size: 12px;
-        display: block; }
+        display: block;
+        /*letter-spacing:1px;*/
+        width: 100%; }
         .primary-nav ul li a.current, .primary-nav ul li a:hover {
-          color: #b0232b;
-          background: #fff;
+          color: #f15e22;
+          background: white;
           zoom: 1; }
         .primary-nav ul li a:active {
           color: #f7a482; }
       .primary-nav ul li:first-child {
         margin-left: 0; }
+      .primary-nav ul li:hover {
+        background: white; }
+      .primary-nav ul li:hover > a {
+        color: #344451 !important; }
       .primary-nav ul li:hover ul, .primary-nav ul li.hover ul {
         left: auto;
         display: block;
         zoom: 1; }
       .primary-nav ul li:hover a {
-        color: #b0232b;
-        background: white url(/images/nav_bg.gif) left top repeat-x;
+        color: #f15e22;
+        background: white;
         zoom: 1; }
-      .primary-nav ul li .sublist {
-        left: -999em;
-        top: 48px;
-        display: block;
-        position: absolute;
-        z-index: 99999;
-        padding: 5px;
-        border: 1px solid #ea7125;
-        border-top: none;
-        background: #fff;
-        -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        -ms-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        width: auto; }
 
-.primary-nav li .sublist {
-  left: -999em;
-  top: 48px;
-  display: block;
-  position: absolute;
-  z-index: 99999;
-  padding: 5px;
-  border: 1px solid #ea7125;
-  border-top: none;
-  background: #fff;
-  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  width: auto; }
-
-/*IE 6*/
-.primary-nav ul li.hover .sublist.kidney {
-  width: 280px; }
-
-.primary-nav ul li.hover .sublist.organ {
-  width: 500px; }
-
-.primary-nav ul li.hover .sublist.pat {
-  width: 500px; }
-
-.primary-nav ul li.hover .sublist.prof {
-  width: 480px; }
-
-.primary-nav ul li.hover .sublist.advocacy {
-  width: 340px; }
-
-.primary-nav ul li.hover .sublist.events {
-  width: 350px; }
-
-.primary-nav ul li.hover .sublist.donate {
-  width: 500px; }
-
-/*IE 6*/
-.primary-nav li:hover .sublist {
-  left: auto;
-  margin-left: -18px;
-  zoom: 1;
-  z-index: 99999; }
-
-.primary-nav li a:hover .sublist {
-  left: auto;
-  margin-left: -18px;
-  zoom: 1;
-  z-index: 99999; }
-
-.primary-nav li .sublist.pat {
-  margin-left: -21px; }
-
-.primary-nav li .sublist.prof {
-  margin-left: -65px; }
-
-.primary-nav li .sublist.advocacy {
-  margin-left: -150px; }
-
-.primary-nav li .sublist.events {
-  margin-left: -70px; }
-
-.primary-nav li .sublist.donate {
-  margin-left: -258px; }
-
-.primary-nav li .sublist ul {
-  width: 100px;
-  height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  float: left;
-  padding: 5px 10px;
-  padding-left: 0; }
-  .primary-nav li .sublist ul a {
-    background: none;
-    border: 0 none;
-    margin-right: 0;
-    width: auto; }
-  .primary-nav li .sublist ul li {
-    margin: 0;
-    padding: 0;
-    font-size: 8px;
-    width: 100px;
-    padding: 5px;
-    border: none;
-    padding-bottom: 5px; }
-
-.primary-nav li .sublist .featured-story {
-  display: block;
-  float: left;
-  width: 170px;
-  border-left: 1px solid #ccc;
-  padding: 0 10px; }
-  .primary-nav li .sublist .featured-story h1 {
-    border: none;
-    height: 0;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 10px; }
-  .primary-nav li .sublist .featured-story .story h2 {
-    font-size: 12px; }
-  .primary-nav li .sublist .featured-story .story img {
-    max-width: 150px;
-    height: auto; }
-  .primary-nav li .sublist .featured-story p {
-    font-weight: normal;
-    color: #000; }
-    .primary-nav li .sublist .featured-story p a:visited {
-      color: #273C76; }
-    .primary-nav li .sublist .featured-story p a:hover {
-      color: #273C76;
-      text-decoration: underline; }
-  .primary-nav li .sublist .featured-story a {
-    padding: 0;
-    margin: 0;
-    width: auto;
-    display: inline; }
-
-.primary-nav li li ul {
-  margin: 2px 0 0 160px;
-  visibility: hidden; }
-
-.primary-nav li ul li:hover {
-  background: none; }
-
-.primary-nav li li a {
-  padding: 0;
-  height: auto;
-  color: #273C76 !important; }
-  .primary-nav li li a:hover {
-    height: auto;
-    color: #273C76 !important;
-    text-decoration: underline; }
-
-.primary-nav ul li .sublist ul li a:visited {
-  color: #273C76 !important; }
-
-.primary-nav ul li a:hover,
-.primary-nav ul li:hover > a {
-  color: #344451 !important; }
-
-.primary-nav li ul a:hover,
-.primary-nav ul li li:hover > a {
-  color: #344451 !important; }
-
-li.donate {
-  background: none;
-  background: #ea7125; }
-
+/* === HIGHLIGHT two-deep primary-nav list item === */
 body#home li.home,
 body#home-alt li.home,
 body#kidneydisease li.kd,
@@ -1715,15 +1564,13 @@ body#professionals li.professionals,
 body#events li.events,
 body#advocacy li.advocacy,
 body#donate li.donate {
-  background: url(/images/mainNav_back_current.jpg) left top repeat-x;
+  background: white;
   padding: 16px 20px 0 20px;
   /*text-transform:uppercase;*/
-  color: #b0232b;
+  color: #f15e22;
   height: 50px; }
 
-body#donate .primary-nav ul li.donate a {
-  color: #b0232b; }
-
+body#donate li.donate a,
 body#home li.home a,
 body#home-alt li.home a,
 body#kidneydisease li.kd a,
@@ -1733,42 +1580,7 @@ body#professionals li.professionals a,
 body#events li.events a,
 body#advocacy li.advocacy a,
 body#patients li.patients a {
-  color: #F15E22; }
-
-.primary-nav li .sublist.events .featured-story,
-.primary-nav li .sublist.advocacy .featured-story {
-  width: 160px; }
-
-.primary-nav ul li.organ {
-  width: 150px;
-  padding: 6px 20px 0 !important; }
-
-.primary-nav li .sublist ul li {
-  border: none !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
-
-.primary-nav ul li a {
-  color: white;
-  font-size: 12px !important;
-  /*letter-spacing:1px;*/
-  width: 100%; }
-
-.primary-nav ul li:hover a {
-  background: white url(/images/nav_bg.gif) left top repeat-x; }
-
-.primary-nav ul li a:hover {
-  color: #f15e22 !important; }
-
-.primary-nav ul li:hover {
-  background: white url(/images/nav_bg.gif) left top repeat-x !important; }
-
-.primary-nav ul li.organ:hover {
-  padding-bottom: 15px !important; }
-
-li.donate {
-  background: none;
-  background: #f15e22 !important; }
+  color: #f15e22; }
 
 @media only screen and (min-width: 720px) and (max-width: 979px) {
   .primary-nav ul {
@@ -1830,573 +1642,126 @@ li.donate {
   -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  width: auto; }
-
-/*IE 6*/
-.primary-nav ul li.hover .sublist.kidney {
-  width: 280px; }
-
-.primary-nav ul li.hover .sublist.organ {
-  width: 500px; }
-
-.primary-nav ul li.hover .sublist.pat {
-  width: 500px; }
-
-.primary-nav ul li.hover .sublist.prof {
-  width: 480px; }
-
-.primary-nav ul li.hover .sublist.advocacy {
-  width: 340px; }
-
-.primary-nav ul li.hover .sublist.events {
-  width: 350px; }
-
-.primary-nav ul li.hover .sublist.donate {
-  width: 500px; }
-
-/*IE 6*/
-.primary-nav li:hover .sublist {
-  left: auto;
-  margin-left: -18px;
-  zoom: 1;
-  z-index: 99999; }
-
-.primary-nav li a:hover .sublist {
-  left: auto;
-  margin-left: -18px;
-  zoom: 1;
-  z-index: 99999; }
-
-.primary-nav li .sublist.pat {
-  margin-left: -21px; }
-
-.primary-nav li .sublist.prof {
-  margin-left: -65px; }
-
-.primary-nav li .sublist.advocacy {
-  margin-left: -150px; }
-
-.primary-nav li .sublist.events {
-  margin-left: -70px; }
-
-.primary-nav li .sublist.donate {
-  margin-left: -258px; }
-
-.primary-nav li .sublist ul {
-  width: 100px;
-  height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  float: left;
-  padding: 5px 10px;
-  padding-left: 0; }
-  .primary-nav li .sublist ul a {
-    background: none;
-    border: 0 none;
-    margin-right: 0;
-    width: auto; }
-  .primary-nav li .sublist ul li {
-    margin: 0;
-    padding: 0;
-    font-size: 8px;
+  width: auto;
+  /* IE6 */
+  /* IE6 */
+  /* IE6 */
+  /* IE6 */
+  /* IE6 */
+  /* IE6 */
+  /* IE6 */ }
+  .sublist.kidney {
+    width: 300px; }
+  .sublist.organ {
+    width: 300px; }
+  .sublist.pat {
+    width: 300px;
+    margin-left: -21px; }
+  .sublist.prof {
+    width: 300px;
+    margin-left: -65px; }
+  .sublist.advocacy {
+    width: 300px;
+    margin-left: -150px; }
+    .sublist.advocacy .featured-story {
+      min-width: 160px;
+      width: auto; }
+  .sublist.events {
+    width: 300px;
+    margin-left: -70px; }
+    .sublist.events .featured-story {
+      min-width: 160px;
+      width: auto; }
+  .sublist.donate {
+    width: 300px;
+    margin-left: -258px; }
+  .sublist ul {
     width: 100px;
-    padding: 5px;
-    border: none;
-    padding-bottom: 5px; }
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    padding: 5px 10px;
+    padding-left: 0; }
+    .sublist ul a {
+      background: none;
+      border: 0 none;
+      margin-right: 0;
+      width: auto; }
+      .sublist ul a:hover {
+        color: #344451 !important; }
+    .sublist ul li {
+      margin: 0;
+      padding: 0;
+      font-size: 8px;
+      width: 100px;
+      padding: 5px;
+      border: none;
+      border: none !important;
+      height: auto; }
+      .sublist ul li:hover {
+        background: none; }
+      .sublist ul li a {
+        padding: 0;
+        height: auto;
+        color: #273C76 !important; }
+        .sublist ul li a:hover {
+          height: auto;
+          color: #273C76 !important;
+          text-decoration: underline; }
+          .sublist ul li a:hover > a {
+            color: #344451 !important; }
+        .sublist ul li a:visited {
+          color: #273C76 !important; }
+      .sublist ul li ul {
+        margin: 2px 0 0 160px;
+        visibility: hidden; }
 
-.primary-nav li .sublist .featured-story {
+/*IE 6*/
+li:hover .sublist {
+  left: auto;
+  margin-left: -18px;
+  zoom: 1;
+  z-index: 99999; }
+
+a:hover .sublist {
+  left: auto;
+  margin-left: -18px;
+  zoom: 1;
+  z-index: 99999; }
+
+.featured-story {
   display: block;
   float: left;
   width: 170px;
   border-left: 1px solid #ccc;
   padding: 0 10px; }
-  .primary-nav li .sublist .featured-story h1 {
+  .featured-story h1 {
     border: none;
     height: 0;
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: normal;
     font-size: 10px; }
-  .primary-nav li .sublist .featured-story .story h2 {
+  .featured-story .story h2 {
     font-size: 12px; }
-  .primary-nav li .sublist .featured-story .story img {
+  .featured-story .story img {
     max-width: 150px;
     height: auto; }
-  .primary-nav li .sublist .featured-story p {
+  .featured-story p {
     font-weight: normal;
     color: #000; }
-    .primary-nav li .sublist .featured-story p a:visited {
+    .featured-story p a:visited {
       color: #273C76; }
-    .primary-nav li .sublist .featured-story p a:hover {
+    .featured-story p a:hover {
       color: #273C76;
       text-decoration: underline; }
-  .primary-nav li .sublist .featured-story a {
+  .featured-story a {
     padding: 0;
     margin: 0;
     width: auto;
     display: inline; }
 
-.primary-nav li li ul {
-  margin: 2px 0 0 160px;
-  visibility: hidden; }
-
-.primary-nav li ul li:hover {
-  background: none; }
-
-.primary-nav li li a {
-  padding: 0;
-  height: auto;
-  color: #273C76 !important; }
-  .primary-nav li li a:hover {
-    height: auto;
-    color: #273C76 !important;
-    text-decoration: underline; }
-
-.primary-nav ul li .sublist ul li a:visited {
-  color: #273C76 !important; }
-
-.primary-nav ul li a:hover,
-.primary-nav ul li:hover > a {
-  color: #344451 !important; }
-
-.primary-nav li ul a:hover,
-.primary-nav ul li li:hover > a {
-  color: #344451 !important; }
-
-li.donate {
-  background: none;
-  background: #ea7125; }
-
-body#home li.home,
-body#home-alt li.home,
-body#kidneydisease li.kd,
-body#patients li.patients,
-body#organ li.organ,
-body#professionals li.professionals,
-body#events li.events,
-body#advocacy li.advocacy,
-body#donate li.donate {
-  background: url(/images/mainNav_back_current.jpg) left top repeat-x;
-  padding: 16px 20px 0 20px;
-  /*text-transform:uppercase;*/
-  color: #b0232b;
-  height: 50px; }
-
-body#donate .primary-nav ul li.donate a {
-  color: #b0232b; }
-
-body#home li.home a,
-body#home-alt li.home a,
-body#kidneydisease li.kd a,
-body#patients li.patients a,
-body#organ li.organ a,
-body#professionals li.professionals a,
-body#events li.events a,
-body#advocacy li.advocacy a,
-body#patients li.patients a {
-  color: #F15E22; }
-
-.primary-nav li .sublist.events .featured-story,
-.primary-nav li .sublist.advocacy .featured-story {
-  width: 160px; }
-
-.primary-nav ul li.organ {
-  width: 150px;
-  padding: 6px 20px 0 !important; }
-
-.primary-nav li .sublist ul li {
-  border: none !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
-
-.primary-nav ul li a {
-  color: white;
-  font-size: 12px !important;
-  /*letter-spacing:1px;*/
-  width: 100%; }
-
-.primary-nav ul li:hover a {
-  background: white url(/images/nav_bg.gif) left top repeat-x; }
-
-.primary-nav ul li a:hover {
-  color: #f15e22 !important; }
-
-.primary-nav ul li:hover {
-  background: white url(/images/nav_bg.gif) left top repeat-x !important; }
-
-.primary-nav ul li.organ:hover {
-  padding-bottom: 15px !important; }
-
-li.donate {
-  background: none;
-  background: #f15e22 !important; }
-
-@media only screen and (min-width: 720px) and (max-width: 979px) {
-  .primary-nav ul {
-    width: 100%;
-    display: inline-table;
-    background: #f15e22; }
-
-  .primary-nav ul li {
-    margin-left: 5px; }
-    .primary-nav ul li a {
-      padding: 10px 15px; } }
-@media only screen and (max-width: 719px) {
-  .nav-toggle {
-    display: block;
-    background-color: #4d4d4d;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none; }
-
-  .nav-toggle:hover,
-  .nav-toggle:active,
-  .nav-toggle.active {
-    background-color: #4d4d4d;
-    color: #f15e22; }
-
-  .primary-nav {
-    float: none;
-    position: static; }
-
-  .primary-nav ul {
-    float: none;
-    margin: 0;
-    padding: 0; }
-
-  .primary-nav ul li {
-    float: none;
-    margin-left: 0; }
-
-  .primary-nav ul li a {
-    color: white;
-    padding: 10px 20px;
-    display: block;
-    text-transform: none;
-    background-color: #1a1a1a; }
-
-  .primary-nav ul li a:hover {
-    background-color: #4d4d4d; } }
-.primary-nav {
-  width: 100%;
-  height: 50px;
-  display: block;
-  background: #6a090f;
-  position: relative;
-  z-index: 999;
-  background-color: #f15e22; }
-  .primary-nav ul {
-    position: relative;
-    width: 970px;
-    margin: 0 auto;
-    padding: 0;
-    height: 48px; }
-    .primary-nav ul li {
-      list-style: none;
-      float: left;
-      padding: 13px 21px 0;
-      font-weight: lighter;
-      height: 50px;
-      border-top: 1px solid #f15e22;
-      font-family: 'myriad-pro',Verdana, Geneva, sans-serif; }
-      .primary-nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 12px;
-        display: block; }
-        .primary-nav ul li a.current, .primary-nav ul li a:hover {
-          color: #b0232b;
-          background: #fff;
-          zoom: 1; }
-        .primary-nav ul li a:active {
-          color: #f7a482; }
-      .primary-nav ul li:first-child {
-        margin-left: 0; }
-      .primary-nav ul li:hover ul, .primary-nav ul li.hover ul {
-        left: auto;
-        display: block;
-        zoom: 1; }
-      .primary-nav ul li:hover a {
-        color: #b0232b;
-        background: white url(/images/nav_bg.gif) left top repeat-x;
-        zoom: 1; }
-      .primary-nav ul li .sublist {
-        left: -999em;
-        top: 48px;
-        display: block;
-        position: absolute;
-        z-index: 99999;
-        padding: 5px;
-        border: 1px solid #ea7125;
-        border-top: none;
-        background: #fff;
-        -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        -ms-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-        width: auto; }
-
-.primary-nav li .sublist {
-  left: -999em;
-  top: 48px;
-  display: block;
-  position: absolute;
-  z-index: 99999;
-  padding: 5px;
-  border: 1px solid #ea7125;
-  border-top: none;
-  background: #fff;
-  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
-  width: auto; }
-
-/*IE 6*/
-.primary-nav ul li.hover .sublist.kidney {
-  width: 280px; }
-
-.primary-nav ul li.hover .sublist.organ {
-  width: 500px; }
-
-.primary-nav ul li.hover .sublist.pat {
-  width: 500px; }
-
-.primary-nav ul li.hover .sublist.prof {
-  width: 480px; }
-
-.primary-nav ul li.hover .sublist.advocacy {
-  width: 340px; }
-
-.primary-nav ul li.hover .sublist.events {
-  width: 350px; }
-
-.primary-nav ul li.hover .sublist.donate {
-  width: 500px; }
-
-/*IE 6*/
-.primary-nav li:hover .sublist {
-  left: auto;
-  margin-left: -18px;
-  zoom: 1;
-  z-index: 99999; }
-
-.primary-nav li a:hover .sublist {
-  left: auto;
-  margin-left: -18px;
-  zoom: 1;
-  z-index: 99999; }
-
-.primary-nav li .sublist.pat {
-  margin-left: -21px; }
-
-.primary-nav li .sublist.prof {
-  margin-left: -65px; }
-
-.primary-nav li .sublist.advocacy {
-  margin-left: -150px; }
-
-.primary-nav li .sublist.events {
-  margin-left: -70px; }
-
-.primary-nav li .sublist.donate {
-  margin-left: -258px; }
-
-.primary-nav li .sublist ul {
-  width: 100px;
-  height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  float: left;
-  padding: 5px 10px;
-  padding-left: 0; }
-  .primary-nav li .sublist ul a {
-    background: none;
-    border: 0 none;
-    margin-right: 0;
-    width: auto; }
-  .primary-nav li .sublist ul li {
-    margin: 0;
-    padding: 0;
-    font-size: 8px;
-    width: 100px;
-    padding: 5px;
-    border: none;
-    padding-bottom: 5px; }
-
-.primary-nav li .sublist .featured-story {
-  display: block;
-  float: left;
-  width: 170px;
-  border-left: 1px solid #ccc;
-  padding: 0 10px; }
-  .primary-nav li .sublist .featured-story h1 {
-    border: none;
-    height: 0;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 10px; }
-  .primary-nav li .sublist .featured-story .story h2 {
-    font-size: 12px; }
-  .primary-nav li .sublist .featured-story .story img {
-    max-width: 150px;
-    height: auto; }
-  .primary-nav li .sublist .featured-story p {
-    font-weight: normal;
-    color: #000; }
-    .primary-nav li .sublist .featured-story p a:visited {
-      color: #273C76; }
-    .primary-nav li .sublist .featured-story p a:hover {
-      color: #273C76;
-      text-decoration: underline; }
-  .primary-nav li .sublist .featured-story a {
-    padding: 0;
-    margin: 0;
-    width: auto;
-    display: inline; }
-
-.primary-nav li li ul {
-  margin: 2px 0 0 160px;
-  visibility: hidden; }
-
-.primary-nav li ul li:hover {
-  background: none; }
-
-.primary-nav li li a {
-  padding: 0;
-  height: auto;
-  color: #273C76 !important; }
-  .primary-nav li li a:hover {
-    height: auto;
-    color: #273C76 !important;
-    text-decoration: underline; }
-
-.primary-nav ul li .sublist ul li a:visited {
-  color: #273C76 !important; }
-
-.primary-nav ul li a:hover,
-.primary-nav ul li:hover > a {
-  color: #344451 !important; }
-
-.primary-nav li ul a:hover,
-.primary-nav ul li li:hover > a {
-  color: #344451 !important; }
-
-li.donate {
-  background: none;
-  background: #ea7125; }
-
-body#home li.home,
-body#home-alt li.home,
-body#kidneydisease li.kd,
-body#patients li.patients,
-body#organ li.organ,
-body#professionals li.professionals,
-body#events li.events,
-body#advocacy li.advocacy,
-body#donate li.donate {
-  background: url(/images/mainNav_back_current.jpg) left top repeat-x;
-  padding: 16px 20px 0 20px;
-  /*text-transform:uppercase;*/
-  color: #b0232b;
-  height: 50px; }
-
-body#donate .primary-nav ul li.donate a {
-  color: #b0232b; }
-
-body#home li.home a,
-body#home-alt li.home a,
-body#kidneydisease li.kd a,
-body#patients li.patients a,
-body#organ li.organ a,
-body#professionals li.professionals a,
-body#events li.events a,
-body#advocacy li.advocacy a,
-body#patients li.patients a {
-  color: #F15E22; }
-
-.primary-nav li .sublist.events .featured-story,
-.primary-nav li .sublist.advocacy .featured-story {
-  width: 160px; }
-
-.primary-nav ul li.organ {
-  width: 150px;
-  padding: 6px 20px 0 !important; }
-
-.primary-nav li .sublist ul li {
-  border: none !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
-
-.primary-nav ul li a {
-  color: white;
-  font-size: 12px !important;
-  /*letter-spacing:1px;*/
-  width: 100%; }
-
-.primary-nav ul li:hover a {
-  background: white url(/images/nav_bg.gif) left top repeat-x; }
-
-.primary-nav ul li a:hover {
-  color: #f15e22 !important; }
-
-.primary-nav ul li:hover {
-  background: white url(/images/nav_bg.gif) left top repeat-x !important; }
-
-.primary-nav ul li.organ:hover {
-  padding-bottom: 15px !important; }
-
-li.donate {
-  background: none;
-  background: #f15e22 !important; }
-
-@media only screen and (min-width: 720px) and (max-width: 979px) {
-  .primary-nav ul {
-    width: 100%;
-    display: inline-table;
-    background: #f15e22; }
-
-  .primary-nav ul li {
-    margin-left: 5px; }
-    .primary-nav ul li a {
-      padding: 10px 15px; } }
-@media only screen and (max-width: 719px) {
-  .nav-toggle {
-    display: block;
-    background-color: #4d4d4d;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none; }
-
-  .nav-toggle:hover,
-  .nav-toggle:active,
-  .nav-toggle.active {
-    background-color: #4d4d4d;
-    color: #f15e22; }
-
-  .primary-nav {
-    float: none;
-    position: static; }
-
-  .primary-nav ul {
-    float: none;
-    margin: 0;
-    padding: 0; }
-
-  .primary-nav ul li {
-    float: none;
-    margin-left: 0; }
-
-  .primary-nav ul li a {
-    color: white;
-    padding: 10px 20px;
-    display: block;
-    text-transform: none;
-    background-color: #1a1a1a; }
-
-  .primary-nav ul li a:hover {
-    background-color: #4d4d4d; } }
 .side-nav {
   list-style: none inside;
   margin: 0;
