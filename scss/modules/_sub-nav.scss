@@ -1,16 +1,29 @@
-.sub-nav {
-	
+.sub-nav {float:right;
 	dt a,
 	dd a,
 	li a {}
 	dt.active a,
 	dd.active a,
 	li.active a {}
-	ul{width:/*460px*//*480px*/100%;float:left;}
+	ul{width:/*460px*//*480px*/100%;float:right;}
 	li{list-style:none; float:left; padding:0 5px;}
 	li a{
 		text-decoration:none; color:$primary-color-darker;; font-family:Verdana, Geneva, sans-serif; font-size:10px;
 		&:hover{color:$primary-color;text-decoration:underline;}
 		&:visited{color:$primary-color-darker;}
+	}
+}
+
+/*TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+	.sub-nav {float:left;
+		ul{float:left;}
+	}
+}
+
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+	.sub-nav {float:left;
+		ul{}
 	}
 }
