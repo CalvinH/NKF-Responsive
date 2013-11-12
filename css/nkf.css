@@ -2234,7 +2234,8 @@ a:hover .sublist {
     font-weight: bold;
     text-align: left; }
     .top-news h1 a {
-      color: #f15e22; }
+      color: #1e4497;
+      text-decoration: none; }
 
 .crumb {
   width: 100%;
