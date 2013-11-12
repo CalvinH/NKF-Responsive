@@ -8,9 +8,6 @@
 @import "../base/_base";
 @import "../utilities/_nkf-color-palette";
 /* for wireframing purposes only */
-#billboard {margin-top:60px;
-	h1 {}
-	}
 #header,
 #main,
 #footer {background:url(../images/grid.png)top center repeat-y;}
@@ -41,7 +38,6 @@
 /* TABLET */
 @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
 	#main {background:url(../images/grid-tablet.png)top center repeat-y;}
-
 	}
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {

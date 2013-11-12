@@ -1,0 +1,16 @@
+/* Header */
+#billboard {margin-top:80px;
+	h1 {}
+	}
+/* TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+	#billboard {margin-top:120px;
+	h1 {}
+	}
+}
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+	#billboard {
+	h1 {}
+	}
+}

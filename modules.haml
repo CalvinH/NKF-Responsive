@@ -16,11 +16,25 @@
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
 		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
 		/ [if lt IE9] <script src => "js/shiv.js"}</script>
+		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"}
+		/ base js
+		%script{:src => "js/default.js"}
+		/ basic jq slider - carousel
+		%script{:type => "text/javascript", :src => "js/bjqs-1.3-responsive.js"}
+		
+		/ rotating-stories
+		%script{:type => "text/javascript", :src => "js/basic-jquery-slider.js"}
+		
 
 	%body		
 		#header
-			%nav.top-bar
+			%nav.top-bar.top-bar-fixed-top
 				%h1.left NKF Style Guide
+				.nav-toggle.no-desktop.no-tablet.no-mobile
+					%a{:href => "#"}
+						MENU 
+						%span{:class => "arrow"} +
 				%ul
 					%li
 						%a{:href => "index.html", :class => ""} Landing
@@ -142,7 +156,8 @@
 								%img{:src => "images/banner02.jpg", :title => "Automatically generated caption"}
 							%li 
 								%img{:src => "images/banner03.jpg", :title => "Automatically generated caption"}
-
+					%script{:type => "text/javascript"}
+						jQuery(document).ready(function($) {$('.carousel').bjqs({width : 990, height : 495, responsive : true});});
 				.title.title-top
 					%h2 Donate Button
 				.title.title-top
@@ -887,6 +902,8 @@
 
 							%a{:href => "various fancybox.iframe", :href => "http://www.youtube.com/embed/VVciXSyPqdQ?hd=1&autoplay=1"} 
 								%img{:src => "http://www.kidney.org/videos/images/sc_Reed.jpg", :title => "Real People, Real Stories: Reed Doughty", :alt => "NFL player Reed Doughty talks about the importance of organ donation"}
+					%script{:type => "text/javascript"}
+						$(document).ready(function() {$('#rotating-stories').slidey({'animation' : 'fade', 'width' : 660, 'height' : 350, 'animationDuration' : 450, 'rotationSpeed' : 10000, 'showMarkers' : true, 'showControls' : false, 'centerMarkers' : false }); });
 				.title.title-top
 					%h2 Search Box
 					.search-box
@@ -962,15 +979,5 @@
 					.top-news
 						%h1
 							%a{:href => "http://www.kidney.org/news/newsroom/nr/NKF-RPA-Urge-Screening-for-atRisk-KD.cfm", :onClick => "trackOutboundLink(this, 'Outbound Links', 'NKFRPAUrgeScreening'); return false;"} Top News: National Kidney Foundation, Renal Physicians Association Urge Screening for those at Risk for Kidney Disease
-		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
-		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"}
-		/ basic jq slider - carousel
-		%script{:type => "text/javascript", :src => "js/bjqs-1.3.js"}
-		%script{:type => "text/javascript"}
-			jQuery(document).ready(function($) {
-			$('.carousel').bjqs({ width : 990, height : 495, animtype : 'fade', responsive : true, randomstart : true, centercontrols: true, showcontrols: true });});
-		/ rotating-stories
-		%script{:type => "text/javascript", :src => "js/basic-jquery-slider.js"}
-		%script{:type => "text/javascript"}
-			$(document).ready(function() {$('#rotating-stories').slidey({'animation' : 'fade', 'width' : 660, 'height' : 350, 'animationDuration' : 450, 'rotationSpeed' : 10000, 'showMarkers' : true, 'showControls' : false, 'centerMarkers' : false }); });
+		
 

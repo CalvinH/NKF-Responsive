@@ -1159,6 +1159,15 @@ html {
 /* Header */
 /* TABLET */
 /* MOBILE */
+/* Header */
+#billboard {
+  margin-top: 80px; }
+
+/* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  #billboard {
+    margin-top: 120px; } }
+/* MOBILE */
 /* Main */
 #main.main-topbar {
   margin-top: 60px; }
@@ -1968,6 +1977,8 @@ a:hover .sublist {
         color: #f15e22;
         background: white;
         zoom: 1; }
+  .top-bar .nav-toggle {
+    display: none; }
 
 .top-bar-fixed-top,
 .top-bar-fixed-bottom {
@@ -1976,6 +1987,13 @@ a:hover .sublist {
   left: 0;
   z-index: 1030;
   margin-bottom: 0; }
+
+.top-bar-right ul {
+  float: right;
+  margin-right: 20px; }
+
+.top-bar-left ul {
+  float: left; }
 
 /*TABLET */
 @media only screen and (min-width: 740px) and (max-width: 1029px) {
@@ -1987,18 +2005,31 @@ a:hover .sublist {
   .top-bar ul li {
     margin-left: 5px; }
     .top-bar ul li a {
-      padding: 10px 15px; } }
+      padding: 14px 15px; }
+  .top-bar .nav-toggle {
+    display: none; } }
 /* MOBILE */
 @media only screen and (max-width: 739px) {
   .top-bar {
+    background-color: black;
+    display: block;
+    min-height: 40px;
+    height: auto;
     float: none;
     position: static; }
-    .top-bar h1,
-    .top-bar h1.left,
-    .top-bar h1.right {
+    .top-bar h1 {
       width: 100%;
       text-align: center; }
+    .top-bar h1.left {
+      width: auto;
+      text-align: center;
+      float: left; }
+    .top-bar h1.right {
+      width: auto;
+      text-align: center;
+      float: right; }
     .top-bar ul {
+      clear: both;
       float: none;
       margin: 0;
       padding: 0; }
@@ -2012,8 +2043,30 @@ a:hover .sublist {
           display: block;
           text-transform: none;
           background-color: #1a1a1a; }
-        .top-bar ul li a:hover {
-          background-color: #4d4d4d; } }
+          .top-bar ul li a.current {
+            background-color: rgba(255, 255, 255, 0.95); }
+          .top-bar ul li a:hover {
+            background-color: #4d4d4d; }
+    .top-bar .nav-toggle {
+      float: right;
+      display: block;
+      background-color: #f15e22;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      height: 40px; }
+      .top-bar .nav-toggle:hover, .top-bar .nav-toggle:active, .top-bar .nav-toggle.active {
+        background-color: #a3360a;
+        color: white; }
+      .top-bar .nav-toggle a {
+        color: white;
+        text-decoration: none; }
+    .top-bar.top-bar-fixed-top, .top-bar.top-bar-fixed-bottom {
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+      margin-bottom: 0; } }
 .bottom-bar {
   font-size: 12px;
   font-size: 0.75rem;
@@ -2099,6 +2152,9 @@ a:hover .sublist {
   .dropdown ul.dropdown-menu li {
     clear: left;
     margin: 0; }
+    .dropdown ul.dropdown-menu li:hover {
+      background-color: #f15e22;
+      color: #a3360a; }
     .dropdown ul.dropdown-menu li.menu-item {
       color: #f15e22;
       display: block;
@@ -2111,7 +2167,8 @@ a:hover .sublist {
         color: #f15e22;
         padding: 5px 10px; }
         .dropdown ul.dropdown-menu li.menu-item a:hover {
-          color: #4d4d4d; }
+          background-color: #f15e22;
+          color: #a3360a; }
         .dropdown ul.dropdown-menu li.menu-item a:hover:after {
           content: "  ➥"; }
 .dropdown:hover ul.dropdown-menu {
@@ -2149,8 +2206,11 @@ a:hover .sublist {
 @media only screen and (max-width: 739px) {
   .dropwdown ul.dropdown-menu li {
     margin-left: 5px; }
-    .dropwdown ul.dropdown-menu li.menu-item a {
-      padding: 10px 15px; } }
+    .dropwdown ul.dropdown-menu li:hover {
+      background-color: #f15e22; }
+    .dropwdown ul.dropdown-menu li.menu-item:hover {
+      background-color: #f15e22;
+      color: white; } }
 /* ========== MAIN ========== */
 /* Rotating Stories */
 /* Donate Button */
@@ -2179,7 +2239,8 @@ a:hover .sublist {
 .crumb {
   width: 100%;
   line-height: normal;
-  display: block; }
+  display: block;
+  padding-bottom: 40px; }
   .crumb ul {
     line-height: normal;
     margin: 0;
@@ -2213,6 +2274,7 @@ a:hover .sublist {
       padding-right: 10px; }
 
 .carousel {
+  margin-bottom: 60px;
   /* Basic jQuery Slider essential styles */ }
   .carousel ul.bjqs {
     position: relative;
@@ -2275,131 +2337,7 @@ a:hover .sublist {
     background: rgba(255, 255, 255, 0.5); }
 
 /*TABLET */
-@media only screen and (min-width: 740px) and (max-width: 1029px) {
-  .carousel {
-    /* Basic jQuery Slider essential styles */ }
-    .carousel ul.bjqs {
-      position: relative;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      overflow: hidden;
-      display: none; }
-    .carousel li.bjqs-slide {
-      position: absolute;
-      display: none; }
-    .carousel ul.bjqs-controls {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      z-index: 9999; }
-      .carousel ul.bjqs-controls.v-centered li a {
-        position: absolute;
-        display: block;
-        padding: 10px;
-        background: #fff;
-        color: #000;
-        text-decoration: none; }
-        .carousel ul.bjqs-controls.v-centered li a:hover {
-          background: #f15e22;
-          color: #fff; }
-      .carousel ul.bjqs-controls.v-centered li.bjqs-next a {
-        right: 0;
-        top: 247px; }
-      .carousel ul.bjqs-controls.v-centered li.bjqs-prev a {
-        left: 0;
-        top: 247px; }
-    .carousel ol.bjqs-markers {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      width: 100%; }
-      .carousel ol.bjqs-markers.h-centered {
-        text-align: center; }
-      .carousel ol.bjqs-markers li {
-        display: inline; }
-        .carousel ol.bjqs-markers li a {
-          display: inline-block;
-          padding: 5px 10px;
-          background: #f15e22;
-          color: #fff;
-          margin: 5px;
-          text-decoration: none; }
-          .carousel ol.bjqs-markers li a:hover {
-            background: black; }
-        .carousel ol.bjqs-markers li.active-marker a {
-          background: #999; }
-    .carousel p.bjqs-caption {
-      display: block;
-      width: 100%;
-      margin: 0;
-      padding: 2%;
-      position: absolute;
-      bottom: 0;
-      background: rgba(255, 255, 255, 0.5); } }
 /* MOBILE */
-@media only screen and (max-width: 739px) {
-  .carousel {
-    /* Basic jQuery Slider essential styles */ }
-    .carousel ul.bjqs {
-      position: relative;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      overflow: hidden;
-      display: none; }
-    .carousel li.bjqs-slide {
-      position: absolute;
-      display: none; }
-    .carousel ul.bjqs-controls {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      z-index: 9999; }
-      .carousel ul.bjqs-controls.v-centered li a {
-        position: absolute;
-        display: block;
-        padding: 10px;
-        background: #fff;
-        color: #000;
-        text-decoration: none; }
-        .carousel ul.bjqs-controls.v-centered li a:hover {
-          background: #f15e22;
-          color: #fff; }
-      .carousel ul.bjqs-controls.v-centered li.bjqs-next a {
-        right: 0;
-        top: 247px; }
-      .carousel ul.bjqs-controls.v-centered li.bjqs-prev a {
-        left: 0;
-        top: 247px; }
-    .carousel ol.bjqs-markers {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      width: 100%; }
-      .carousel ol.bjqs-markers.h-centered {
-        text-align: center; }
-      .carousel ol.bjqs-markers li {
-        display: inline; }
-        .carousel ol.bjqs-markers li a {
-          display: inline-block;
-          padding: 5px 10px;
-          background: #f15e22;
-          color: #fff;
-          margin: 5px;
-          text-decoration: none; }
-          .carousel ol.bjqs-markers li a:hover {
-            background: black; }
-        .carousel ol.bjqs-markers li.active-marker a {
-          background: #999; }
-    .carousel p.bjqs-caption {
-      display: block;
-      width: 100%;
-      margin: 0;
-      padding: 2%;
-      position: absolute;
-      bottom: 0;
-      background: rgba(255, 255, 255, 0.5); } }
 .rotating-stories {
   width: 100%;
   height: 440px;

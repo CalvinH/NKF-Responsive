@@ -16,6 +16,7 @@
       &:hover a{color:$primary-color; background:$white-color; zoom:1;;}
     }
   }
+  .nav-toggle {display:none;}
 }
 .top-bar-fixed-top,
 .top-bar-fixed-bottom {
@@ -24,6 +25,13 @@
   left:0;
   z-index: 1030;
   margin-bottom: 0;
+}
+
+.top-bar-right{
+  ul{float:right; margin-right:20px;}
+}
+.top-bar-left{
+  ul{float:left;}
 }
 
 /*TABLET */
@@ -35,20 +43,22 @@
     ul li {
   		margin-left: 5px;
   			a {
-    			padding: 10px 15px;
+    			padding: 14px 15px;
     		}
       }
+    .nav-toggle {display:none;}
   	}
   }
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {
-  .top-bar {
+  .top-bar { background-color:$black-color; display:block; min-height:40px; height:auto;
     float: none;
     position: static;
-    h1,
-    h1.left,
-    h1.right {width:100%;text-align:center;}
-    ul {
+    h1  {width:100%;text-align:center;}
+    h1.left {width:auto; text-align:center; float:left;}
+    h1.right {width:auto; text-align:center; float:right;}
+    ul { 
+      clear: both;
       float: none;
       margin: 0;
       padding: 0;
@@ -62,11 +72,24 @@
         display: block;
         text-transform: none;
         background-color: $black-color-light;
-        }
-        a:hover {
-        background-color: $black-color-lightest;
+          &.current{background-color: rgba($white-color,0.95);}
+          &:hover {background-color: $black-color-lightest;}
         }
       }
     }
+    .nav-toggle {float:right;display: block; background-color: $primary-color; color: $white-color; padding: 10px; text-decoration: none; height:40px;
+      &:hover,
+      &:active,
+      &.active { background-color: $primary-color-darker; color: $white-color;
+      }
+      a{color:$white-color; text-decoration:none;}
+    }
+    &.top-bar-fixed-top,
+    &.top-bar-fixed-bottom {
+  position:fixed;
+  right:0;
+  left:0;
+  z-index: 1030;
+  margin-bottom: 0;}
   }
 }
