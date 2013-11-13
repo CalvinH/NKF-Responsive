@@ -15,6 +15,9 @@
 		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
 		%link{:rel => "stylesheet", :href => "css/nkf.css"}
 		%link{:rel => "stylesheet", :href => "css/wireframe.css"}
+		/ font awesome - http://fortawesome.github.io/Font-Awesome/examples/
+		%link{:href => "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :rel => "stylesheet"}
+
 		/ [if lt IE9] <script src => "js/shiv.js"}</script>
 		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
 		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"}
@@ -158,6 +161,46 @@
 								%img{:src => "images/banner03.jpg", :title => "Automatically generated caption"}
 					%script{:type => "text/javascript"}
 						jQuery(document).ready(function($) {$('.carousel').bjqs({width : 990, height : 495, responsive : true});});
+				.title.title-top
+					%h2 Call to Action - Button
+					.cta-button
+						%a{:href => "#"}
+							%h3 Support the NKF
+							%h2 Donate Now
+					%h3 Green
+					.cta-button.green
+						%a{:href => "#"}
+							%h3 Support the NKF
+							%h2 Donate Now
+					%h3 Red
+					.cta-button.red
+						%a{:href => "#"}
+							%h3 Support the NKF
+							%h2 Donate Now
+					%h3 Blue
+					.cta-button.blue
+						%a{:href => "#"}
+							%h3 Support the NKF
+							%h2 Donate Now
+					%h3 Yellow
+					.cta-button.yellow
+						%a{:href => "#"}
+							%h3 Support the NKF
+							%h2 Donate Now
+					%h3 Black
+					.cta-button.black
+						%a{:href => "#"}
+							%h3 Support the NKF
+							%h2 Donate Now
+				.title.title-top
+					%h2 Call to Action - Card
+					.cta-card
+						.number 4.5 million
+						Visits to www.kidney.org
+					.cta-card
+						Only
+						.number 2%
+						were previously aware of their diagnosis
 				.title.title-top
 					%h2 Donate Button
 				.title.title-top

@@ -1,0 +1,68 @@
+/* ==========================================================================
+
+  NKF Theme Stylesheet
+  Author: Calvin Harris
+  Version: 0.1 - Last Updated: 26th August, 2013
+
+========================================================================== */
+/* videos */
+body#videos #nav ul li.video:hover, body#videos #nav ul li.video:hover a {
+  background: #000 !important;
+  color: #fff !important; }
+
+body#videos {
+  background: #000; }
+
+body#videos footer {
+  height: 290px;
+  /*background:-moz-linear-gradient(center top , #F2F2F2 0%, #FFFFFF 10%) repeat scroll 0 0 transparent;border-top:1px solid #D4D4D4;*/ }
+
+.fancybox-outer {
+  background: #222 !important; }
+
+body#videos #nav ul li.video:hover, body#videos #nav ul li.video:hover a {
+  background: #000 !important;
+  color: #fff !important; }
+
+body#videos li.video {
+  background: url(/images/mainNav_back_current_v3.jpg) left top repeat-x !important;
+  color: #fff !important;
+  border-top: 4px solid #F15E22; }
+
+body#videos li.video {
+  background: url(/images/mainNav_back_current_video.jpg) left top repeat-x black !important;
+  color: #fff !important; }
+
+body#videos li.video:hover {
+  background: #000; }
+
+body#videos #main-wrapper {
+  background: #000; }
+
+body#videos #crumb {
+  color: #aaa !important; }
+
+body#videos #crumb li a {
+  color: #fff !important; }
+
+body#videos #addthis_box {
+  color: #fff !important; }
+
+body#videos h1 {
+  color: #F15E22 !important; }
+
+body#videos h2 {
+  color: #fff !important;
+  font-weight: lighter !important; }
+
+body#videos #left-column article.lt header .photo, body#videos #left-column article.md header .photo, body#videos #left-column article.rt header .photo {
+  min-height: 174px !important; }
+
+body#videos #content h2 a, body#videos #events h2 a, body#videos nav#crumb ul li a {
+  color: #fff !important; }
+
+body#videos footer p a {
+  color: #273C76 !important; }
+
+body#videos p, body#videos pre {
+  color: #aaa !important; }

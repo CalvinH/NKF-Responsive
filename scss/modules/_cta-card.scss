@@ -1,0 +1,14 @@
+/* Footer */
+.cta-card {
+	font-weight:bold; word-break:break-word; background:rgba($black-color, 0.1); border:1px solid rgba($black-color,0.12);border-radius:3px; /*box-shadow:0 0 0px 2px rgba($black-color,0.05);*/ height:auto; padding:25px 10px; text-align:center; margin-bottom:20px;
+	.number{color:$primary-color; font-size:3.5rem;}
+}
+
+/* TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+	.cta-card{}
+}
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+	.cta-card{}
+}

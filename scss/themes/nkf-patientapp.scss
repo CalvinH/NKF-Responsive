@@ -1,0 +1,61 @@
+/* ==========================================================================
+
+  NKF Theme Stylesheet
+  Author: Calvin Harris
+  Version: 0.1 - Last Updated: 26th August, 2013
+
+========================================================================== */
+/* KLS - PatientApp */
+body.ptnapp {background:#048499;}
+body.ptnapp footer {height:290px; /* background: #f2f2f2;
+
+background: -moz-linear-gradient(top,  #f2f2f2 0%, #ffffff 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#ffffff));
+
+background: -webkit-linear-gradient(top,  #f2f2f2 0%,#ffffff 100%);
+
+background: -o-linear-gradient(top,  #f2f2f2 0%,#ffffff 100%);
+
+background: -ms-linear-gradient(top,  #f2f2f2 0%,#ffffff 100%);
+
+background: linear-gradient(to bottom,  #f2f2f2 0%,#ffffff 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=0 );*/
+border-top:1px solid #D4D4D4;}
+body.ptnapp #nav ul li.kidneydisease {background:#048499 !important; color:#fff;}
+body.ptnapp li.kidneydisease {background:#048499; color:#fff !important; border-top:4px solid #F15E22;}
+body.ptnapp li.kidneydisease a {color:#fff !important;}
+body.ptnapp #nav ul li.kidneydisease:hover,
+body.ptnapp li.kidneydisease:hover,
+body.ptnapp #nav ul li.kidneydisease:hover a {background:#fff !important; color:#048499 !important;}
+body.ptnapp #nav ul li.kidneydisease:hover li a {background:#fff !important; color:#1E4497 !important;}
+body.ptnapp #nav ul li.kidneydisease:hover li a:hover {color:#577BBD !important;}
+body.ptnapp #nav .story p {color:#000 !important;}
+body.ptnapp #nav .story a,
+body.ptnapp #nav ul li.patients .story a{background:#fff !important; color:#1E4497 !important;}
+body.ptnapp #main-wrapper {background:#048499;}
+body.ptnapp #crumb {color:#000 !important;}
+body.ptnapp #crumb li a {color:#fff !important;}
+body.ptnapp #addthis_box {color:#fff !important;}
+body.ptnapp h1,
+body.ptnapp h1.title,
+body.ptnapp #content h1.title, body.ptnapp #events h1.title {color:#000 !important; border-bottom-color:#000 !important; margin-bottom:10px;}
+body.ptnapp h2 {color:#fff !important; font-weight:lighter !important;}
+body.ptnapp #left-column article.lt header .photo, body.ptnapp #left-column article.md header .photo, body.ptnapp #left-column article.rt header .photo {min-height:174px !important;}
+body.ptnapp #content h2 a, body#kidneydisease #events h2 a, body.ptnapp nav#crumb ul li a {color:#fff !important;}
+body.ptnapp footer p a {color:#273C76 !important;}
+body.ptnapp p, body.ptnapp pre {color:#000 !important;}
+
+body.ptnapp #sidebar-nav{float:left; width:227px; background:#eee;-moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box; box-sizing: border-box; margin-top:20px; }
+body.ptnapp #sidebar-nav ul {list-style:none; padding-left:0; margin-bottom:0; -webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .2); box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .2); -webkit-border-radius: 5px 0px 0px 5px; border-radius: 5px 0px 0px 5px; }
+body.ptnapp #sidebar-nav li {border-bottom:1px solid #ccc; margin-bottom:0; border-right:1px solid #ccc; padding-right:0;}
+body.ptnapp #sidebar-nav li.active {background:#fff; border-right:none;}
+body.ptnapp #sidebar-nav li a {padding:10px; display:block;}
+body.ptnapp #sidebar-nav li:hover {background:#ddd;}
+body.ptnapp #app-content{float:left; width:743px; background:#fff; -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; padding:10px; -webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .2);
+        
+        box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .2);}

@@ -1,0 +1,60 @@
+/* ==========================================================================
+
+  NKF KiDNEY CARS Theme Stylesheet
+  Author: Calvin Harris
+  Version: 0.1 - Last Updated: 26th August, 2013
+
+========================================================================== */
+/* =========== KIDNEY CARS =========== */
+body#cars-home #nav ul li.home,
+body#cars-home #nav ul li.home a,
+body#cars-why #nav ul li.why,
+body#cars-why #nav ul li.why a,
+body#cars-faq #nav ul li.faq,
+body#cars-faq #nav ul li.faq a,
+body#cars-blog #nav ul li.blog,
+body#cars-blog #nav ul li.blog a,
+body#cars-contact #nav ul li.contact,
+body#cars-contact #nav ul li.contact a,
+body#cars-tx #nav ul li.tx,
+body#cars-tx #nav ul li.tx a {background:#fff !important; color:#f15e22 !important;}
+body#cars-home #nav ul li,
+body#cars-why #nav ul li,
+body#cars-faq #nav ul li,
+body#cars-blog #nav ul li,
+body#cars-contact #nav ul li,
+body#cars-tx #nav ul li{padding:6px 21px 0 !important;}
+
+#hero {background:#048499; -moz-box-sizing: border-box;box-sizing:border-box; padding:20px; display:block; display:inline-block; margin-bottom:20px; height:300px; margin-top:20px; float:left; padding-right:20px;}
+.call-to-action {width:450px; float:left;}
+.call-to-action header {margin-top:0;}
+#hero h2,
+.call-to-action header h2 {color:#fff !important; font-size:/*2.25em*/2.1em; margin-bottom:10px; text-transform:uppercase; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; padding-bottom:20px; border-bottom:1px solid #fff;margin-bottom:20px;}
+#hero h3,
+.call-to-action header h3 {color:#fff !important; font-size:/*1.6em*/1.8em;}
+#hero ol,
+.call-to-action ol {color:#fff;}
+#hero li,
+.call-to-action li {font-size:1.125em; margin-bottom:20px; line-height:1.5em; margin-bottom:10px;}
+
+.stat {padding:20px;  color:#000;height:267px;-moz-box-sizing:border-box;box-sizing:border-box; position:relative; display:block; }
+.stat:after {content:""; background:url(http://www.kidney.org/support/kidneycars/images/stock-photo--d-rendering-of-a-brandless-generic-silver-car-of-my-own-design-in-a-studio-environment-117299347.jpg) center no-repeat;opacity: 0.2;top:0;left:0;bottom:0; right:0;position:absolute;width:457px; height:267px; z-index:-1;}
+
+#cars-form-column {width:/*460px*/500px;margin-left:20px;padding:0; float:right; right:2px; z-index:9999; position:relative;top:-40px; padding-bottom:40px;}
+.cars-form-iframe {width:100%; height:740px; background:none; border:none;}
+.cars-form-iframe .carousel .container,
+.cars-form-iframe .footer {max-width:500px; width:100%;}
+.cars-form-iframe .charitylogo img {margin-left:15px !important;}
+.cars-form-box {width:100%; padding:5px 0 20px; background:#faad1d; background:rgba(250,173,29,.89); border:3px solid #FAAD1D; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; -moz-box-sizing: border-box;box-sizing:border-box; -webkit-box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, .3); box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, .3);}
+.cars-form-box header {margin-top:0; margin-left:10px; margin-right:10px; margin-bottom:0; padding-bottom:0;}
+.cars-form-box header h1 {padding-top:0; color:#fff !important; font-weight:lighter;font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; text-align:left;font-size:2.5em;border-bottom-color:#FAAD1D; }
+
+#cars-form-column form {padding:5px 0; width:440px; margin-left:auto; margin-right:auto;}
+#cars-form-column form h2 {width:97%; margin-left:auto; margin-right:auto;clear:left; color:#fff !important; font-weight:normal;}
+#cars-form-column select,
+#cars-form-column input {font-size:1.5em; background:#fff; border:none; padding:5px; -webkit-appearance: none;-moz-appearance: none; appearance:none;-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; float:left; margin:6px 5px;}
+#cars-form-column input#Donate {background:#000; color:#fff;}
+
+#cars-form-column .social-box {margin-top:/*60px*//*10px*/0;}
+#cars-form-column .twitter-box {width:150px; margin-top:10px;float:left;}
+#cars-form-column .facebook-box {width:200px; float:left;margin-left:10px; padding:10px;}
