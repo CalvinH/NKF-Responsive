@@ -1216,6 +1216,7 @@ html {
     margin-right: 0; } }
 /* Footer */
 #footer {
+  clear: both;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   /* gradient */
   background: whitesmoke;
@@ -1970,6 +1971,12 @@ a:hover .sublist {
     text-align: left;
     padding: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    .side-nav li.logo {
+      padding: 0 20px 20px; }
+      .side-nav li.logo a {
+        padding: 0; }
+        .side-nav li.logo a:after {
+          content: ""; }
     .side-nav li a {
       text-decoration: none; }
     .side-nav li a.current,
@@ -2022,6 +2029,10 @@ a:hover .sublist {
 
   .side-nav-fixed-tab {
     width: 200px; }
+    .side-nav-fixed-tab li.logo {
+      padding: 20px; }
+      .side-nav-fixed-tab li.logo a {
+        padding: 0; }
     .side-nav-fixed-tab.side-nav-top-bar {
       margin-top: 60px; } }
 /* MOBILE */
