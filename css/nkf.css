@@ -1171,15 +1171,49 @@ html {
 /* Main */
 #main.main-topbar {
   margin-top: 60px; }
+#main.main-side-nav-fixed-float {
+  float: left;
+  width: 64.62745098039%;
+  margin-right: 20px; }
+#main.main-side-nav-fixed-tabs {
+  float: left;
+  margin-left: 330px;
+  width: 64.627450980392%;
+  margin-right: 20px; }
+  #main.main-side-nav-fixed-tabs .container {
+    width: 100%; }
 
 /* TABLET */
 @media only screen and (min-width: 740px) and (max-width: 1029px) {
   #main.main-topbar {
-    margin-top: 50px; } }
+    margin-top: 100px; }
+  #main.main-side-nav-fixed-float {
+    float: left;
+    width: 64.777777777778%;
+    margin-right: 20px; }
+    #main.main-side-nav-fixed-float .container {
+      width: 100%; }
+  #main.main-side-nav-fixed-tabs {
+    float: left;
+    margin-left: 210px;
+    width: 66.777777777778%;
+    margin-right: 20px; }
+    #main.main-side-nav-fixed-tabs .container {
+      width: 100%; } }
 /* MOBILE */
 @media only screen and (max-width: 739px) {
   #main.main-topbar {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  #main.main-side-nav-fixed-float {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0; }
+  #main.main-side-nav-fixed-tabs {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0; } }
 /* Footer */
 #footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -1945,14 +1979,67 @@ a:hover .sublist {
       color: #f7a482; }
     .side-nav li a:after {
       content: " \00bb"; }
-  .side-nav li.active {
-    color: rgba(0, 0, 0, 0.4);
-    background: rgba(0, 0, 0, 0.1); }
-  .side-nav li:last-child {
-    border-bottom: none; }
-  .side-nav li:hover {
-    background: rgba(0, 0, 0, 0.05); }
+    .side-nav li .active {
+      color: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.1); }
+    .side-nav li:last-child {
+      border-bottom: none; }
+    .side-nav li:hover {
+      background: rgba(0, 0, 0, 0.05); }
 
+.side-nav-fixed-float {
+  width: 300px;
+  float: left;
+  margin: 0 20px; }
+  .side-nav-fixed-float.side-nav-top-bar {
+    margin-top: 60px; }
+
+.side-nav-fixed-tab {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 320px;
+  padding: 20px 0;
+  margin-right: 20px;
+  background: #f15e22;
+  border: none; }
+  .side-nav-fixed-tab li.active {
+    color: #f15e22;
+    text-align: right;
+    background: white; }
+  .side-nav-fixed-tab li a {
+    color: white;
+    padding: 0 20px; }
+  .side-nav-fixed-tab.side-nav-top-bar {
+    margin-top: 40px; }
+
+/* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .side-nav-fixed-float {
+    width: 200px; }
+    .side-nav-fixed-float.side-nav-top-bar {
+      margin-top: 100px; }
+
+  .side-nav-fixed-tab {
+    width: 200px; }
+    .side-nav-fixed-tab.side-nav-top-bar {
+      margin-top: 60px; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .side-nav-fixed-float {
+    width: 100%;
+    margin-left: 0;
+    border-left: 0;
+    border-right: 0; }
+    .side-nav-fixed-float.side-nav-top-bar {
+      margin-top: 0; }
+
+  .side-nav-fixed-tab {
+    position: relative;
+    width: 100%;
+    height: auto; }
+    .side-nav-fixed-tab.side-nav-top-bar {
+      margin-top: 0px; } }
 .top-bar {
   font-size: 12px;
   font-size: 0.75rem;
@@ -2294,6 +2381,93 @@ a:hover .sublist {
       color: #f15e22;
       padding-right: 10px; }
 
+.tabs {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 40px;
+  font-weight: lighter; }
+  .tabs li {
+    list-style: none;
+    float: left; }
+    .tabs li.current a {
+      border-bottom: none;
+      background-color: white;
+      margin-bottom: -1px;
+      border-color: rgba(0, 0, 0, 0.2); }
+      .tabs li.current a:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding-bottom: 10px;
+        margin-top: 0; }
+    .tabs li a {
+      padding: 10px 15px;
+      display: block;
+      text-decoration: none;
+      border: 1px solid transparent;
+      border-radius: 4px 4px 0 0;
+      line-height: 1.428571429;
+      margin-right: 2px; }
+      .tabs li a:hover {
+        background-color: #f15e22;
+        color: white;
+        padding-bottom: 4px;
+        margin-top: 5px; }
+
+/* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .tabs {
+    border: none;
+    padding: 0;
+    margin: 0; }
+    .tabs li {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      margin-right: 10px;
+      margin-bottom: 10px;
+      text-align: left; }
+      .tabs li.current a {
+        margin-bottom: 0; }
+        .tabs li.current a:hover {
+          padding: 0;
+          margin: 0;
+          padding: 10px; }
+      .tabs li a {
+        border-radius: 0;
+        border: none;
+        padding: 0;
+        margin: 0;
+        padding: 10px; }
+        .tabs li a:hover {
+          padding: 0;
+          margin: 0;
+          padding: 10px; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .tabs {
+    border: none;
+    padding: 0;
+    margin: 0; }
+    .tabs li {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      margin-right: 10px;
+      margin-bottom: 20px;
+      text-align: left; }
+      .tabs li.current a {
+        margin-bottom: 0; }
+        .tabs li.current a:hover {
+          padding: 0;
+          margin: 0;
+          padding: 10px; }
+      .tabs li a {
+        border-radius: 0;
+        border: none;
+        padding: 0;
+        margin: 0;
+        padding: 10px; }
+        .tabs li a:hover {
+          padding: 0;
+          margin: 0;
+          padding: 10px; } }
 .carousel {
   margin-bottom: 60px;
   /* Basic jQuery Slider essential styles */ }
@@ -3470,6 +3644,60 @@ ol.slidey-markers li.active-marker a {
     .footer-nav ul li, .footer-nav ol li {
       float: left;
       margin-left: 10px; } }
+.pagination {
+  padding-left: 0;
+  margin: 0 auto;
+  clear: both;
+  padding: 30px 0; }
+  .pagination li {
+    float: left;
+    list-style: none;
+    background: white; }
+    .pagination li.unavailable a {
+      background: rgba(0, 0, 0, 0.05);
+      color: rgba(0, 0, 0, 0.5);
+      cursor: not-allowed; }
+      .pagination li.unavailable a:hover {
+        background: rgba(0, 0, 0, 0.07);
+        color: rgba(0, 0, 0, 0.7);
+        cursor: not-allowed; }
+    .pagination li.current a {
+      background: #f15e22;
+      color: white; }
+      .pagination li.current a:hover {
+        background: #d3470d; }
+  .pagination li a {
+    padding: 6px 10px;
+    text-decoration: none;
+    font-weight: lighter;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: -1px; }
+    .pagination li a:hover {
+      background: #f15e22;
+      color: white; }
+
+.pagination-lg li a {
+  padding: 10px 16px;
+  font-size: 1.25rem; }
+
+.pagination-sm li a {
+  padding: 2px 5px;
+  font-size: 0.75rem; }
+
+/* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .pagination li:last-child {
+    float: right; }
+
+  .pagination-lg li {
+    padding-bottom: 21px; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .pagination li {
+    padding-bottom: 13px; }
+
+  .pagination-lg li {
+    padding-bottom: 21px; } }
 /* ==========================================================================
   
   State Stylesheet - SMACCS [ http://smacss.com/book/type-state ]
