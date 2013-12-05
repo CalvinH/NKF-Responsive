@@ -3230,9 +3230,9 @@ ol.slidey-markers li.active-marker a {
         letter-spacing: 0.1em;
         height: 48px;
         width: 100%;
-        min-width: 320px;
-        max-width: 335px;
-        margin: 5px;
+        min-width: 270px;
+        max-width: 300;
+        margin: 5px 0;
         text-decoration: none; } }
 /* social connect */
 .icon-social .is-500px {
