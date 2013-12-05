@@ -18,7 +18,7 @@
 
 	%body
 		#header
-			%nav.top-bar
+			%nav.top-bar.top-bar-fixed-top
 				%h1.left NKF Style Guide
 				.nav-toggle.no-desktop.no-tablet.no-mobile
 					%a{:href => "#"}
@@ -50,7 +50,7 @@
 										%a{:href => "two-deep.html"} Two-Deep
 									%li 
 										%a{:href => "three-deep.html"} Three-Deep
-		%ul.side-nav.side-nav-fixed-float.side-nav-top-bar
+		%ul.side-nav.side-nav-fixed.side-nav-fixed-float.side-nav-top-bar
 			%li
 				%a{:href => "grid.html"} Grid
 			%li
@@ -112,11 +112,51 @@
 									%td Table Footer 2
 									%td Table Footer 3
 									%td Table Footer 4				
-						#footer
-							.container
-								.section.row
-									.left-column.col.eight
-									.right-column.col.four
+		#footer.fixed-side-nav-float
+			.container
+				.section.row
+					.left-column.col.eight.mobile-full
+						%p
+							%img{:src => "#", :title => "Awareness + Prevention + Treatment"}
+						
+						%p 
+						%strong Our Mission 
+						The National Kidney Foundation, a major voluntary nonprofit health organization, is dedicated to preventing kidney and urinary tract diseases, improving the health and well-being of individuals and families affected by kidney disease and increasing the availability of all organs for transplantation.
+
+						%p 
+						%strong Our Vision
+						To enhance the lives of everyone with, at risk of or affected by kidney disease. 
+						%a{:href => "#"} View Overview Video →
+
+						%p The Better Business Bureau Wise Giving Alliance Charity Seal provides the giving public with an easily recognizable symbol which certifies that the National Kidney Foundation meets the comprehensive standards of America's most experienced charity evaluator.
+
+						%p 
+							%a{:href => "#"} Our Privacy Policy
+
+						%p © 2013 National Kidney Foundation, Inc., 30 East 33rd Street, New York, NY 10016, 1-800-622-9010. We subscribe to the HONcode principles of the Health on the Net Foundation. Verify here
+						
+						%p
+							%img{:src => "#", :title => "BBB"}
+							%img{:src => "#", :title => "HON CODE"}
+					.right-column.col.four.mobile-full
+						.nav.footer-nav
+							%ul
+								%li
+									%a{:href => ""} Home
+								%li
+									%a{:href => ""} Kidney Diease
+								%li
+									%a{:href => ""} Patients
+								%li
+									%a{:href => ""} Organ Donation & Transplantation
+								%li
+									%a{:href => ""} Professionals
+								%li
+									%a{:href => ""} Events
+								%li
+									%a{:href => ""} Advocacy
+								%li
+									%a{:href => ""} Donate
 
 						%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
 						%script{:src => "js/default.js"}

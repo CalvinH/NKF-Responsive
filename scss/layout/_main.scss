@@ -1,8 +1,9 @@
 /* Main */
 #main {
 	&.main-topbar{margin-top:60px;}
-	&.main-side-nav-fixed-float {float:left; width:64.62745098039%; margin-right:20px}
-	&.main-side-nav-fixed-tabs {float:left; margin-left:330px; width:64.627450980392%; margin-right:20px;
+	&.main-topbar-fixed{margin-top:0;}
+	&.main-side-nav-fixed-float {float:left; width:64.62745098039%; margin-left:320px; margin-bottom:20px;}
+	&.main-side-nav-fixed-tabs {float:left; margin-left:330px; width:64.627450980392%; margin-right:20px; margin-bottom:20px;
 		.container{width:100%;}
 	}
 }
@@ -11,10 +12,10 @@
 @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
 	#main{
 		&.main-topbar{margin-top:100px;}
-		&.main-side-nav-fixed-float{float:left; width:64.777777777778%; margin-right:20px;
+		&.main-side-nav-fixed-float{float:left; width:64.777777777778%; margin-left:230px;
 			.container{width:100%;}
 		}
-		&.main-side-nav-fixed-tabs{float:left; margin-left:210px; width:66.777777777778%; margin-right:20px;
+		&.main-side-nav-fixed-tabs{float:left; margin-left:210px; width:66.777777777778%; margin-right:20px; margin-bottom:20px;
 			.container{width:100%;}
 		}
 	}

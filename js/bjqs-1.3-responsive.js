@@ -24,7 +24,7 @@
 
             // w + h to enforce consistency
             width           : 990,
-            height          : 495,
+            height          : 440,
 
             // transition valuess
             animtype        : 'fade',
@@ -47,7 +47,7 @@
             // presentational options
             usecaptions     : true,     // enable/disable captions using img title attribute
             randomstart     : true,     // start from a random slide
-            responsive      : false     // enable responsive behaviour
+            responsive      : true     // enable responsive behaviour
 
         };
 

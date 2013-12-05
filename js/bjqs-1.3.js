@@ -47,7 +47,7 @@
             // presentational options
             usecaptions     : true,     // enable/disable captions using img title attribute
             randomstart     : false,     // start from a random slide
-            responsive      : false     // enable responsive behaviour
+            responsive      : true     // enable responsive behaviour
 
         };
 

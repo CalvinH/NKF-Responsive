@@ -17,8 +17,8 @@
 	var settings = {};	
 		
 	var defaults = {
-		width: 700,			// Width + Height used to ensure consistency
-		height: 350,			// Width + Height used to ensure consistency
+		width: 990,			// Width + Height used to ensure consistency
+		height: 440,			// Width + Height used to ensure consistency
 		animation: 'fade',		// The type of animation (slide or fade)
 		animationDuration: 450, 	// The duration in ms of the transition between slides
 		automatic: true,			// Automatically rotate through the slides
@@ -51,9 +51,9 @@
 		forward = 'forward',
 		back = 'backward'
 	
-	slides.css({'height':settings.height,'width':settings.width});
-	$slider.css({'height':settings.height,'width':settings.width});
-	$container.css({'height':settings.height,'width':settings.width});
+	slides.css({'height':settings.height,'max-width':settings.width, 'width':'100%'});
+	$slider.css({'height':settings.height,'max-width':settings.width, 'width':'100%'});
+	$container.css({'height':settings.height,'max-width':settings.width, 'width':'100%'});
 	
 	// Phat Controller(s)
 	if(settings.showControls){
@@ -94,7 +94,7 @@
 	// Let's put in some markers
 	if(settings.showMarkers){
 		
-		$markerContainer = $('<ol class="slidey-markers"></ul>');
+		$markerContainer = $('<ol class="slidey-markers"></ol>');
 		
 		//Create a marker for each banner and add append it to the wrapper
 		$.each(slides,function(key,value){
@@ -209,14 +209,15 @@
 		slideCount = slides.length;
 		
 		$wrapper = $('<div class="slidey-wrapper"></div>').css({
-			'width' : settings.width,
+			'max-width' : settings.width,
+			'width' : '100%',
 			'height' : settings.height,
 			'overflow' : 'hidden',
 			'position' : 'relative'
 		});
 		
 		$slider.css({
-			'width' : settings.width*slideCount,
+			'max-width' : settings.width*slideCount,
 			'left' : -settings.width
 		});
 		
