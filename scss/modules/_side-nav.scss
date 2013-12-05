@@ -1,5 +1,5 @@
-.side-nav{ list-style: none inside; margin:0; padding:0; border:1px solid rgba($black-color,0.2);
-	li{ text-align:left; padding:10px; border-bottom:1px solid rgba($black-color,0.2);
+.side-nav{ list-style: none inside; margin:0; padding:0; border:1px solid rgba($black-color,0.2);background:$white-color; z-index:1;
+	li{ text-align:left; padding:10px; border-bottom:1px solid rgba($black-color,0.2); 
 		&.logo {padding:0 20px 20px;
 			a{padding:0 ;
 				&:after{content:"";}
@@ -16,7 +16,7 @@
 		&:hover{background:rgba($black-color,0.05);}
 	}
 }
-.side-nav-fixed {position:fixed;}
+.side-nav-fixed {position:fixed; }
 	.side-nav-fixed-float{width:300px; float:left; margin:0 20px;
 		&.side-nav-top-bar{margin-top: 60px;}
 	}

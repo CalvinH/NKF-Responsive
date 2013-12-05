@@ -1983,7 +1983,9 @@ a:hover .sublist {
   list-style: none inside;
   margin: 0;
   padding: 0;
-  border: 1px solid rgba(0, 0, 0, 0.2); }
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: white;
+  z-index: 1; }
   .side-nav li {
     text-align: left;
     padding: 10px;
