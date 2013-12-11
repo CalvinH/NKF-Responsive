@@ -2,10 +2,11 @@
   font-size: 12px; font-size: 0.75rem; line-height: normal; position: absolute; top: 0; left: 0; z-index: 9999; width: 100%; background-color: $black-color;
   h1{padding:6px 20px; font-size:2em; margin:0; color:rgba($white-color,0.8);}
   ul { line-height: normal; list-style: none;padding:0;margin: 0;
-    li {float:left; margin-left: 20px; padding:13px 0; 
+     li {float:left; margin-left: 20px; padding:13px 0; 
       a {text-decoration: none; color: $white-color; padding:13px 10px; 
         &.current,
         &:hover,
+        > &:hover,
         &.hover {color:$primary-color; background:$white-color; zoom:1; }
         &:hover ul,
         &.hover ul {left:auto; display:block; zoom:1;}
@@ -13,7 +14,8 @@
       }
       &:first-child{margin-left:0;}
       &:hover,
-      &:hover a{color:$primary-color; background:$white-color; zoom:1;;}
+      &:hover a,
+      &:hover > a{color:$primary-color; background:$white-color; zoom:1;;}
     }
   }
   .nav-toggle {display:none;}

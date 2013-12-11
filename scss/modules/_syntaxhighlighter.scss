@@ -1,0 +1,14 @@
+.syntaxhighlighter {
+	table,
+	table th,
+	table td {padding:0; border:none;
+		.container {padding:0;}}
+	.gutter {width:40px;
+		.line {text-align:right; padding:0 5px;}
+	}
+	.code {
+		.line {line-height:16px;padding:0 10px;
+			code {border-radius:0;background:none; padding:0;}
+			}
+		}
+}

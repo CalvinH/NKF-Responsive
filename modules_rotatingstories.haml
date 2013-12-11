@@ -1,0 +1,107 @@
+!!!5
+%html{:lang => "en", :class => "no-js"}
+	%head
+		%meta{:charset =>"utf-8"}
+		%title The National Kidney Foundation, Inc.
+
+		%meta{:name => "National Kidney Foundation", :content => "The National Kidney Foundation provides information on kidney disease and organ donation. Learn risk factors, prevention tips and more to keep your kidneys healthy."}
+		%meta{:name => "description", :content => ""}
+		%meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+
+		%link{:rel => "shortcut icon", :href => "/images/favicon.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "57x57", :href => "/images/apple-touch-icon.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "72x72", :href => "/images/apple-touch-icon-72x72.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "114x114", :href => "/images/apple-touch-icon-114x114.png"}
+		%link{:rel => "apple-touch-icon", :sizes => "144x144", :href => "http://www.kidney.org/Icons_144.png"}
+		%link{:rel => "stylesheet", :href => "css/nkf.css"}
+		
+		/ [if lt IE9] <script src => "js/shiv.js"}</script>		
+		
+		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+		%script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"}
+		/ base js
+		%script{:src => "js/default.js"}
+		
+		/ rotating-stories
+		%script{:type => "text/javascript", :src => "js/basic-jquery-slider.js"}
+		%link{:href => "http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css", :rel => "stylesheet", :type => "text/css"}
+		%script{:src => "http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js", :type => "text/javascript"}
+		/ load css brush
+		%script{:src => "http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js", :type => "text/javascript"}
+		/ load xml,xhtml, xslt, html, xhtml brush
+		%script{:src => "http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js", :type => "text/javascript"}
+		/ load js, jscript, javascript brush
+		%script{:src => "http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js", :type => "text/javascript"}
+		%script{:src => "http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js", :type => "text/javascript"}
+
+	%body				
+		%ul.side-nav.side-nav-fixed.side-nav-fixed-tab
+			%li.logo
+				%a{:href => "#"}
+					%img{:src => "images/NKF-logo_Hori_W.png"}
+			%li 
+				%a{:href => "modules_bloglist.html"}Blog List
+			%li
+				%a{:href => "modules_calendar.html"} Calendar
+			%li
+				%a{:href => "modules_calltoaction.html"} Call to Action
+			%li
+				%a{:href => "modules_carousel.html"} Carousel
+			%li
+				%a{:href => "modules_excerpt.html"} Excerpt
+			%li
+				%a{:href => "modules_icons.html"} Icons
+			%li
+				%a{:href => "modules_localevents.html"} Local Events
+			%li
+				%a{:href => "modules_logo.html"} Logo
+			%li
+				%a{:href => "modules_newsletters.html"} Newsletters
+			%li
+				%a{:href => "modules_pagination.html"} Pagination
+			%li
+				%a{:href => "modules_primarynav.html"} Primary Nav
+			%li.active Rotating Stories
+			%li
+				%a{:href => "modules_searchbox.html"} Searchbox
+			%li
+				%a{:href => "modules_sidenav.html"} Side Nav
+			%li
+				%a{:href => "modules_socialconnect.html"} Social Connect
+			%li
+				%a{:href => "modules_subnav.html"} Sub Nav
+			%li
+				%a{:href => "modules_tabs.html"} Tabs
+			%li
+				%a{:href => "modules_titles.html"} Titles
+			%li
+				%a{:href => "modules_topnews.html"} Top News
+			
+
+		#main.main-topbar-fixed.main-side-nav-fixed-tabs
+			.container
+				.title.title-middle
+					%h1 Modules
+				%nav.crumb
+					%ul
+						%li
+							%a{:href => "modules.html"} Modules
+						%li.active Rotating Stories
+
+				.title.title-top
+					%h2 Rotating Stories
+					.rotating-stories
+						%ul.slidey
+							%a{:href => "http://www.kidney.org/news/monthly/phosphorus.cfm?homestatic=PhosphorusInfographic?homeslider=Phosphorus"}
+								%img{:src => "http://www.kidney.org/images/carousel/november2013/bread.jpg", :width => "100%", :style => "height:auto;", :title => "Help Your Heart! Beware This 4-Letter Ingredient: &ldquo;PHOS&rdquo;", :alt => "Recent research shows that a diet high in phosphorus could damage the heart."}    
+
+							%a{:href => "http://www.kidney.org/patients/kidneykitchen/content/Pumpkin_Cream_Cheese_Muffins.cfm?homeslider=PumpkinCreamCheeseMuffins"}
+								%img{:src => "http://www.kidney.org/patients/kidneykitchen/images/Pumpkin-Muffins_660crop.jpg", :width => "100%", :style => "height:auto;", :title => "Pumpkin Cream Cheese Muffins", :alt => "A seasonal favorite from the Kidney Kitchen&ndash;enjoy for breakfast or as a tasty dessert!"}
+
+							%a{:href => "http://www.kidney.org/atoz/content/dietary_hemodialysis.cfm?homeslider=DietaryHemodialysis"}
+								%img{:src => "http://www.kidney.org/images/carousel/DietMythVictim.jpg", :width => "100%", :style => "height:auto;", :title => "Diet Tips for Adults Starting Dialysis", :alt => "A dialysis diet can be confusing so here are some basic tips to guide you when making food choices."}
+
+							%a{:href => "various fancybox.iframe", :href => "http://www.youtube.com/embed/VVciXSyPqdQ?hd=1&autoplay=1"} 
+								%img{:src => "http://www.kidney.org/videos/images/sc_Reed.jpg", :width => "100%", :style => "height:auto;", :title => "Real People, Real Stories: Reed Doughty", :alt => "NFL player Reed Doughty talks about the importance of organ donation"}
+					%script{:type => "text/javascript"}
+						$(document).ready(function() {$('.rotating-stories').slidey({'animation' : 'fade', 'animationDuration' : 450, 'rotationSpeed' : 10000, 'showMarkers' : true, 'showControls' : false, 'centerMarkers' : false, responsive : true }); });

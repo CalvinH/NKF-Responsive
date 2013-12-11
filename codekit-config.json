@@ -29,6 +29,31 @@
       "outputAbbreviatedPath" : "\/js\/bjqs-1.3-ck.js",
       "fileType" : 64
     },
+    "\/modules_subnav.haml" : {
+      "inputAbbreviatedPath" : "\/modules_subnav.haml",
+      "outputAbbreviatedPath" : "\/modules_subnav.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
+    "\/index-base.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index-base.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/images\/icons\/reddit-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -39,15 +64,6 @@
       "outputAbbreviatedPath" : "\/images\/icons\/reddit-256.png",
       "initialSize" : 4370,
       "fileType" : 8192
-    },
-    "\/index-base.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index-base.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/scss\/modules\/_bottom-bar.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -126,17 +142,6 @@
       "initialSize" : 2572,
       "fileType" : 8192
     },
-    "\/images\/grid\/wireframe-threecolumn-pms.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-pms.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-pms.jpg",
-      "initialSize" : 36049,
-      "fileType" : 4096
-    },
     "\/images\/icons\/exfm-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -147,6 +152,17 @@
       "outputAbbreviatedPath" : "\/images\/icons\/exfm-256.png",
       "initialSize" : 2658,
       "fileType" : 8192
+    },
+    "\/images\/grid\/wireframe-threecolumn-pms.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-pms.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-pms.jpg",
+      "initialSize" : 36049,
+      "fileType" : 4096
     },
     "\/images\/grid\/columns-fullwidth.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -191,6 +207,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/images\/grid\/wireframe-footer-1111.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-1111.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-1111.jpg",
+      "initialSize" : 32835,
+      "fileType" : 4096
+    },
     "\/two-deep.haml" : {
       "inputAbbreviatedPath" : "\/two-deep.haml",
       "outputAbbreviatedPath" : "\/two-deep.html",
@@ -207,16 +234,21 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/images\/grid\/wireframe-footer-1111.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/modules_calendar.haml" : {
+      "inputAbbreviatedPath" : "\/modules_calendar.haml",
+      "outputAbbreviatedPath" : "\/modules_calendar.html",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-1111.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-1111.jpg",
-      "initialSize" : 32835,
-      "fileType" : 4096
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/images\/icons\/steam-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -237,6 +269,43 @@
       "inputAbbreviatedPath" : "\/css\/wireframe.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/modules_socialconnect.haml" : {
+      "inputAbbreviatedPath" : "\/modules_socialconnect.haml",
+      "outputAbbreviatedPath" : "\/modules_socialconnect.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
+    "\/scss\/modules\/_syntaxhighlighter.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/modules\/_syntaxhighlighter.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_syntaxhighlighter.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/modules_searchbox.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_searchbox.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/forms.haml" : {
       "inputAbbreviatedPath" : "\/forms.haml",
@@ -277,6 +346,17 @@
       "initialSize" : 2335,
       "fileType" : 8192
     },
+    "\/images\/apple-touch-icon-72x72.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/apple-touch-icon-72x72.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/apple-touch-icon-72x72.png",
+      "initialSize" : 1446,
+      "fileType" : 8192
+    },
     "\/scss\/modules\/_footnotes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -288,17 +368,6 @@
       "outputAbbreviatedPath" : "\/css\/_footnotes.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/images\/apple-touch-icon-72x72.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/apple-touch-icon-72x72.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/apple-touch-icon-72x72.png",
-      "initialSize" : 1446,
-      "fileType" : 8192
     },
     "\/images\/grid\/wireframe-threecolumn-spm.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -406,18 +475,6 @@
       "initialSize" : 2006,
       "fileType" : 8192
     },
-    "\/scss\/modules\/_newsletters.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_newsletters.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_newsletters.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/images\/icons\/imdb-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -428,6 +485,18 @@
       "outputAbbreviatedPath" : "\/images\/icons\/imdb-256.png",
       "initialSize" : 2390,
       "fileType" : 8192
+    },
+    "\/scss\/modules\/_top-news.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/modules\/_top-news.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_top-news.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/grid\/wireframe-footer-13.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -440,15 +509,15 @@
       "initialSize" : 31473,
       "fileType" : 4096
     },
-    "\/scss\/modules\/_top-news.scss" : {
+    "\/scss\/modules\/_newsletters.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_top-news.scss",
+      "inputAbbreviatedPath" : "\/scss\/modules\/_newsletters.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_top-news.css",
+      "outputAbbreviatedPath" : "\/css\/_newsletters.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -474,15 +543,35 @@
       "initialSize" : 2702,
       "fileType" : 8192
     },
-    "\/images\/icons\/treehouse-256.png" : {
+    "\/modules_carousel.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_carousel.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/icons\/vine-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/treehouse-256.png",
+      "inputAbbreviatedPath" : "\/images\/icons\/vine-256.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/treehouse-256.png",
-      "initialSize" : 3330,
+      "outputAbbreviatedPath" : "\/images\/icons\/vine-256.png",
+      "initialSize" : 3284,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/grooveshark-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/grooveshark-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/grooveshark-256.png",
+      "initialSize" : 3465,
       "fileType" : 8192
     },
     "\/modules.html" : {
@@ -505,26 +594,15 @@
       "initialSize" : 2873,
       "fileType" : 8192
     },
-    "\/images\/grid\/wireframe-twocolumn-ms.jpg" : {
+    "\/images\/icons\/treehouse-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-twocolumn-ms.jpg",
+      "inputAbbreviatedPath" : "\/images\/icons\/treehouse-256.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-twocolumn-ms.jpg",
-      "initialSize" : 33935,
-      "fileType" : 4096
-    },
-    "\/images\/icons\/vine-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/vine-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/vine-256.png",
-      "initialSize" : 3284,
+      "outputAbbreviatedPath" : "\/images\/icons\/treehouse-256.png",
+      "initialSize" : 3330,
       "fileType" : 8192
     },
     "\/css\/nkf-cars.css" : {
@@ -536,16 +614,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/images\/icons\/grooveshark-256.png" : {
+    "\/images\/grid\/wireframe-twocolumn-ms.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/grooveshark-256.png",
+      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-twocolumn-ms.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/grooveshark-256.png",
-      "initialSize" : 3465,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-twocolumn-ms.jpg",
+      "initialSize" : 33935,
+      "fileType" : 4096
     },
     "\/images\/icons\/pingup-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -568,6 +646,15 @@
       "outputAbbreviatedPath" : "\/images\/icons\/bootstrap-256.png",
       "initialSize" : 2241,
       "fileType" : 8192
+    },
+    "\/modules_logo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_logo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/yelp-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -733,6 +820,15 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
+    "\/modules_newsletters.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_newsletters.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/modules\/_top-bar.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -744,6 +840,22 @@
       "outputAbbreviatedPath" : "\/css\/_top-bar.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/modules_pagination.haml" : {
+      "inputAbbreviatedPath" : "\/modules_pagination.haml",
+      "outputAbbreviatedPath" : "\/modules_pagination.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/images\/icons\/flickr-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -818,17 +930,32 @@
       "initialSize" : 3017,
       "fileType" : 8192
     },
-    "\/scss\/modules\/_resource-guide.scss" : {
+    "\/images\/icons\/formspring-256.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_resource-guide.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_resource-guide.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/images\/icons\/formspring-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/formspring-256.png",
+      "initialSize" : 4674,
+      "fileType" : 8192
+    },
+    "\/modules_bloglist.haml" : {
+      "inputAbbreviatedPath" : "\/modules_bloglist.haml",
+      "outputAbbreviatedPath" : "\/modules_bloglist.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/images\/grid\/wireframe-threecolumn-msp.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -840,17 +967,6 @@
       "outputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-msp.jpg",
       "initialSize" : 37178,
       "fileType" : 4096
-    },
-    "\/images\/icons\/formspring-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/formspring-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/formspring-256.png",
-      "initialSize" : 4674,
-      "fileType" : 8192
     },
     "\/images\/icons\/trakt-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -874,6 +990,22 @@
       "initialSize" : 2947,
       "fileType" : 8192
     },
+    "\/modules_calltoaction.haml" : {
+      "inputAbbreviatedPath" : "\/modules_calltoaction.haml",
+      "outputAbbreviatedPath" : "\/modules_calltoaction.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
     "\/scss\/modules\/_icon.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -885,6 +1017,15 @@
       "outputAbbreviatedPath" : "\/css\/_icon.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/css\/nkf-patientapp.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/nkf-patientapp.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/index.haml" : {
       "inputAbbreviatedPath" : "\/index.haml",
@@ -902,17 +1043,6 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/images\/icons\/rss-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/rss-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/rss-256.png",
-      "initialSize" : 3396,
-      "fileType" : 8192
-    },
     "\/images\/icons\/skydrive-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -924,14 +1054,16 @@
       "initialSize" : 2694,
       "fileType" : 8192
     },
-    "\/css\/nkf-patientapp.css" : {
+    "\/images\/icons\/rss-256.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/nkf-patientapp.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/images\/icons\/rss-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/rss-256.png",
+      "initialSize" : 3396,
+      "fileType" : 8192
     },
     "\/scss\/states\/state.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -986,6 +1118,15 @@
       "outputAbbreviatedPath" : "\/images\/icons\/coderwall-256.png",
       "initialSize" : 3008,
       "fileType" : 8192
+    },
+    "\/modules_calendar.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_calendar.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/scss\/themes\/nkf-videos.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1071,6 +1212,31 @@
       "initialSize" : 1561,
       "fileType" : 8192
     },
+    "\/modules_rotatingstories.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_rotatingstories.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/modules_excerpt.haml" : {
+      "inputAbbreviatedPath" : "\/modules_excerpt.haml",
+      "outputAbbreviatedPath" : "\/modules_excerpt.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
     "\/images\/icons\/slideshare-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1082,18 +1248,6 @@
       "initialSize" : 3261,
       "fileType" : 8192
     },
-    "\/scss\/modules\/_donate-button.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_donate-button.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_donate-button.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/images\/icons\/googleplus-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1104,6 +1258,22 @@
       "outputAbbreviatedPath" : "\/images\/icons\/googleplus-256.png",
       "initialSize" : 3156,
       "fileType" : 8192
+    },
+    "\/modules_searchbox.haml" : {
+      "inputAbbreviatedPath" : "\/modules_searchbox.haml",
+      "outputAbbreviatedPath" : "\/modules_searchbox.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/index-base.haml" : {
       "inputAbbreviatedPath" : "\/index-base.haml",
@@ -1120,6 +1290,24 @@
       "hidden" : 0,
       "fileType" : 256,
       "outputStyle" : 0
+    },
+    "\/modules_excerpt.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_excerpt.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/modules_titles.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_titles.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/letterboxd-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1143,23 +1331,12 @@
       "initialSize" : 2827,
       "fileType" : 8192
     },
-    "\/images\/icons\/html5-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/html5-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/html5-256.png",
-      "initialSize" : 3129,
-      "fileType" : 8192
-    },
-    "\/three-deep-wContent.html" : {
+    "\/modules_localevents.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/three-deep-wContent.html",
+      "inputAbbreviatedPath" : "\/modules_localevents.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1174,6 +1351,26 @@
       "initialSize" : 3599,
       "fileType" : 8192
     },
+    "\/three-deep-wContent.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/three-deep-wContent.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/icons\/html5-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/html5-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/html5-256.png",
+      "initialSize" : 3129,
+      "fileType" : 8192
+    },
     "\/images\/favicon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1183,6 +1380,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/favicon.png",
       "initialSize" : 1268,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/bitbucket-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/bitbucket-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/bitbucket-256.png",
+      "initialSize" : 3663,
       "fileType" : 8192
     },
     "\/images\/btn_marker.png" : {
@@ -1196,16 +1404,16 @@
       "initialSize" : 1758,
       "fileType" : 8192
     },
-    "\/images\/icons\/bitbucket-256.png" : {
+    "\/images\/grid\/float-column.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/bitbucket-256.png",
+      "inputAbbreviatedPath" : "\/images\/grid\/float-column.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/bitbucket-256.png",
-      "initialSize" : 3663,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/grid\/float-column.jpg",
+      "initialSize" : 36010,
+      "fileType" : 4096
     },
     "\/images\/icons\/superuser-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1229,17 +1437,6 @@
       "initialSize" : 435,
       "fileType" : 8192
     },
-    "\/images\/icons\/myspace-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/myspace-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/myspace-256.png",
-      "initialSize" : 2946,
-      "fileType" : 8192
-    },
     "\/images\/banner03.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1251,6 +1448,17 @@
       "initialSize" : 63184,
       "fileType" : 4096
     },
+    "\/images\/icons\/myspace-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/myspace-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/myspace-256.png",
+      "initialSize" : 2946,
+      "fileType" : 8192
+    },
     "\/images\/NKF-logo_Hori_OB.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1260,17 +1468,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/NKF-logo_Hori_OB.png",
       "initialSize" : 7794,
-      "fileType" : 8192
-    },
-    "\/images\/icons\/whatsapp-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/whatsapp-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/whatsapp-256.png",
-      "initialSize" : 4181,
       "fileType" : 8192
     },
     "\/images\/icons\/codepen-256.png" : {
@@ -1284,27 +1481,16 @@
       "initialSize" : 3054,
       "fileType" : 8192
     },
-    "\/images\/icons\/newsvine-256.png" : {
+    "\/images\/icons\/whatsapp-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/newsvine-256.png",
+      "inputAbbreviatedPath" : "\/images\/icons\/whatsapp-256.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/newsvine-256.png",
-      "initialSize" : 3219,
+      "outputAbbreviatedPath" : "\/images\/icons\/whatsapp-256.png",
+      "initialSize" : 4181,
       "fileType" : 8192
-    },
-    "\/images\/banner02.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/banner02.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/banner02.jpg",
-      "initialSize" : 41984,
-      "fileType" : 4096
     },
     "\/scss\/modules\/_dropdown.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1318,16 +1504,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/icons\/ted-256.png" : {
+    "\/images\/banner02.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/ted-256.png",
+      "inputAbbreviatedPath" : "\/images\/banner02.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/ted-256.png",
-      "initialSize" : 1383,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/banner02.jpg",
+      "initialSize" : 41984,
+      "fileType" : 4096
     },
     "\/three-columns.haml" : {
       "inputAbbreviatedPath" : "\/three-columns.haml",
@@ -1344,6 +1530,26 @@
       "hidden" : 0,
       "fileType" : 256,
       "outputStyle" : 0
+    },
+    "\/images\/icons\/ted-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/ted-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/ted-256.png",
+      "initialSize" : 1383,
+      "fileType" : 8192
+    },
+    "\/modules_subnav.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_subnav.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/scss\/modules\/_tabs.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1507,6 +1713,17 @@
       "initialSize" : 3530,
       "fileType" : 8192
     },
+    "\/images\/icons\/newsvine-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/newsvine-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/newsvine-256.png",
+      "initialSize" : 3219,
+      "fileType" : 8192
+    },
     "\/scss\/base\/_buttons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1574,17 +1791,6 @@
       "initialSize" : 2452,
       "fileType" : 8192
     },
-    "\/images\/icons\/visualstudio-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/visualstudio-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/visualstudio-256.png",
-      "initialSize" : 2394,
-      "fileType" : 8192
-    },
     "\/images\/icons\/gravatar-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1594,6 +1800,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/icons\/gravatar-256.png",
       "initialSize" : 3297,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/visualstudio-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/visualstudio-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/visualstudio-256.png",
+      "initialSize" : 2394,
       "fileType" : 8192
     },
     "\/images\/NKF-logo_Hori_W.png" : {
@@ -1758,17 +1975,6 @@
       "initialSize" : 2705,
       "fileType" : 8192
     },
-    "\/images\/grid\/wireframe-footer-121.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-121.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-121.jpg",
-      "initialSize" : 33790,
-      "fileType" : 4096
-    },
     "\/scss\/modules\/_carousel.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1780,6 +1986,15 @@
       "outputAbbreviatedPath" : "\/css\/_carousel.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/modules_bloglist.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_bloglist.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/scss\/layout\/_header.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1805,6 +2020,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/images\/grid\/wireframe-footer-121.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-121.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-footer-121.jpg",
+      "initialSize" : 33790,
+      "fileType" : 4096
+    },
     "\/scss\/themes\/wireframe.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1816,6 +2042,15 @@
       "outputAbbreviatedPath" : "\/css\/wireframe.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/modules_calltoaction.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_calltoaction.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/liberaldemocrats-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1872,6 +2107,15 @@
       "outputAbbreviatedPath" : "\/images\/icons\/rails-256.png",
       "initialSize" : 3414,
       "fileType" : 8192
+    },
+    "\/modules_icons.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_icons.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/dribbble-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1966,17 +2210,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/icons\/yahoo-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/yahoo-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/yahoo-256.png",
-      "initialSize" : 2559,
-      "fileType" : 8192
-    },
     "\/images\/icons\/tumblr-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1986,6 +2219,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/icons\/tumblr-256.png",
       "initialSize" : 1683,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/yahoo-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/yahoo-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/yahoo-256.png",
+      "initialSize" : 2559,
       "fileType" : 8192
     },
     "\/scss\/modules\/_featured-story.scss" : {
@@ -2000,17 +2244,30 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/layout\/_billboard.scss" : {
+    "\/modules_topnews.haml" : {
+      "inputAbbreviatedPath" : "\/modules_topnews.haml",
+      "outputAbbreviatedPath" : "\/modules_topnews.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
+    "\/modules_primarynav.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/layout\/_billboard.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_billboard.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/modules_primarynav.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/base\/_base.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2036,6 +2293,18 @@
       "hidden" : 0,
       "fileType" : 256,
       "outputStyle" : 0
+    },
+    "\/scss\/layout\/_billboard.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/layout\/_billboard.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_billboard.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/icons\/eventstore-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2102,6 +2371,15 @@
       "hidden" : 0,
       "fileType" : 256,
       "outputStyle" : 0
+    },
+    "\/modules_topnews.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_topnews.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/ebay-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2180,28 +2458,6 @@
       "initialSize" : 2685,
       "fileType" : 8192
     },
-    "\/images\/icons\/appdotnet-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/appdotnet-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/appdotnet-256.png",
-      "initialSize" : 3376,
-      "fileType" : 8192
-    },
-    "\/images\/icons\/kik-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/kik-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/kik-256.png",
-      "initialSize" : 2470,
-      "fileType" : 8192
-    },
     "\/images\/icons\/jqueryui-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2211,6 +2467,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/icons\/jqueryui-256.png",
       "initialSize" : 2807,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/appdotnet-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/appdotnet-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/appdotnet-256.png",
+      "initialSize" : 3376,
       "fileType" : 8192
     },
     "\/footer.haml" : {
@@ -2229,16 +2496,21 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/images\/icons\/rdio-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/modules_tabs.haml" : {
+      "inputAbbreviatedPath" : "\/modules_tabs.haml",
+      "outputAbbreviatedPath" : "\/modules_tabs.html",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/rdio-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/rdio-256.png",
-      "initialSize" : 2773,
-      "fileType" : 8192
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/js\/bjqs-1.3.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2251,6 +2523,17 @@
       "outputAbbreviatedPath" : "\/js\/bjqs-1.3.min-ck.js",
       "fileType" : 64
     },
+    "\/images\/icons\/kik-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/kik-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/kik-256.png",
+      "initialSize" : 2470,
+      "fileType" : 8192
+    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2259,17 +2542,6 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/images\/icons\/govuk-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/govuk-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/govuk-256.png",
-      "initialSize" : 4712,
-      "fileType" : 8192
     },
     "\/images\/icons\/zerply-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2280,6 +2552,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/icons\/zerply-256.png",
       "initialSize" : 2568,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/govuk-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/govuk-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/govuk-256.png",
+      "initialSize" : 4712,
       "fileType" : 8192
     },
     "\/scss\/layout\/layout.scss" : {
@@ -2293,6 +2576,17 @@
       "outputAbbreviatedPath" : "\/css\/layout.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/icons\/rdio-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/rdio-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/rdio-256.png",
+      "initialSize" : 2773,
+      "fileType" : 8192
     },
     "\/images\/icons\/modernizr-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2353,17 +2647,6 @@
       "initialSize" : 2266,
       "fileType" : 8192
     },
-    "\/images\/icons\/youtube-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/youtube-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/youtube-256.png",
-      "initialSize" : 3895,
-      "fileType" : 8192
-    },
     "\/images\/grid\/wireframe-twocolumn-sm.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2375,15 +2658,31 @@
       "initialSize" : 34720,
       "fileType" : 4096
     },
-    "\/images\/icons\/twitter-256.png" : {
+    "\/modules_sidenav.haml" : {
+      "inputAbbreviatedPath" : "\/modules_sidenav.haml",
+      "outputAbbreviatedPath" : "\/modules_sidenav.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
+    "\/images\/icons\/youtube-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/twitter-256.png",
+      "inputAbbreviatedPath" : "\/images\/icons\/youtube-256.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/twitter-256.png",
-      "initialSize" : 2771,
+      "outputAbbreviatedPath" : "\/images\/icons\/youtube-256.png",
+      "initialSize" : 3895,
       "fileType" : 8192
     },
     "\/scss\/modules\/_search-box.scss" : {
@@ -2398,6 +2697,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/images\/grid\/wireframe-threecolumn-smp.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-smp.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-smp.jpg",
+      "initialSize" : 37384,
+      "fileType" : 4096
+    },
     "\/images\/grid\/columns-two.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2409,16 +2719,16 @@
       "initialSize" : 17394,
       "fileType" : 4096
     },
-    "\/images\/grid\/wireframe-threecolumn-smp.jpg" : {
+    "\/images\/icons\/twitter-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-smp.jpg",
+      "inputAbbreviatedPath" : "\/images\/icons\/twitter-256.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-smp.jpg",
-      "initialSize" : 37384,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/images\/icons\/twitter-256.png",
+      "initialSize" : 2771,
+      "fileType" : 8192
     },
     "\/tables.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2451,15 +2761,15 @@
       "initialSize" : 2240,
       "fileType" : 8192
     },
-    "\/images\/icons\/mediatemple-256.png" : {
+    "\/images\/icons\/conservatives-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/mediatemple-256.png",
+      "inputAbbreviatedPath" : "\/images\/icons\/conservatives-256.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/mediatemple-256.png",
-      "initialSize" : 2615,
+      "outputAbbreviatedPath" : "\/images\/icons\/conservatives-256.png",
+      "initialSize" : 7694,
       "fileType" : 8192
     },
     "\/home.html" : {
@@ -2483,15 +2793,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/icons\/conservatives-256.png" : {
+    "\/images\/icons\/mediatemple-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/conservatives-256.png",
+      "inputAbbreviatedPath" : "\/images\/icons\/mediatemple-256.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/conservatives-256.png",
-      "initialSize" : 7694,
+      "outputAbbreviatedPath" : "\/images\/icons\/mediatemple-256.png",
+      "initialSize" : 2615,
       "fileType" : 8192
     },
     "\/color.haml" : {
@@ -2532,6 +2842,17 @@
       "initialSize" : 3314,
       "fileType" : 8192
     },
+    "\/images\/grid-mobile.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/grid-mobile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/grid-mobile.png",
+      "initialSize" : 464,
+      "fileType" : 8192
+    },
     "\/images\/icons\/pocket-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2543,16 +2864,30 @@
       "initialSize" : 2687,
       "fileType" : 8192
     },
-    "\/images\/grid-mobile.png" : {
-      "ignoreWasSetByUser" : 0,
+    "\/modules_newsletters.haml" : {
+      "inputAbbreviatedPath" : "\/modules_newsletters.haml",
+      "outputAbbreviatedPath" : "\/modules_newsletters.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
       "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
+    "\/modules_sidenav.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/grid-mobile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/grid-mobile.png",
-      "initialSize" : 464,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/modules_sidenav.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/android-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2784,6 +3119,15 @@
       "initialSize" : 2876,
       "fileType" : 8192
     },
+    "\/modules_socialconnect.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/modules_socialconnect.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/themes\/nkf-patientapp.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2905,6 +3249,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/columns.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/columns.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/images\/icons\/behance-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2927,15 +3280,6 @@
       "outputAbbreviatedPath" : "\/css\/_rotating-stories.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/columns.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/columns.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/js\/shiv.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2981,6 +3325,17 @@
       "initialSize" : 1648,
       "fileType" : 8192
     },
+    "\/images\/grid\/wireframe-threecolumn-mps.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-mps.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-mps.jpg",
+      "initialSize" : 36648,
+      "fileType" : 4096
+    },
     "\/images\/icons\/squarespace-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3014,16 +3369,14 @@
       "initialSize" : 2739,
       "fileType" : 8192
     },
-    "\/images\/grid\/wireframe-threecolumn-mps.jpg" : {
+    "\/modules_tabs.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-mps.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/grid\/wireframe-threecolumn-mps.jpg",
-      "initialSize" : 36648,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/modules_tabs.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/pinterest-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3109,6 +3462,17 @@
       "initialSize" : 3667,
       "fileType" : 8192
     },
+    "\/images\/grid\/tab-column.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/grid\/tab-column.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/grid\/tab-column.jpg",
+      "initialSize" : 37123,
+      "fileType" : 4096
+    },
     "\/images\/icons\/bitly-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3142,6 +3506,22 @@
       "outputAbbreviatedPath" : "\/images\/btn_controls.png",
       "initialSize" : 728,
       "fileType" : 8192
+    },
+    "\/modules_localevents.haml" : {
+      "inputAbbreviatedPath" : "\/modules_localevents.haml",
+      "outputAbbreviatedPath" : "\/modules_localevents.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/three-deep-wContent.haml" : {
       "inputAbbreviatedPath" : "\/three-deep-wContent.haml",
@@ -3196,6 +3576,22 @@
       "outputAbbreviatedPath" : "\/images\/icons\/jsdb-256.png",
       "initialSize" : 3600,
       "fileType" : 8192
+    },
+    "\/modules_carousel.haml" : {
+      "inputAbbreviatedPath" : "\/modules_carousel.haml",
+      "outputAbbreviatedPath" : "\/modules_carousel.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/images\/icons\/amazon-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3253,17 +3649,14 @@
       "initialSize" : 3568,
       "fileType" : 8192
     },
-    "\/scss\/layout\/_main.scss" : {
+    "\/modules_pagination.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/layout\/_main.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/modules_pagination.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/office-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3275,6 +3668,18 @@
       "outputAbbreviatedPath" : "\/images\/icons\/office-256.png",
       "initialSize" : 2172,
       "fileType" : 8192
+    },
+    "\/scss\/layout\/_main.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/layout\/_main.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_main.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/grid\/wireframe-threecolumn-psm.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3309,6 +3714,22 @@
       "outputAbbreviatedPath" : "\/images\/icons\/codecademy-256.png",
       "initialSize" : 2775,
       "fileType" : 8192
+    },
+    "\/modules_rotatingstories.haml" : {
+      "inputAbbreviatedPath" : "\/modules_rotatingstories.haml",
+      "outputAbbreviatedPath" : "\/modules_rotatingstories.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/images\/icons\/angellist-256.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3373,18 +3794,6 @@
       "initialSize" : 2083,
       "fileType" : 8192
     },
-    "\/scss\/modules\/_icon-social.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/modules\/_icon-social.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_icon-social.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/js\/bjqs-1.3-responsive-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3396,28 +3805,6 @@
       "outputAbbreviatedPath" : "\/js\/bjqs-1.3-responsive-ck-ck.js",
       "fileType" : 64
     },
-    "\/js\/default-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/default-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/default-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/images\/icons\/windows-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/windows-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/windows-256.png",
-      "initialSize" : 1851,
-      "fileType" : 8192
-    },
     "\/images\/NKF-logo_Vert_OB.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3427,17 +3814,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/NKF-logo_Vert_OB.png",
       "initialSize" : 10604,
-      "fileType" : 8192
-    },
-    "\/images\/icons\/alistapart-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/alistapart-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/alistapart-256.png",
-      "initialSize" : 6753,
       "fileType" : 8192
     },
     "\/images\/icons\/quora-256.png" : {
@@ -3451,6 +3827,55 @@
       "initialSize" : 3178,
       "fileType" : 8192
     },
+    "\/images\/icons\/windows-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/windows-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/windows-256.png",
+      "initialSize" : 1851,
+      "fileType" : 8192
+    },
+    "\/js\/default-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/default-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/default-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/images\/icons\/alistapart-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/alistapart-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/alistapart-256.png",
+      "initialSize" : 6753,
+      "fileType" : 8192
+    },
+    "\/modules_primarynav.haml" : {
+      "inputAbbreviatedPath" : "\/modules_primarynav.haml",
+      "outputAbbreviatedPath" : "\/modules_primarynav.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
     "\/images\/icons\/google-256.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3461,6 +3886,34 @@
       "outputAbbreviatedPath" : "\/images\/icons\/google-256.png",
       "initialSize" : 3293,
       "fileType" : 8192
+    },
+    "\/scss\/modules\/_icon-social.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/modules\/_icon-social.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_icon-social.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/modules_icons.haml" : {
+      "inputAbbreviatedPath" : "\/modules_icons.haml",
+      "outputAbbreviatedPath" : "\/modules_icons.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/grid.html" : {
       "ignoreWasSetByUser" : 0,
@@ -3497,6 +3950,22 @@
       "outputAbbreviatedPath" : "\/images\/icons\/kickstarter-256.png",
       "initialSize" : 2730,
       "fileType" : 8192
+    },
+    "\/modules_titles.haml" : {
+      "inputAbbreviatedPath" : "\/modules_titles.haml",
+      "outputAbbreviatedPath" : "\/modules_titles.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/scss\/utilities\/_nkf-color-palette.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -3540,6 +4009,22 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/basic-jquery-slider-ck.js",
       "fileType" : 64
+    },
+    "\/modules_logo.haml" : {
+      "inputAbbreviatedPath" : "\/modules_logo.haml",
+      "outputAbbreviatedPath" : "\/modules_logo.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/sidebar-tabs.html" : {
       "ignoreWasSetByUser" : 0,

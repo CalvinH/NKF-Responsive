@@ -20,10 +20,12 @@
 	.side-nav-fixed-float{width:300px; float:left; margin:0 20px;
 		&.side-nav-top-bar{margin-top: 60px;}
 	}
-	.side-nav-fixed-tab{position:fixed; top:0; bottom:0;width:320px; padding:20px 0; margin-right:20px; background:$primary-color; border:none;
+	.side-nav-fixed-tab{position:fixed; top:0; bottom:0;width:320px; padding:20px 0; margin-right:20px; background:$primary-color; border:none; overflow:auto;
 		li {
 			&.active{color:$primary-color; text-align:right; background:$white-color;}
-			a {color:$white-color; padding:0 20px;}
+			a {color:$white-color; padding:0 20px;
+				&:hover {color:$primary-color-darker;}
+			}
 		}
 		&.side-nav-top-bar{padding-top: 60px;}
 	}

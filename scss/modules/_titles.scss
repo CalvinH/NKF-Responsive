@@ -1,26 +1,33 @@
-/* Titles */
+/**
+* Modules - Titles 
+*
+* Post and Page titles.
+*/
 .title {clear:both;}
 	.title-top {border-top:1px solid #ccc; padding-top:10px; margin-top:20px;
 		h1 {
-			.small{}
+			.small{font-size:80%;}
 		}
 		h2 	{
-			.small{}
+			.small{font-size:80%;}
 		}
 	}
 	.title-middle { position:relative;border-top:1px solid #ccc; margin-top:20px; margin-bottom:55px;
-		h1 { position:relative; top:-25px; float:left; max-width:80%; background:#fff; padding-right:10px;
-			.small{}
+		h1 { position:relative; top:-25px; float:left; max-width:80%; background:$white-color; padding-right:10px;
+			.small{font-size:80%;}
 		}
-		h2 { position:relative; top:-20px; float:left; max-width:80%; background:#fff; padding-right:10px;
+		h2 { position:relative; top:-20px; float:left; max-width:80%; background:$white-color; padding-right:10px;
+			.small {font-size:80%;}
 		}
+
+		.main-side-nav-fixed-tabs & {margin-top:35px;}
 	}
 	.title-bottom { border-bottom:1px solid #ccc; margin-bottom:10px;
 		h1 {
-			.small{}
+			.small{font-size:80%;}
 		}
 		h2 {
-			.small{}
+			.small{font-size:80%;}
 		}
 	}
 	.title-module {
@@ -32,3 +39,25 @@
 	position:relative;
 		img {float:left; margin-left:2px; margin-top:-15px; margin-bottom:10px;}
 	}
+/* TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+	.title-middle {
+		h1 { max-width:50%;
+			.small{}
+		}
+		h2 { max-width:50%;
+			.small {font-size:80%;}
+		}
+	}
+}
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+	.title-middle {
+		h1 { max-width:85%;
+			.small{}
+		}
+		h2 { max-width:100%;
+			.small {font-size:80%;}
+		}
+	}
+}

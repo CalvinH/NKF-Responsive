@@ -76,6 +76,45 @@
 								%a{:href => "buttons.html"} Buttons
 							%li.menu-item
 								%a{:href => "modules.html", :class => "current"}Modules
+								%ul
+									%li 
+										%a{:href => "modules_bloglist.html"}Blog List
+									%li
+										%a{:href => "modules_calendar.html"} Calendar
+									%li
+										%a{:href => "modules_calltoaction.html"} Call to Action
+									%li
+										%a{:href => "modules_carousel.html"} Carousel
+									%li
+										%a{:href => "modules_excerpt.html"} Excerpt
+									%li
+										%a{:href => "modules_icons.html"} Icons
+									%li
+										%a{:href => "modules_localevents.html"} Local Events
+									%li
+										%a{:href => "modules_logo.html"} Logo
+									%li
+										%a{:href => "modules_newsletters.html"} Newsletters
+									%li
+										%a{:href => "modules_pagination.html"} Pagination
+									%li
+										%a{:href => "modules_primarynav.html"} Primary Nav
+									%li
+										%a{:href => "modules_rotatingstories.html"} Rotating Stories
+									%li
+										%a{:href => "modules_searchbox.html"} Searchbox
+									%li
+										%a{:href => "modules_sidenav.html"} Side Nav
+									%li
+										%a{:href => "modules_socialconnect.html"} Social Connect
+									%li
+										%a{:href => "modules_subnav.html"} Sub Nav
+									%li
+										%a{:href => "modules_tabs.html"} Tabs
+									%li
+										%a{:href => "modules_titles.html"} Titles
+									%li
+										%a{:href => "modules_topnews.html"} Top News
 		%a{:id => "full"}
 		#billboard
 			.container
@@ -201,8 +240,6 @@
 						Only
 						.number 2%
 						were previously aware of their diagnosis
-				.title.title-top
-					%h2 Donate Button
 				.title.title-top
 					%h2 Excerpt
 					%h3 default
@@ -711,8 +748,6 @@
 					.logo
 						%img{:src => "images/NKF-logo_Hori_OB.png"}
 				.title.title-top
-					%h2 News Alerts
-				.title.title-top
 					%h2 Newsletters
 					.newsletters.clear
 						%h4.title.title-module
@@ -1016,8 +1051,6 @@
 												%a{:class => "various fancybox.iframe", :href => "http://www.youtube.com/embed/KZkL71rYz_M?autoplay=1"} 
 													Watch the Video
 				.title.title-top
-					%h2 Resource Guide
-				.title.title-top
 					%h2 Rotating Stories
 					.rotating-stories
 						%ul.slidey
@@ -1040,8 +1073,6 @@
 						%form.zip{:name => "Search", :action => "/about/local_info.cfm?search=zip", :method => "POST"}
 							%input{:type => "Text", :name => "search", :size => "10", :maxlength => "5", :value => "", :style => "font-size: 0.9em;", :onfocus => "clearIt(this)"}
 							%input{:name => "Search", :type => "submit", :id => "search-btn", :value => "Search", :title => "Search"}
-				.title.title-top
-					%h2 Share Box
 				.title.title-top
 					%h2 Side Nav
 					%ul.side-nav.sidenav-fixed
@@ -1153,8 +1184,26 @@
 								Twelve
 				.title.title-top
 					%h2 Titles
-				.title.title-top
-					%h2 Top Bar
+
+					.title.title-top 
+						%h1 H1 Title Top
+					.title.title-top 
+						%h2 H2 Title Top
+					%p &nbsp;
+					%p &nbsp;
+					.title.title-bottom 
+						%h1 H1 Title Bottom
+					.title.title-bottom 
+						%h2 H2 Title Bottom
+					%p &nbsp;
+					%p &nbsp;
+					.title.title-middle 
+						%h1 H1 Title Middle
+					.title.title-middle 
+						%h2 H2 Title Middle
+					%p &nbsp;
+					%p &nbsp;
+
 				.title.title-top
 					%h2 Top News
 					.top-news

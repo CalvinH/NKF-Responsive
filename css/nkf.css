@@ -2031,7 +2031,8 @@ a:hover .sublist {
   padding: 20px 0;
   margin-right: 20px;
   background: #f15e22;
-  border: none; }
+  border: none;
+  overflow: auto; }
   .side-nav-fixed-tab li.active {
     color: #f15e22;
     text-align: right;
@@ -2039,6 +2040,8 @@ a:hover .sublist {
   .side-nav-fixed-tab li a {
     color: white;
     padding: 0 20px; }
+    .side-nav-fixed-tab li a:hover {
+      color: #a3360a; }
   .side-nav-fixed-tab.side-nav-top-bar {
     padding-top: 60px; }
 
@@ -2102,7 +2105,7 @@ a:hover .sublist {
         text-decoration: none;
         color: white;
         padding: 13px 10px; }
-        .top-bar ul li a.current, .top-bar ul li a:hover, .top-bar ul li a.hover {
+        .top-bar ul li a.current, .top-bar ul li a:hover, > .top-bar ul li a:hover, .top-bar ul li a.hover {
           color: #f15e22;
           background: white;
           zoom: 1; }
@@ -2114,7 +2117,7 @@ a:hover .sublist {
           color: #f7a482; }
       .top-bar ul li:first-child {
         margin-left: 0; }
-      .top-bar ul li:hover, .top-bar ul li:hover a {
+      .top-bar ul li:hover, .top-bar ul li:hover a, .top-bar ul li:hover > a {
         color: #f15e22;
         background: white;
         zoom: 1; }
@@ -2305,8 +2308,10 @@ a:hover .sublist {
       text-decoration: none;
       width: 100%; }
       .dropdown ul.dropdown-menu li.menu-item a {
-        color: #f15e22;
-        padding: 5px 10px; }
+        color: #a3360a;
+        padding: 5px 10px;
+        line-height: 16px;
+        background: none; }
         .dropdown ul.dropdown-menu li.menu-item a:hover {
           background-color: #f15e22;
           color: #a3360a; }
@@ -2331,7 +2336,7 @@ a:hover .sublist {
       display: block;
       left: 100%;
       top: 0;
-      width: 150px;
+      width: auto;
       -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
       box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2); }
 .dropdown.dropdown-menu:hover {
@@ -2806,7 +2811,11 @@ ol.slidey-markers li.active-marker a {
 
   .slidey-markers {
     top: 200px; } }
-/* Titles */
+/**
+* Modules - Titles 
+*
+* Post and Page titles.
+*/
 .title {
   clear: both; }
 
@@ -2814,6 +2823,10 @@ ol.slidey-markers li.active-marker a {
   border-top: 1px solid #ccc;
   padding-top: 10px;
   margin-top: 20px; }
+  .title-top h1 .small {
+    font-size: 80%; }
+  .title-top h2 .small {
+    font-size: 80%; }
 
 .title-middle {
   position: relative;
@@ -2825,19 +2838,29 @@ ol.slidey-markers li.active-marker a {
     top: -25px;
     float: left;
     max-width: 80%;
-    background: #fff;
+    background: white;
     padding-right: 10px; }
+    .title-middle h1 .small {
+      font-size: 80%; }
   .title-middle h2 {
     position: relative;
     top: -20px;
     float: left;
     max-width: 80%;
-    background: #fff;
+    background: white;
     padding-right: 10px; }
+    .title-middle h2 .small {
+      font-size: 80%; }
+  .main-side-nav-fixed-tabs .title-middle {
+    margin-top: 35px; }
 
 .title-bottom {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px; }
+  .title-bottom h1 .small {
+    font-size: 80%; }
+  .title-bottom h2 .small {
+    font-size: 80%; }
 
 .title-module {
   text-align: right;
@@ -2852,6 +2875,22 @@ ol.slidey-markers li.active-marker a {
     margin-top: -15px;
     margin-bottom: 10px; }
 
+/* TABLET */
+@media only screen and (min-width: 740px) and (max-width: 1029px) {
+  .title-middle h1 {
+    max-width: 50%; }
+  .title-middle h2 {
+    max-width: 50%; }
+    .title-middle h2 .small {
+      font-size: 80%; } }
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .title-middle h1 {
+    max-width: 85%; }
+  .title-middle h2 {
+    max-width: 100%; }
+    .title-middle h2 .small {
+      font-size: 80%; } }
 .excerpt header h2 {
   color: #f15e22;
   border-top: #f15e22 1px solid;
@@ -2860,7 +2899,8 @@ ol.slidey-markers li.active-marker a {
   font-weight: lighter; }
   .excerpt header h2 .photo {
     width: 100%;
-    max-height: 137px;
+    /*max-height:137px;*/
+    height: auto;
     overflow: hidden; }
     .excerpt header h2 .photo img {
       width: 100%;
@@ -2897,7 +2937,6 @@ ol.slidey-markers li.active-marker a {
 
 /*TABLET */
 /* MOBILE */
-/* Footer */
 .cta-button {
   word-break: break-word;
   background: #f15e22;
@@ -2972,7 +3011,6 @@ ol.slidey-markers li.active-marker a {
 
 /* TABLET */
 /* MOBILE */
-/* Footer */
 .cta-card {
   font-weight: bold;
   word-break: break-word;
@@ -3010,6 +3048,28 @@ ol.slidey-markers li.active-marker a {
         color: #f15e22; }
       .footnotes ol li a:active {
         color: #f7a482; }
+
+.syntaxhighlighter table,
+.syntaxhighlighter table th,
+.syntaxhighlighter table td {
+  padding: 0;
+  border: none; }
+  .syntaxhighlighter table .container,
+  .syntaxhighlighter table th .container,
+  .syntaxhighlighter table td .container {
+    padding: 0; }
+.syntaxhighlighter .gutter {
+  width: 40px; }
+  .syntaxhighlighter .gutter .line {
+    text-align: right;
+    padding: 0 5px; }
+.syntaxhighlighter .code .line {
+  line-height: 16px;
+  padding: 0 10px; }
+  .syntaxhighlighter .code .line code {
+    border-radius: 0;
+    background: none;
+    padding: 0; }
 
 /* ==== Primary Sidebar ==== */
 .share-box {
@@ -3077,8 +3137,6 @@ ol.slidey-markers li.active-marker a {
     background: rgba(0, 0, 0, 0.05); }
 
 /* Calendar */
-/* Donate Button */
-/* Donate Button */
 /* Local Events */
 .local-events {
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -3126,8 +3184,6 @@ ol.slidey-markers li.active-marker a {
     margin: 0; }
 
 /* Newsletters */
-/* Resource Guide */
-/* Resource Guide */
 /* Social Connect */
 .social-connect {
   border: 1px solid rgba(0, 0, 0, 0.3);
