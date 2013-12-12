@@ -11,6 +11,17 @@
 		}
 	}
 }
+.tabs-bottom-line {
+		border:none; border-bottom: 1px solid rgba($black-color,0.2);
+		li {
+			&.current a {border:none; border-bottom:1px solid $black-color;
+				&:hover {background:none; color:$black-color;}
+			}
+			a{ border:0; 
+				&:hover {background:none;color:$black-color;border-bottom:1px solid rgba($black-color, 0.25);padding-bottom:5px;}
+			}
+		}
+	}
 
 /* TABLET */
 @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
@@ -24,6 +35,9 @@
 			}
 		}
 	}
+	.tabs-bottom-line {
+		li {border:none;}
+	}
 }
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {
@@ -36,5 +50,8 @@
 				&:hover{padding:0; margin:0; padding:10px;}
 			}
 		}
+	}
+	.tabs-bottom-line {
+		li {border:none; margin-right:0;}
 	}
 }

@@ -1235,7 +1235,7 @@ html {
   /* Opera 11.10+ */
   background: -ms-linear-gradient(top, whitesmoke 0%, white 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, whitesmoke 0%, white 100%);
+  background: linear, to bottom, whitesmoke 0%, white 100%;
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */ }
@@ -2453,6 +2453,23 @@ a:hover .sublist {
         padding-bottom: 4px;
         margin-top: 5px; }
 
+.tabs-bottom-line {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  .tabs-bottom-line li.current a {
+    border: none;
+    border-bottom: 1px solid black; }
+    .tabs-bottom-line li.current a:hover {
+      background: none;
+      color: black; }
+  .tabs-bottom-line li a {
+    border: 0; }
+    .tabs-bottom-line li a:hover {
+      background: none;
+      color: black;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+      padding-bottom: 5px; }
+
 /* TABLET */
 @media only screen and (min-width: 740px) and (max-width: 1029px) {
   .tabs {
@@ -2479,7 +2496,10 @@ a:hover .sublist {
         .tabs li a:hover {
           padding: 0;
           margin: 0;
-          padding: 10px; } }
+          padding: 10px; }
+
+  .tabs-bottom-line li {
+    border: none; } }
 /* MOBILE */
 @media only screen and (max-width: 739px) {
   .tabs {
@@ -2506,7 +2526,11 @@ a:hover .sublist {
         .tabs li a:hover {
           padding: 0;
           margin: 0;
-          padding: 10px; } }
+          padding: 10px; }
+
+  .tabs-bottom-line li {
+    border: none;
+    margin-right: 0; } }
 .carousel {
   margin-bottom: 60px;
   /* Basic jQuery Slider essential styles */ }
@@ -2832,7 +2856,7 @@ ol.slidey-markers li.active-marker a {
   position: relative;
   border-top: 1px solid #ccc;
   margin-top: 20px;
-  margin-bottom: 55px; }
+  margin-bottom: 56px; }
   .title-middle h1 {
     position: relative;
     top: -25px;
