@@ -1,7 +1,7 @@
 //icons - used to add an icon
 .excerpt {
 	header{
-		h2{ color:$primary-color; border-top:$primary-color 1px solid; padding-top:5px; text-transform:uppercase; font-weight:lighter;
+		h2{ color:$primary-color; border-top:$primary-color 1px solid; padding-top:5px; text-transform:uppercase; font-weight:lighter; font-size:1.25rem;
 			.photo { width:100%; /*max-height:137px;*/height:auto; overflow:hidden;
 				img{ width:100%; height:auto; border:none; padding:0; margin-right:0;}
 			}

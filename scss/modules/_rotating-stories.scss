@@ -15,8 +15,8 @@ ol.slidey-markers{list-style:none;margin:0;padding:0;z-index:500;
 }
 
 .slidey-caption{display:block;width:640px;margin:0;padding:10px; position:absolute;bottom:0; z-index:400; background:rgba(0, 0, 0, .8); color:#fff;
-	h2{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; padding:0; margin:0; width:540px;}
-	p{font-family:Verdana, Geneva, sans-serif; padding:0; margin:0; width:540px; word-break:normal;}
+	h2{font-weight:normal; padding:0; margin:0; width:540px;}
+	p{padding:0; margin:0; width:540px; word-break:normal;}
 }
 
 .slidey-caption {right:0; top:0; max-width:220px; width:auto; background-color:rgba(0, 0, 0, 0.796875); color: #FFFFFF; /*background-color:rgba(255, 255, 255, 0.896875) !important; color: #000000 !important;*/ 
@@ -34,8 +34,8 @@ ul.slidey{width:100%; max-width:660px;	height:350px;	margin:0 auto;	display:bloc
 
 ul.slidey .video-description{
 	padding: 0 10px;
-	h2{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; padding:0; margin:0;font-size:20px;}
-	p{font-family:Verdana, Geneva, sans-serif; padding:0; margin:0; margin-bottom:10px; line-height:1.5em;}
+	h2{font-weight:normal; padding:0; margin:0;font-size:20px;}
+	p{padding:0; margin:0; margin-bottom:10px; line-height:1.5em;}
 }
 ul.slidey .featured-post{
 	width:100%; max-width:660px; height:350px; background:url('../images/bg_feature_slide.png') no-repeat; 
@@ -51,7 +51,6 @@ ul.slidey .featured-post p.tag-line{
 	position:absolute;
 	left:20px;
 	bottom:12px;
-	font-family:'Droid Sans', sans-serif;
 	font-size:22px;
 }
 

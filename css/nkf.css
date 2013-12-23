@@ -1179,9 +1179,11 @@ html {
   margin-left: 320px;
   margin-bottom: 20px; }
 #main.main-side-nav-fixed-tabs {
-  float: left;
-  margin-left: 330px;
-  width: 64.627450980392%;
+  /*float:left;margin-left:330px; width:64.627450980392%;*/
+  float: right;
+  margin-left: 0;
+  padding-left: 355px;
+  width: 100%;
   margin-right: 20px;
   margin-bottom: 20px; }
   #main.main-side-nav-fixed-tabs .container {
@@ -1198,9 +1200,9 @@ html {
     #main.main-side-nav-fixed-float .container {
       width: 100%; }
   #main.main-side-nav-fixed-tabs {
-    float: left;
-    margin-left: 210px;
-    width: 66.777777777778%;
+    /*float:left; margin-left:210px; width:66.777777777778%;padding-left:0;*/
+    float: right;
+    padding-left: 235px;
     margin-right: 20px;
     margin-bottom: 20px; }
     #main.main-side-nav-fixed-tabs .container {
@@ -1218,7 +1220,8 @@ html {
     width: 100%;
     margin-top: 20px;
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0;
+    padding: 0; } }
 /* Footer */
 #footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -1243,18 +1246,25 @@ html {
     clear: both; }
   #footer.fixed-side-nav-tabs {
     float: right;
-    margin-left: 320px; }
+    /*margin-left:320px;*/
+    padding-left: 335px;
+    width: 100%; }
 
 /* TABLET */
 @media only screen and (min-width: 740px) and (max-width: 1029px) {
   #footer.fixed-side-nav-tabs {
-    float: left;
-    margin-left: 200px; } }
+    /*float:left; margin-left:200px;*/
+    float: right;
+    padding-left: 220px;
+    width: 100%; }
+    #footer.fixed-side-nav-tabs .container {
+      width: 100%; } }
 /* MOBILE */
 @media only screen and (max-width: 739px) {
   #footer.fixed-side-nav-tabs {
     margin-left: 0;
-    width: 100%; } }
+    width: 100%;
+    padding-left: 0; } }
 .fixed {
   position: fixed; }
 
@@ -2652,13 +2662,11 @@ ol.slidey-markers {
   background: rgba(0, 0, 0, 0.8);
   color: #fff; }
   .slidey-caption h2 {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-weight: normal;
     padding: 0;
     margin: 0;
     width: 540px; }
   .slidey-caption p {
-    font-family: Verdana, Geneva, sans-serif;
     padding: 0;
     margin: 0;
     width: 540px;
@@ -2699,13 +2707,11 @@ ul.slidey {
 ul.slidey .video-description {
   padding: 0 10px; }
   ul.slidey .video-description h2 {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-weight: normal;
     padding: 0;
     margin: 0;
     font-size: 20px; }
   ul.slidey .video-description p {
-    font-family: Verdana, Geneva, sans-serif;
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
@@ -2742,7 +2748,6 @@ ul.slidey .featured-post p.tag-line {
   position: absolute;
   left: 20px;
   bottom: 12px;
-  font-family: 'Droid Sans', sans-serif;
   font-size: 22px; }
 
 ul.slidey .featured-post p.tag-line a {
@@ -2920,7 +2925,8 @@ ol.slidey-markers li.active-marker a {
   border-top: #f15e22 1px solid;
   padding-top: 5px;
   text-transform: uppercase;
-  font-weight: lighter; }
+  font-weight: lighter;
+  font-size: 1.25rem; }
   .excerpt header h2 .photo {
     width: 100%;
     /*max-height:137px;*/
@@ -3111,7 +3117,8 @@ ol.slidey-markers li.active-marker a {
     padding: 5px;
     text-align: right;
     margin: 0;
-    border: 1px solid rgba(255, 255, 255, 0.3); }
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1rem; }
   .blog-list ul {
     list-style: none;
     padding: 10px;
@@ -3141,7 +3148,8 @@ ol.slidey-markers li.active-marker a {
     padding: 5px;
     text-align: right;
     margin: 0;
-    border: 1px solid rgba(255, 255, 255, 0.3); }
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1rem; }
   .calendar h5 {
     margin: 0;
     margin-right: 10px;
@@ -3172,7 +3180,8 @@ ol.slidey-markers li.active-marker a {
     padding: 5px;
     text-align: right;
     margin: 0;
-    border: 1px solid rgba(255, 255, 255, 0.3); }
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1rem; }
   .local-events form {
     padding: 10px;
     margin: 0;
@@ -3196,7 +3205,8 @@ ol.slidey-markers li.active-marker a {
     padding: 5px;
     text-align: right;
     margin: 0;
-    border: 1px solid rgba(255, 255, 255, 0.3); }
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1rem; }
   .newsletters form {
     padding: 10px;
     margin: 0;
@@ -3219,7 +3229,8 @@ ol.slidey-markers li.active-marker a {
     padding: 5px;
     text-align: right;
     margin: 0;
-    border: 1px solid rgba(255, 255, 255, 0.3); }
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1rem; }
   .social-connect ul {
     list-style: none;
     padding: 10px;

@@ -10,20 +10,21 @@ background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%,rgba(255,255,255,1) 
 background: linear-gradient(to bottom, rgba(245,245,245,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	&.fixed-side-nav-float {clear:both;}
-	&.fixed-side-nav-tabs {float:right;margin-left:320px;}
+	&.fixed-side-nav-tabs {float:right;/*margin-left:320px;*/padding-left:335px; width:100%;}
 }
 
 /* TABLET */
 @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
 	#footer{
 		&.fixed-side-nav-float {}
-		&.fixed-side-nav-tabs {float:left; margin-left:200px;}
+		&.fixed-side-nav-tabs {/*float:left; margin-left:200px;*/float:right; padding-left:220px; width:100%;
+			.container {width:100%;}}
 	}
 }
 /* MOBILE */
 @media only screen and (max-width: $mobile-breakpoint) {
 	#footer{
 		&.fixed-side-nav-float {}
-		&.fixed-side-nav-tabs {margin-left:0;width:100%;}
+		&.fixed-side-nav-tabs {margin-left:0;width:100%; padding-left:0;}
 	}
 }

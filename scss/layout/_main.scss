@@ -3,7 +3,7 @@
 	&.main-topbar{margin-top:60px;}
 	&.main-topbar-fixed{margin-top:0;}
 	&.main-side-nav-fixed-float {float:left; width:64.62745098039%; margin-left:320px; margin-bottom:20px;}
-	&.main-side-nav-fixed-tabs {float:left; margin-left:330px; width:64.627450980392%; margin-right:20px; margin-bottom:20px;
+	&.main-side-nav-fixed-tabs {/*float:left;margin-left:330px; width:64.627450980392%;*/float:right;margin-left:0;padding-left:355px; width:100%; margin-right:20px; margin-bottom:20px;
 		.container{width:100%;}
 	}
 }
@@ -15,7 +15,7 @@
 		&.main-side-nav-fixed-float{float:left; width:64.777777777778%; margin-left:230px;
 			.container{width:100%;}
 		}
-		&.main-side-nav-fixed-tabs{float:left; margin-left:210px; width:66.777777777778%; margin-right:20px; margin-bottom:20px;
+		&.main-side-nav-fixed-tabs{/*float:left; margin-left:210px; width:66.777777777778%;padding-left:0;*/float:right; padding-left:235px; margin-right:20px; margin-bottom:20px; 
 			.container{width:100%;}
 		}
 	}
@@ -25,6 +25,6 @@
 	#main{
 		&.main-topbar{margin-top:0px;}
 		&.main-side-nav-fixed-float{width:100%; margin-top:20px; margin-left:0; margin-right:0;}
-		&.main-side-nav-fixed-tabs{width:100%; margin-top:20px; margin-left:0; margin-right:0;}
+		&.main-side-nav-fixed-tabs{width:100%; margin-top:20px; margin-left:0; margin-right:0; padding:0;}
 	}
 }
