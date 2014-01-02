@@ -109,3 +109,23 @@
 								%img{:src => "http://www.kidney.org/videos/images/sc_Reed.jpg", :width => "100%", :style => "height:auto;", :title => "Real People, Real Stories: Reed Doughty", :alt => "NFL player Reed Doughty talks about the importance of organ donation"}
 					%script{:type => "text/javascript"}
 						$(document).ready(function() {$('.rotating-stories').slidey({'animation' : 'fade', 'animationDuration' : 450, 'rotationSpeed' : 10000, 'showMarkers' : true, 'showControls' : false, 'centerMarkers' : false, responsive : true }); });
+					%p code snippet:
+					%pre{:class => "brush: html; toolbar:false;"}
+						.rotating-stories
+							%ul.slidey
+								%a{:href => "http://www.kidney.org/news/monthly/phosphorus.cfm?homestatic=PhosphorusInfographic?homeslider=Phosphorus"}
+									%img{:src => "http://www.kidney.org/images/carousel/november2013/bread.jpg", :width => "100%", :style => "height:auto;", :title => "Help Your Heart! Beware This 4-Letter Ingredient: &ldquo;PHOS&rdquo;", :alt => "Recent research shows that a diet high in phosphorus could damage the heart."}    
+
+								%a{:href => "http://www.kidney.org/patients/kidneykitchen/content/Pumpkin_Cream_Cheese_Muffins.cfm?homeslider=PumpkinCreamCheeseMuffins"}
+									%img{:src => "http://www.kidney.org/patients/kidneykitchen/images/Pumpkin-Muffins_660crop.jpg", :width => "100%", :style => "height:auto;", :title => "Pumpkin Cream Cheese Muffins", :alt => "A seasonal favorite from the Kidney Kitchen&ndash;enjoy for breakfast or as a tasty dessert!"}
+
+								%a{:href => "http://www.kidney.org/atoz/content/dietary_hemodialysis.cfm?homeslider=DietaryHemodialysis"}
+									%img{:src => "http://www.kidney.org/images/carousel/DietMythVictim.jpg", :width => "100%", :style => "height:auto;", :title => "Diet Tips for Adults Starting Dialysis", :alt => "A dialysis diet can be confusing so here are some basic tips to guide you when making food choices."}
+
+								%a{:href => "various fancybox.iframe", :href => "http://www.youtube.com/embed/VVciXSyPqdQ?hd=1&autoplay=1"} 
+									%img{:src => "http://www.kidney.org/videos/images/sc_Reed.jpg", :width => "100%", :style => "height:auto;", :title => "Real People, Real Stories: Reed Doughty", :alt => "NFL player Reed Doughty talks about the importance of organ donation"}
+						%script{:type => "text/javascript"}
+							$(document).ready(function() {$('.rotating-stories').slidey({'animation' : 'fade', 'animationDuration' : 450, 'rotationSpeed' : 10000, 'showMarkers' : true, 'showControls' : false, 'centerMarkers' : false, responsive : true }); });
+					%script{:type => "text/javascript"}
+						SyntaxHighlighter.all()
+					%p &nbsp;

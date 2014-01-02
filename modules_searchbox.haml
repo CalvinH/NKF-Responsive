@@ -89,3 +89,12 @@
 						%form.zip{:name => "Search", :action => "/about/local_info.cfm?search=zip", :method => "POST"}
 							%input{:type => "Text", :name => "search", :size => "10", :maxlength => "5", :value => "", :style => "font-size: 0.9em;", :onfocus => "clearIt(this)"}
 							%input{:name => "Search", :type => "submit", :id => "search-btn", :value => "Search", :title => "Search"}
+					%p code snippet:
+					%pre{:class => "brush: html; toolbar:false;"}
+						.search-box
+							%form.zip{:name => "Search", :action => "/about/local_info.cfm?search=zip", :method => "POST"}
+								%input{:type => "Text", :name => "search", :size => "10", :maxlength => "5", :value => "", :style => "font-size: 0.9em;", :onfocus => "clearIt(this)"}
+								%input{:name => "Search", :type => "submit", :id => "search-btn", :value => "Search", :title => "Search"}
+					%script{:type => "text/javascript"}
+						SyntaxHighlighter.all()
+					%p &nbsp;

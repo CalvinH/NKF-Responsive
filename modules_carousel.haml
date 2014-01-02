@@ -91,14 +91,21 @@
 						%li.active Carousel
 				.title.title-top
 					%h2 Carousel
-					%p basic slider -
-					.carousel
-						%ul.bjqs
-							%li
-								%img{:src => "images/banner01.jpg", :title => "Automatically generated caption"}
-							%li 
-								%img{:src => "images/banner02.jpg", :title => "Automatically generated caption"}
-							%li 
-								%img{:src => "images/banner03.jpg", :title => "Automatically generated caption"}
-					%script{:type => "text/javascript"}
-						jQuery(document).ready(function($) {$('.carousel').bjqs({});});
+				%p basic slider -
+				.carousel
+					%ul.bjqs
+						%li
+							%img{:src => "images/banner01.jpg", :title => "Automatically generated caption"}
+						%li 
+							%img{:src => "images/banner02.jpg", :title => "Automatically generated caption"}
+						%li 
+							%img{:src => "images/banner03.jpg", :title => "Automatically generated caption"}
+				%script{:type => "text/javascript"}
+					jQuery(document).ready(function($) {$('.carousel').bjqs({});});
+					
+				%p code snippet:
+				%pre{:class => "brush: html; toolbar:false;"}
+					
+				%script{:type => "text/javascript"}
+					SyntaxHighlighter.all()
+						

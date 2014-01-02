@@ -149,3 +149,71 @@
 								%option{:value => "/about/local_info.cfm?search=state&state=WV"}West Virginia
 								%option{:value => "/about/local_info.cfm?search=state&state=WI"}Wisconsin
 								%option{:value => "/about/local_info.cfm?search=state&state=WY"}Wyoming
+					%p code snippet:
+					%pre{:class => "brush: html; toolbar:false;"}
+						.local-events.clear
+							%h4.title.title-module 
+								%img{:src => "http://placehold.it/36"}
+								Find local offices & events
+							%form.zip{:name => "zip_lookup", :action => "/about/local_info.cfm?search=zip", :method => "POST"}
+								%input{:type => "Text", :name => "zip", :size => "10", :maxlength => "5", :value => "Search By Zip", :style => "font-size: 0.9em;", :onfocus => "clearIt(this)"}
+								%input{:name => "Subscribe", :type => "submit", :id => "email-btn", :value => "Go", :title => "Search By Zip"}
+							%form.state
+								%label{:for => "select"}
+								%select{:name => "select", :size => "1", :id => "select", :onchange => "if (this.selectedIndex>0)location.href=this.options[this.selectedIndex].value;"}
+									%option{:value => ""}Search By State
+									%option{:value => "/about/local_info.cfm?search=state&state=AL"}Alabama
+									%option{:value => "/about/local_info.cfm?search=state&state=AK"}Alaska
+									%option{:value => "/about/local_info.cfm?search=state&state=AZ"}Arizona
+									%option{:value => "/about/local_info.cfm?search=state&state=AR"}Arkansas
+									%option{:value => "/about/local_info.cfm?search=state&state=CA"}California
+									%option{:value => "/about/local_info.cfm?search=state&state=CO"}Colorado
+									%option{:value => "/about/local_info.cfm?search=state&state=CT"}Connecticut
+									%option{:value => "/about/local_info.cfm?search=state&state=DE"}Delaware
+									%option{:value => "/about/local_info.cfm?search=state&state=FL"}Florida
+									%option{:value => "/about/local_info.cfm?search=state&state=GA"}Georgia
+									%option{:value => "/about/local_info.cfm?search=state&state=HI"}Hawaii
+									%option{:value => "/about/local_info.cfm?search=state&state=ID"}Idaho
+									%option{:value => "/about/local_info.cfm?search=state&state=IL"}Illinois
+									%option{:value => "/about/local_info.cfm?search=state&state=IN"}Indiana
+									%option{:value => "/about/local_info.cfm?search=state&state=IA"}Iowa
+									%option{:value => "/about/local_info.cfm?search=state&state=KS"}Kansas
+									%option{:value => "/about/local_info.cfm?search=state&state=KY"}Kentucky
+									%option{:value => "/about/local_info.cfm?search=state&state=LA"}Louisiana
+									%option{:value => "/about/local_info.cfm?search=state&state=ME"}Maine
+									%option{:value => "/about/local_info.cfm?search=state&state=MD"}Maryland
+									%option{:value => "/about/local_info.cfm?search=state&state=MA"}Massachusetts
+									%option{:value => "/about/local_info.cfm?search=state&state=MI"}Michigan
+									%option{:value => "/about/local_info.cfm?search=state&state=MN"}Minnesota
+									%option{:value => "/about/local_info.cfm?search=state&state=MS"}Mississippi
+									%option{:value => "/about/local_info.cfm?search=state&state=MO"}Missouri
+									%option{:value => "/about/local_info.cfm?search=state&state=MT"}Montana
+									%option{:value => "/about/local_info.cfm?search=state&state=NE"}Nebraska
+									%option{:value => "/about/local_info.cfm?search=state&state=NV"}Nevada
+									%option{:value => "/about/local_info.cfm?search=state&state=NH"}New Hampshire
+									%option{:value => "/about/local_info.cfm?search=state&state=NJ"}New Jersey
+									%option{:value => "/about/local_info.cfm?search=state&state=NM"}New Mexico
+									%option{:value => "/about/local_info.cfm?search=state&state=NY"}New York
+									%option{:value => "/about/local_info.cfm?search=state&state=NC"}North Carolina
+									%option{:value => "/about/local_info.cfm?search=state&state=ND"}North Dakota
+									%option{:value => "/about/local_info.cfm?search=state&state=OH"}Ohio
+									%option{:value => "/about/local_info.cfm?search=state&state=OK"}Oklahoma
+									%option{:value => "/about/local_info.cfm?search=state&state=OR"}Oregon
+									%option{:value => "/about/local_info.cfm?search=state&state=PA"}Pennsylvania
+									%option{:value => "/about/local_info.cfm?search=state&state=PR"}Puerto Rico
+									%option{:value => "/about/local_info.cfm?search=state&state=RI"}Rhode Island
+									%option{:value => "/about/local_info.cfm?search=state&state=SC"}South Carolina
+									%option{:value => "/about/local_info.cfm?search=state&state=SD"}South Dakota
+									%option{:value => "/about/local_info.cfm?search=state&state=TN"}Tennessee
+									%option{:value => "/about/local_info.cfm?search=state&state=TX"}Texas
+									%option{:value => "/about/local_info.cfm?search=state&state=UT"}Utah
+									%option{:value => "/about/local_info.cfm?search=state&state=VT"}Vermont
+									%option{:value => "/about/local_info.cfm?search=state&state=VA"}Virginia
+									%option{:value => "/about/local_info.cfm?search=state&state=WA"}Washington
+									%option{:value => "/about/local_info.cfm?search=state&state=DC"}Washington DC
+									%option{:value => "/about/local_info.cfm?search=state&state=WV"}West Virginia
+									%option{:value => "/about/local_info.cfm?search=state&state=WI"}Wisconsin
+									%option{:value => "/about/local_info.cfm?search=state&state=WY"}Wyoming
+						
+					%script{:type => "text/javascript"}
+						SyntaxHighlighter.all()

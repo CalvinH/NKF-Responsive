@@ -172,6 +172,78 @@
               </select>
             </form>
           </div>
+          <p>code snippet:</p>
+          <pre class='brush: html; toolbar:false;'><div class='local-events clear'>
+            <h4 class='title title-module'>
+              <img src='http://placehold.it/36'>
+              Find local offices & events
+            </h4>
+            <form action='/about/local_info.cfm?search=zip' class='zip' method='POST' name='zip_lookup'>
+              <input maxlength='5' name='zip' onfocus='clearIt(this)' size='10' style='font-size: 0.9em;' type='Text' value='Search By Zip'>
+              <input id='email-btn' name='Subscribe' title='Search By Zip' type='submit' value='Go'>
+            </form>
+            <form class='state'>
+              <label for='select'></label>
+              <select id='select' name='select' onchange='if (this.selectedIndex&gt;0)location.href=this.options[this.selectedIndex].value;' size='1'>
+                <option value=''>Search By State</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=AL'>Alabama</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=AK'>Alaska</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=AZ'>Arizona</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=AR'>Arkansas</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=CA'>California</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=CO'>Colorado</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=CT'>Connecticut</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=DE'>Delaware</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=FL'>Florida</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=GA'>Georgia</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=HI'>Hawaii</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=ID'>Idaho</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=IL'>Illinois</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=IN'>Indiana</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=IA'>Iowa</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=KS'>Kansas</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=KY'>Kentucky</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=LA'>Louisiana</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=ME'>Maine</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=MD'>Maryland</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=MA'>Massachusetts</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=MI'>Michigan</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=MN'>Minnesota</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=MS'>Mississippi</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=MO'>Missouri</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=MT'>Montana</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=NE'>Nebraska</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=NV'>Nevada</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=NH'>New Hampshire</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=NJ'>New Jersey</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=NM'>New Mexico</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=NY'>New York</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=NC'>North Carolina</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=ND'>North Dakota</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=OH'>Ohio</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=OK'>Oklahoma</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=OR'>Oregon</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=PA'>Pennsylvania</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=PR'>Puerto Rico</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=RI'>Rhode Island</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=SC'>South Carolina</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=SD'>South Dakota</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=TN'>Tennessee</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=TX'>Texas</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=UT'>Utah</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=VT'>Vermont</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=VA'>Virginia</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=WA'>Washington</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=DC'>Washington DC</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=WV'>West Virginia</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=WI'>Wisconsin</option>
+                <option value='/about/local_info.cfm?search=state&amp;state=WY'>Wyoming</option>
+              </select>
+            </form>
+          </div></pre>
+          <script type='text/javascript'>
+            SyntaxHighlighter.all()
+          </script>
         </div>
       </div>
     </div>

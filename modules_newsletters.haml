@@ -102,3 +102,23 @@
 							%input{:type => "hidden", :name => "returnUrl", :value => "http://www.kidney.org/index-test.cfm?zmsg=1&codekitCB=403720470.454301"}
 						%p
 							%a{:href => "http://www.kidney.org/news/newsletters.cfm"} Sign up for other free newsletters
+					%p code snippet:
+					%pre{:class => "brush: html; toolbar:false;"}
+						.newsletters.clear
+							%h4.title.title-module
+								%img{:src => "http://placehold.it/36"}
+								Love your kidneys newsletter
+							%form{:method => "post", :name => "profileform", :action => "https://kidney.informz.net/clk/remote_post.asp"}
+								%input{:type => "hidden", :name => "orig_email", :value => ""}
+								%input{:title => "Email Address", :type => "text", :name => "email", :size => "25", :maxlength => "100", :value => "", :id => "email-text", :placeholder => "Email Address"}
+								%input{:name => "Subscribe", :type => "submit", :id => "email-btn", :value => "Subscribe", :title => "Subscribe"}
+								%input{:type => "hidden", :name => "OptoutInfo", :value => ""}
+								%input{:type => "hidden", :name => "formats", :value => "3"}
+								%input{:type => "hidden", :name => "fid", :value => "637"}
+								%input{:type => "hidden", :name => "b", :value => "3069"}
+								%input{:type => "hidden", :name => "returnUrl", :value => "http://www.kidney.org/index-test.cfm?zmsg=1&codekitCB=403720470.454301"}
+							%p
+								%a{:href => "http://www.kidney.org/news/newsletters.cfm"} Sign up for other free newsletters
+					%script{:type => "text/javascript"}
+						SyntaxHighlighter.all()
+					%p &nbsp;
