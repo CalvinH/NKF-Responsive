@@ -1095,17 +1095,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/icons\/zerply-256.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/zerply-256.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/zerply-256.png",
-      "initialSize" : 2568,
-      "fileType" : 8192
-    },
     "\/scss\/layout\/_middle-column.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1117,6 +1106,17 @@
       "outputAbbreviatedPath" : "\/css\/_middle-column.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/icons\/zerply-256.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/zerply-256.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/zerply-256.png",
+      "initialSize" : 2568,
+      "fileType" : 8192
     },
     "\/typography.haml" : {
       "inputAbbreviatedPath" : "\/typography.haml",
@@ -3248,6 +3248,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/buttons.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/buttons.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/bourbon\/addons\/_html5-input-types.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3259,15 +3268,6 @@
       "outputAbbreviatedPath" : "\/css\/_html5-input-types.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/buttons.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/buttons.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/scss\/modules\/_rotating-stories.scss" : {
       "ignoreWasSetByUser" : 0,
