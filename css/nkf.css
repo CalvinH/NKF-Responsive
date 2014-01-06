@@ -1565,6 +1565,102 @@ html {
   Each Module should be designed to exist as a standalone component.
 
    ========================================================================== */
+.landingpage {
+  background: url(../images/5941711327_72aac4c7a3_o.jpg) no-repeat center center fixed;
+  /*background:#999;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: none; }
+  .landingpage .landingpage-content {
+    max-width: 671px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-top: 120px; }
+    .landingpage .landingpage-content h2 {
+      font-size: 10rem;
+      float: left;
+      margin-bottom: 0;
+      padding-left: 10px; }
+    .landingpage .landingpage-content h4 {
+      font-size: 3.75rem;
+      float: left;
+      margin-top: 20px;
+      margin-bottom: 0;
+      margin-left: 5px;
+      padding-left: 5px;
+      border-left: 1px solid #eee; }
+    .landingpage .landingpage-content p {
+      font-size: 1.4em;
+      clear: both;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 20px; }
+    .landingpage .landingpage-content ul {
+      list-style: none;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 0;
+      display: none; }
+      .landingpage .landingpage-content ul li {
+        float: left;
+        margin-right: 10px; }
+        .landingpage .landingpage-content ul li:nth-child(last) {
+          margin-right: 0; }
+        .landingpage .landingpage-content ul li a {
+          color: #eee; }
+  .landingpage .landingpage-content-footnotes {
+    background: rgba(0, 0, 0, 0.8);
+    /*padding:20px;*/
+    display: block;
+    margin-top: 40px; }
+    .landingpage .landingpage-content-footnotes ol {
+      max-width: 570px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.8);
+      list-style-position: inside; }
+      .landingpage .landingpage-content-footnotes ol li {
+        background: rgba(255, 255, 255, 0.9);
+        margin: 0;
+        padding: 10px; }
+        .landingpage .landingpage-content-footnotes ol li p {
+          margin: 0; }
+  .landingpage #footer {
+    display: none; }
+
+/*TABLET */
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .landingpage .landingpage-content {
+    margin-top: 20px; }
+    .landingpage .landingpage-content h2 {
+      font-size: 8rem;
+      text-align: center;
+      padding-left: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      line-height: 4rem;
+      margin-top: 35px;
+      width: 100%; }
+    .landingpage .landingpage-content h4 {
+      font-size: 2.75rem;
+      text-align: center;
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 25px;
+      /*border-top:1px solid #eee;*/
+      border-bottom: 1px solid #eee;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      width: 100%; }
+    .landingpage .landingpage-content p {
+      font-size: 1rem;
+      padding-bottom: 10px; } }
+/*landingpage*/
 /* ========= MASTHEAD ========= */
 .logo img {
   width: 100%;

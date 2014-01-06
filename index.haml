@@ -20,7 +20,7 @@
 		%script{:type => "text/javascript", :src => "//use.typekit.net/doy3lrx.js"}
 		%script{:type => "text/javascript"} try{Typekit.load();}catch(e){}
 
-	%body
+	%body.landingpage
 		#header
 			%nav.top-bar
 				%h1.left NKF Style Guide
@@ -69,43 +69,45 @@
 		#main.main-topbar
 			.container
 				.section.row
-					.col.six.tablet-full.mobile-full
-						%h2 NKF &mdash; Framework
-						%p A Scalable + Modular Framewwork for the NKF
-						%h3 Styles
-						%p 
-							Style Guide + Responsive Deliverables based on the NKF Brand ID.
-							%sup 1 
+					.col.twelve.tablet-full.mobile-full
+						.landingpage-content
+							%h2 NKF
+							%h4 
+								Responsive
+								%br
+								Style Guide
+							%p Front-end UI and responsive deliverables based on the NKF Brand ID
 							 
-							
-						%h4 
-							%a{:href => "grid.html"} Grid
-						%h4 
-							%a{:href => "layout.html"} Layout
-						%h4 
-							%a{:href => "color.html"} Color Palette
-						%h4 
-							%a{:href => "typography.html"} Typography
-						%h4 
-							%a{:href => "tables.html"} Tables
-						%h4 
-							%a{:href => "forms.html"} Forms
-						%h4 
-							%a{:href => "buttons.html"} Buttons
-						%h4 
-							%a{:href => "modules.html"} Modules
-					.col.six.tablet-full.mobile-full
+							%ul{:class => "lp"}
+								%li 
+									%a{:href => "grid.html"} Grid
+								%li 
+									%a{:href => "layout.html"} Layout
+								%li 
+									%a{:href => "color.html"} Color Palette
+								%li 
+									%a{:href => "typography.html"} Typography
+								%li 
+									%a{:href => "tables.html"} Tables
+								%li 
+									%a{:href => "forms.html"} Forms
+								%li 
+									%a{:href => "buttons.html"} Buttons
+								%li 
+									%a{:href => "modules.html"} Modules
 					.col.twelve
-						.footnotes
+						.footnotes.landingpage-content-footnotes
 							%ol
 								%li 
 									%p
 										%a{:href => "http://daverupert.com/2013/04/responsive-deliverables/?codekitCB=404060364.670257"} Responsive Deliverables
-										&mdash; DaveRupert.com
 
 								%li
 									%p
-										%a footnote test
+										%a{:href => "http://sideproject.io/front-end-and-ui-style-guides/"} Front-end and UI style guides
+								%li
+									%p
+										%a{:href => "http://www.flickr.com/photos/alfonsojimenez/5941711327/sizes/o/"} Flickr Credit: Alfonso Jimenez
 		#footer
 			.container
 				.section.row
