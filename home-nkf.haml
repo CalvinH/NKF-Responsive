@@ -24,7 +24,99 @@
 
 	%body#home
 		#header
-			.container
+			%nav.top-bar
+				%h1.left NKF Style Guide
+				.nav-toggle.no-desktop.no-tablet.no-mobile
+					%a{:href => "#"}
+						MENU 
+						%span{:class => "arrow"} +
+				%ul
+					%li
+						%a{:href => "index.html", :class => "current"} Landing
+					%li.dropdown
+						%a{:href => "styles.html", :class => "dropdown-toggle"} Styles
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "grid.html", :class => "dropdown"} Grid
+								%ul
+									%li 
+										%a{:href => "fullwidth.html"} Full-Width
+									%li 
+										%a{:href => "two-columns.html"} Two-Columns
+									%li 
+										%a{:href => "three-columns.html"} Three-Columns
+									%li
+										%a{:href => "footer.html"} Footer 
+							%li.menu-item
+								%a{:href => "layout.html"} Layout
+								%ul
+									%li
+										%a{:href => "home.html"} Home
+									%li 
+										%a{:href => "two-deep.html"} Two-Deep
+									%li 
+										%a{:href => "three-deep.html"} Three-Deep
+							%li.menu-item
+								%a{:href => "color.html"} Color Palette
+							%li.menu-item
+								%a{:href => "typography.html"} Typography
+							%li.menu-item
+								%a{:href => "tables.html"} Tables
+							%li.menu-item
+								%a{:href => "forms.html"} Forms
+							%li.menu-item
+								%a{:href => "buttons.html"} Buttons
+							%li.menu-item
+								%a{:href => "modules.html"}Modules
+								%ul
+									%li 
+										%a{:href => "modules_bloglist.html"}Blog&nbsp;List
+									%li
+										%a{:href => "modules_calendar.html"} Calendar
+									%li
+										%a{:href => "modules_calltoaction.html"} Call&nbsp;to&nbsp;Action
+									%li
+										%a{:href => "modules_carousel.html"} Carousel
+									%li
+										%a{:href => "modules_excerpt.html"} Excerpt
+									%li
+										%a{:href => "modules_icons.html"} Icons
+									%li
+										%a{:href => "modules_localevents.html"} Local&nbsp;Events
+									%li
+										%a{:href => "modules_logo.html"} Logo
+									%li
+										%a{:href => "modules_newsletters.html"} Newsletters
+									%li
+										%a{:href => "modules_pagination.html"} Pagination
+									%li
+										%a{:href => "modules_primarynav.html"} Primary&nbsp;Nav
+									%li
+										%a{:href => "modules_rotatingstories.html"} Rotating&nbsp;Stories
+									%li
+										%a{:href => "modules_searchbox.html"} Searchbox
+									%li
+										%a{:href => "modules_sidenav.html"} Side&nbsp;Nav
+									%li
+										%a{:href => "modules_socialconnect.html"} Social&nbsp;Connect
+									%li
+										%a{:href => "modules_subnav.html"} Sub&nbsp;Nav
+									%li
+										%a{:href => "modules_tabs.html"} Tabs
+									%li
+										%a{:href => "modules_titles.html"} Titles
+									%li
+										%a{:href => "modules_topnews.html"} Top&nbsp;News
+					%li.dropdown
+						%a{:href => "#", :class => "dropdown-toggle"} demo
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "home-nkf.html", :class => "dropdown"} kidney.org
+							%li.menu-item 
+								%a{:href => "twodeep-nkf.html", :class => "dropdown"} kidney.org [two-deep]
+							%li.menu-item 
+								%a{:href => "content-nkf.html", :class => "dropdown"} kidney.org [content]
+			.container{:style => "margin-top:80px;"}
 				.section.row
 					.col.six.mobile-full
 						.logo 
