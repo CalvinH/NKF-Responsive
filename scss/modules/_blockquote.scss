@@ -6,4 +6,21 @@ blockquote{
 		small{}
 		cite{}
 	}
+	&.blockquote-wrap {
+		border:1px dashed #ddd;
+		background:#eee;
+		padding:10px;
+		border-box:box-sizing;
+		margin:20px;
+		p{margin:0;}
+		img{
+			padding:5px;
+			border:1px solid #eee;
+			background:#bbb;
+			-webkit-box-shadow: inset 0px 0px 20px 5px rgba($black-color, 0.5);
+			-moz-box-shadow:inset 0px 0px 20px 5px rgba($black-color, 0.5);
+			box-shadow:inset 0px 0px 20px 5px rgba($black-color, 0.5);
+
+		}
+	}
 }

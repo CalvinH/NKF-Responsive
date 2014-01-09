@@ -3085,6 +3085,21 @@ ol.slidey-markers li.active-marker a {
 blockquote.blockquote-highlight {
   border-left: 5px solid #f15e22;
   padding-left: 10px; }
+blockquote.blockquote-wrap {
+  border: 1px dashed #ddd;
+  background: #eee;
+  padding: 10px;
+  border-box: box-sizing;
+  margin: 20px; }
+  blockquote.blockquote-wrap p {
+    margin: 0; }
+  blockquote.blockquote-wrap img {
+    padding: 5px;
+    border: 1px solid #eee;
+    background: #bbb;
+    -webkit-box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.5); }
 
 .thumbnail img {
   width: 100%;
