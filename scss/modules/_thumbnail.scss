@@ -17,3 +17,14 @@
 	&.thumbnail-box{border:1px solid #ccc;padding:5px; box-sizing:border-box;}
 	&.thmb-top {margin-top:1em; margin-bottom:1em;}
 }
+/* TABLET */
+@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {}
+/* MOBILE */
+@media only screen and (max-width: $mobile-breakpoint) {
+	.thumbnail{
+		&.thumbnail-x,
+		&.thumbnail-xx,
+		&.thumbnail-xxx{width:100%;}
+		&.thumbnail-box{margin-bottom:1em;}
+	}
+}

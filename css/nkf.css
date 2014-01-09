@@ -3101,6 +3101,8 @@ blockquote.blockquote-wrap {
     -moz-box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
     box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.5); }
 
+/* TABLET */
+/* MOBILE */
 .thumbnail img {
   width: 100%;
   height: auto; }
@@ -3134,6 +3136,13 @@ blockquote.blockquote-wrap {
   margin-top: 1em;
   margin-bottom: 1em; }
 
+/* TABLET */
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  .thumbnail.thumbnail-x, .thumbnail.thumbnail-xx, .thumbnail.thumbnail-xxx {
+    width: 100%; }
+  .thumbnail.thumbnail-box {
+    margin-bottom: 1em; } }
 .cta-button {
   word-break: break-word;
   background: #f15e22;
