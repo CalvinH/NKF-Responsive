@@ -25,7 +25,99 @@
 
 	%body#home
 		#header
-			.container
+			%nav.top-bar
+				%h1.left NKF Style Guide
+				.nav-toggle.no-desktop.no-tablet.no-mobile
+					%a{:href => "#"}
+						MENU 
+						%span{:class => "arrow"} +
+				%ul
+					%li
+						%a{:href => "index.html", :class => "current"} Landing
+					%li.dropdown
+						%a{:href => "styles.html", :class => "dropdown-toggle"} Styles
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "grid.html", :class => "dropdown"} Grid
+								%ul
+									%li 
+										%a{:href => "fullwidth.html"} Full-Width
+									%li 
+										%a{:href => "two-columns.html"} Two-Columns
+									%li 
+										%a{:href => "three-columns.html"} Three-Columns
+									%li
+										%a{:href => "footer.html"} Footer 
+							%li.menu-item
+								%a{:href => "layout.html"} Layout
+								%ul
+									%li
+										%a{:href => "home.html"} Home
+									%li 
+										%a{:href => "two-deep.html"} Two-Deep
+									%li 
+										%a{:href => "three-deep.html"} Three-Deep
+							%li.menu-item
+								%a{:href => "color.html"} Color Palette
+							%li.menu-item
+								%a{:href => "typography.html"} Typography
+							%li.menu-item
+								%a{:href => "tables.html"} Tables
+							%li.menu-item
+								%a{:href => "forms.html"} Forms
+							%li.menu-item
+								%a{:href => "buttons.html"} Buttons
+							%li.menu-item
+								%a{:href => "modules.html"}Modules
+								%ul
+									%li 
+										%a{:href => "modules_bloglist.html"}Blog&nbsp;List
+									%li
+										%a{:href => "modules_calendar.html"} Calendar
+									%li
+										%a{:href => "modules_calltoaction.html"} Call&nbsp;to&nbsp;Action
+									%li
+										%a{:href => "modules_carousel.html"} Carousel
+									%li
+										%a{:href => "modules_excerpt.html"} Excerpt
+									%li
+										%a{:href => "modules_icons.html"} Icons
+									%li
+										%a{:href => "modules_localevents.html"} Local&nbsp;Events
+									%li
+										%a{:href => "modules_logo.html"} Logo
+									%li
+										%a{:href => "modules_newsletters.html"} Newsletters
+									%li
+										%a{:href => "modules_pagination.html"} Pagination
+									%li
+										%a{:href => "modules_primarynav.html"} Primary&nbsp;Nav
+									%li
+										%a{:href => "modules_rotatingstories.html"} Rotating&nbsp;Stories
+									%li
+										%a{:href => "modules_searchbox.html"} Searchbox
+									%li
+										%a{:href => "modules_sidenav.html"} Side&nbsp;Nav
+									%li
+										%a{:href => "modules_socialconnect.html"} Social&nbsp;Connect
+									%li
+										%a{:href => "modules_subnav.html"} Sub&nbsp;Nav
+									%li
+										%a{:href => "modules_tabs.html"} Tabs
+									%li
+										%a{:href => "modules_titles.html"} Titles
+									%li
+										%a{:href => "modules_topnews.html"} Top&nbsp;News
+					%li.dropdown
+						%a{:href => "#", :class => "dropdown-toggle"} demo
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "home-nkf.html", :class => "dropdown"} kidney.org
+							%li.menu-item 
+								%a{:href => "twodeep-nkf.html", :class => "dropdown"} kidney.org [two-deep]
+							%li.menu-item 
+								%a{:href => "content-nkf.html", :class => "dropdown"} kidney.org [content]
+			.container{:style => "margin-top:80px;"}
 				.section.row
 					.col.six.mobile-full
 						.logo 
@@ -251,58 +343,108 @@
 		#main
 			.container
 				.section.row
-					.col.twelve.tablet-full.mobile-full
-						.top-news
-							%h1
-								%a{:href => "http://www.kidney.org/news/newsroom/nr/NKF-RPA-Urge-Screening-for-atRisk-KD.cfm", :onClick => "trackOutboundLink(this, 'Outbound Links', 'NKFRPAUrgeScreening'); return false;"} Top News: National Kidney Foundation, Renal Physicians Association Urge Screening for those at Risk for Kidney Disease
-				.section.row
-					.left-column.col.eight.mobile-full 
-						.rotating-stories
-							%ul.slidey
-								%a{:href => "http://www.kidney.org/news/monthly/phosphorus.cfm?homestatic=PhosphorusInfographic?homeslider=Phosphorus"}
-									%img{:src => "http://www.kidney.org/images/carousel/november2013/bread.jpg", :width => "660px", :style => "height:auto;", :title => "Help Your Heart! Beware This 4-Letter Ingredient: &ldquo;PHOS&rdquo;", :alt => "Recent research shows that a diet high in phosphorus could damage the heart."}
+					.left-column.col.eight.mobile-full
+						%nav.crumb.clear
+							%ul
+								%li
+									%a{:href => "home-nkf.html"} Home
+								%li.active Page / Post Content
+						.title.title-content
+							%h2 Page / Post Content
+							%h3 subtitle
+						.section
+							.col.twelve
+								.thumbnail.thumbnail-left.thumbnail-xx.thmb-top
+									%img{:src => "http://placehold.it/640x360&text=Thumbnail+Left+2x"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-								%a{:href => "http://www.kidney.org/patients/kidneykitchen/content/Pumpkin_Cream_Cheese_Muffins.cfm?homeslider=PumpkinCreamCheeseMuffins"}
-									%img{:src => "http://www.kidney.org/patients/kidneykitchen/images/Pumpkin-Muffins_660crop.jpg", :width => "660px", :style => "height:auto;", :title => "Pumpkin Cream Cheese Muffins", :alt => "A seasonal favorite from the Kidney Kitchen&ndash;enjoy for breakfast or as a tasty dessert!"}
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+								
+								.thumbnail.thumbnail-right.thumbnail-xx
+									%img{:src => "http://placehold.it/640x360&text=Thumbnail+Right+2x"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-								%a{:href => "http://www.kidney.org/atoz/content/dietary_hemodialysis.cfm?homeslider=DietaryHemodialysis"}
-									%img{:src => "http://www.kidney.org/images/carousel/DietMythVictim.jpg", :width => "660px", :style => "height:auto;", :title => "Diet Tips for Adults Starting Dialysis", :alt => "A dialysis diet can be confusing so here are some basic tips to guide you when making food choices."}
+								
+								%p Cras mauris elit, volutpat at tincidunt sed, rhoncus vel neque. Vestibulum ut nunc dui, scelerisque pretium ligula. Etiam placerat, metus vel ullamcorper consectetur, velit sem tincidunt tellus, nec mattis odio felis eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas interdum pharetra sapien vitae euismod. In lectus justo, ornare sit amet laoreet id, elementum vitae neque. Donec ut nisi nulla, et sollicitudin velit. Nullam leo eros, euismod scelerisque fringilla nec, varius vitae enim.
 
-								%a{:href => "various fancybox.iframe", :href => "http://www.youtube.com/embed/VVciXSyPqdQ?hd=1&autoplay=1"} 
-									%img{:src => "http://www.kidney.org/videos/images/sc_Reed.jpg", :title => "Real People, Real Stories: Reed Doughty", :alt => "NFL player Reed Doughty talks about the importance of organ donation"}
-						.section.row
-							.col.six.tablet-full.mobile-full.excerpt
-								%header
-									%h2 Post / Page Title
-									.photo.left
-										%img{:src => "http://placehold.it/660x440"}
-									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien.
-							.col.six.tablet-full.mobile-full.excerpt
-								%header
-									%h2 Post / Page Title
-									.photo.left
-										%img{:src => "http://placehold.it/660x440"}
-									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien.
-						.section.row
-							.col.six.tablet-full.mobile-full.excerpt
-								%header
-									%h2 Post / Page Title
-									.photo.left
-										%img{:src => "http://placehold.it/660x440"}
-									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien.
-							.col.six.tablet-full.mobile-full.excerpt
-								%header
-									%h2 Post / Page Title
-									.photo.left
-										%img{:src => "http://placehold.it/660x440"}
-									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien.
-						.section.row	
-							.col.twelve.excerpt
-								%header
-									%h2 Post / Page Title
-								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor.
-								%img{:src => "http://placehold.it/660x440"}
-									
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor, est et egestas gravida, ligula quam tempor eros, et aliquet lacus turpis at quam. Nunc posuere enim non ligula tristique ut rutrum justo convallis. Cras mattis rutrum sapien, non auctor arcu consectetur aliquam. Vestibulum purus risus, accumsan vitae pellentesque non, auctor ut ligula. Nulla quam tellus, faucibus ut tempus vel, blandit vitae justo. Aliquam orci felis, facilisis id imperdiet sed, feugiat a odio. Morbi eu turpis malesuada sem vestibulum vestibulum interdum laoreet ipsum. Duis sit amet augue sapien, et cursus nisi. Phasellus dignissim malesuada nisi, sed rutrum mi vulputate eu. Duis dictum laoreet porttitor. Nulla facilisi. Nullam condimentum eros vel mi dignissim sit amet eleifend turpis pretium. Proin pulvinar luctus ligula, eget porta nulla luctus aliquam. Nam nec nunc vitae nisl malesuada rutrum ac eget nisi.
+
+								.thumbnail.thumbnail-right.thumbnail-xxx
+									%img{:src => "http://placehold.it/640x360&text=Thumbnail+Right+3x"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+
+								.thumbnail.thumbnail-xxxx
+									%img{:src => "http://placehold.it/640x360&text=Thumbnail+4x"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								.thumbnail.thumbnail-right.thumbnail-x
+									%img{:src => "http://placehold.it/640x360&text=Thumbnail+Right+1x"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+								.thumbnail.thumbnail-left.thumbnail-x
+									%img{:src => "http://placehold.it/640x360&text=Thumbnail+Left+1x"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+								.title.title-top
+									%h2 Boxed Thumbnails
+								.thumbnail.thumbnail-left.thumbnail-x.thumbnail-box
+									%img{:src => "http://placehold.it/640x360&text=1x+box"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								.thumbnail.thumbnail-right.thumbnail-x.thumbnail-box
+									%img{:src => "http://placehold.it/640x360&text=1x+box"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								.thumbnail.thumbnail-left.thumbnail-xx.thumbnail-box
+									%img{:src => "http://placehold.it/640x360&text=1x+box"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+								.thumbnail.thumbnail-right.thumbnail-xxx.thumbnail-box
+									%img{:src => "http://placehold.it/640x360&text=1x+box"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								.thumbnail.thumbnail-xxxx.thumbnail-box
+									%img{:src => "http://placehold.it/640x360&text=1x+box"}
+									%h3 Thumbnail Title
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
+								.title.title-top
+									%h3 Blockquotes
+								%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor. Phasellus hendrerit mauris et augue pharetra rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Donec aliquam dignissim pharetra. Fusce sit amet lectus massa. Sed tempus mollis aliquet.
+								%blockquote.blockquote-highlight
+									%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tincidunt dolor. In sit amet lectus non lorem gravida ullamcorper egestas in sapien. Aenean mollis nisl nunc, in elementum diam aliquet eget. Nullam ultrices, velit in accumsan rutrum, elit odio elementum elit, vel luctus sapien est sed tortor.
+									%small John Doe
+
+								%p Donec molestie ligula at metus dignissim feugiat. Fusce bibendum ornare ipsum vel vulputate. Phasellus in feugiat elit. Nullam id ligula urna, non suscipit diam. Nam velit eros, consequat a fringilla sed, malesuada in urna. Etiam gravida ligula cursus magna pulvinar tincidunt. Quisque eros lacus, aliquam in congue vel, aliquet at dolor. Mauris lacinia, felis ut dictum commodo, nisi purus scelerisque justo, sed ornare turpis lectus at turpis. Ut molestie elit ac ipsum pharetra pellentesque. Curabitur quis magna est. Nulla pharetra vulputate urna ut tincidunt. Mauris mattis elit et leo aliquam eu commodo libero pulvinar. Sed a turpis sed mauris malesuada interdum ut in nunc.
+								%p Pellentesque purus lorem, aliquet eleifend sollicitudin in, rhoncus ut purus. Nunc cursus odio et felis semper non congue lectus tincidunt. Ut tellus dolor, gravida et mattis non, interdum sit amet metus. Nullam dapibus odio odio. Proin id nulla sapien. Sed in nulla nec mauris congue ultricies. Aliquam congue faucibus nisi at sollicitudin. Etiam nec sapien augue. Phasellus porttitor ante volutpat orci eleifend vehicula.
 						
 					.right-column.col.four.mobile-full
 						.section.row

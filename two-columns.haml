@@ -67,6 +67,45 @@
 								%a{:href => "buttons.html"} Buttons
 							%li.menu-item
 								%a{:href => "modules.html"} Modules
+								%ul
+									%li 
+										%a{:href => "modules_bloglist.html"}Blog&nbsp;List
+									%li
+										%a{:href => "modules_calendar.html"} Calendar
+									%li
+										%a{:href => "modules_calltoaction.html"} Call&nbsp;to&nbsp;Action
+									%li
+										%a{:href => "modules_carousel.html"} Carousel
+									%li
+										%a{:href => "modules_excerpt.html"} Excerpt
+									%li
+										%a{:href => "modules_icons.html"} Icons
+									%li
+										%a{:href => "modules_localevents.html"} Local&nbsp;Events
+									%li
+										%a{:href => "modules_logo.html"} Logo
+									%li
+										%a{:href => "modules_newsletters.html"} Newsletters
+									%li
+										%a{:href => "modules_pagination.html"} Pagination
+									%li
+										%a{:href => "modules_primarynav.html"} Primary&nbsp;Nav
+									%li
+										%a{:href => "modules_rotatingstories.html"} Rotating&nbsp;Stories
+									%li
+										%a{:href => "modules_searchbox.html"} Searchbox
+									%li
+										%a{:href => "modules_sidenav.html"} Side&nbsp;Nav
+									%li
+										%a{:href => "modules_socialconnect.html"} Social&nbsp;Connect
+									%li
+										%a{:href => "modules_subnav.html"} Sub&nbsp;Nav
+									%li
+										%a{:href => "modules_tabs.html"} Tabs
+									%li
+										%a{:href => "modules_titles.html"} Titles
+									%li
+										%a{:href => "modules_topnews.html"} Top&nbsp;News
 		
 		#billboard
 			.container
@@ -76,9 +115,15 @@
 					%ul
 						%li
 							%a{:href => "grid.html"} Grid
-						%li.active Three-Columns
+						%li.active Two-Columns
 		%a{:id => "mp"}
-		#main.main-topbar
+		#billboard{:style => "margin-top:0px;"}
+			.container
+				.section 
+					.col.twelve
+						%h2.title.title-top [ Main Content ] [ Primary-Side-Bar ]
+		}
+		#main
 			.container
 				.section.row
 					.left-column.col.eight.tablet-seven.mobile-full 
@@ -100,61 +145,117 @@
 						.social-connect
 						.blog
 						.resource-guide
-		#footer
+		#footer{:style => "border-top:none;"}
 			.container
 				.section.row
 					.left-column.col.eight
 					.right-column.col.four
 
-		%hr
 		%a{:id => "#pm"}
-		#main.main-topbar
+		#billboard{:style => "margin-top:40px;"}
+			.container
+				.section 
+					.col.twelve
+						%h2.title.title-top [ Primary-Side-Bar ] [ Main Content ]
+		#main
 			.container
 				.section.row
 					.col.four.tablet-five.mobile-full.left-column
-						8d.5t.mfull
+						4d.5t.mfull
+						.addthis_box
+						.donate_button_v3
+						.local_events
+						.newsletter
+						.calendar
+						.social-connect
+						.blog
+						.resource-guide
 						
 					.col.eight.tablet-seven.mobile-full.right-column
-						4d.7t.mfull
+						8d.7t.mfull
+						.rotating-stories
+							%ul.slidey
+							%ol.slide-markers
+						.one-column.left
+						.one-column.right
+						.one-column.right
+						.two-columns
 						
-		#footer
+		#footer{:style => "border-top:none;"}
 			.container
 				.section.row
 					.left-column.col.eight
 					.right-column.col.four
-		%hr
 		%a{:id => "#ms"}
+		#billboard{:style => "margin-top:40px;"}
+			.container
+				.section 
+					.col.twelve
+						%h2.title.title-top [ Main Content ] [ secondary-side-bar ]
 		#main.main-topbar
 			.container
 				.section.row
 					.col.ten.tablet-five.mobile-full.left-column
 						10d.5t.mfull
+						.rotating-stories
+							%ul.slidey
+							%ol.slide-markers
+						.one-column.left
+						.one-column.right
+						.one-column.right
+						.two-columns
 						
 					.col.two.tablet-seven.mobile-full.right-column
 						2d.7t.mfull
+						.addthis_box
+						.donate_button_v3
+						.local_events
+						.newsletter
+						.calendar
+						.social-connect
+						.blog
+						.resource-guide
 						
-		#footer
+		#footer{:style => "border-top:none;"}
 			.container
 				.section.row
 					.left-column.col.eight
 					.right-column.col.four
-		%hr
 		%a{:id => "#sm"}
-		#main.main-topbar
+		#billboard{:style => "margin-top:40px;"}
+			.container
+				.section 
+					.col.twelve
+						%h2.title.title-top [ secondary-side-bar ] [ Main Content ] 
+		#main
 			.container
 				.section.row
 					.col.two.tablet-five.mobile-full.left-column
 						2d.5t.mfull
+						.addthis_box
+						.donate_button_v3
+						.local_events
+						.newsletter
+						.calendar
+						.social-connect
+						.blog
+						.resource-guide
 						
 					.col.ten.tablet-seven.mobile-full.right-column
 						10d.7t.mfull
+						.rotating-stories
+							%ul.slidey
+							%ol.slide-markers
+						.one-column.left
+						.one-column.right
+						.one-column.right
+						.two-columns
 						
-		#footer
+		#footer{:style => "border-top:none;"}
 			.container
 				.section.row
 					.left-column.col.eight
 					.right-column.col.four
-		%hr
 
 		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
 		%script{:src => "js/default.js"}

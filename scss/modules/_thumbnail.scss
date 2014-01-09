@@ -1,0 +1,19 @@
+.thumbnail {
+	img{width:100%; height:auto;}
+	h3 {font-weight:lighter; font-size:90%; color:$primary-color;}
+	p {margin:0.5em 0 1em; font-size:90%; font-weight:lighter;}
+	&.thumbnail-left{
+		float: left;
+		margin-right:20px;
+	}
+	&.thumbnail-right{
+		float: right;
+		margin-left:20px;
+	}
+	&.thumbnail-x{width:25%;}
+	&.thumbnail-xx{width:50%;}
+	&.thumbnail-xxx{width:75%;}
+	&.thumbnail-xxxx{width:100%;}
+	&.thumbnail-box{border:1px solid #ccc;padding:5px; box-sizing:border-box;}
+	&.thmb-top {margin-top:1em; margin-bottom:1em;}
+}

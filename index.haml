@@ -65,7 +65,7 @@
 							%li.menu-item
 								%a{:href => "buttons.html"} Buttons
 							%li.menu-item
-								%a{:href => "modules.html", :class => "current"}Modules
+								%a{:href => "modules.html"}Modules
 								%ul
 									%li 
 										%a{:href => "modules_bloglist.html"}Blog&nbsp;List
@@ -105,6 +105,15 @@
 										%a{:href => "modules_titles.html"} Titles
 									%li
 										%a{:href => "modules_topnews.html"} Top&nbsp;News
+					%li.dropdown
+						%a{:href => "#", :class => "dropdown-toggle"} demo
+						%ul.dropdown-menu	
+							%li.menu-item 
+								%a{:href => "home-nkf.html", :class => "dropdown"} kidney.org
+							%li.menu-item 
+								%a{:href => "twodeep-nkf.html", :class => "dropdown"} kidney.org [two-deep]
+							%li.menu-item 
+								%a{:href => "content-nkf.html", :class => "dropdown"} kidney.org [content]
 		#main.main-topbar
 			.container
 				.section.row

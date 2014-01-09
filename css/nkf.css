@@ -2987,6 +2987,24 @@ ol.slidey-markers li.active-marker a {
   .title-bottom h2 .small {
     font-size: 80%; }
 
+.title-twodeep h2 {
+  color: #f15e22;
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+.title-twodeep h3 {
+  color: #f7a482;
+  font-size: 1.25rem;
+  font-weight: lighter; }
+
+.title-content h2 {
+  color: #f15e22;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f15e22; }
+.title-content h3 {
+  color: #f7a482;
+  font-size: 1.25rem; }
+
 .title-module {
   text-align: right;
   text-transform: uppercase;
@@ -3064,6 +3082,43 @@ ol.slidey-markers li.active-marker a {
 
 /*TABLET */
 /* MOBILE */
+blockquote.blockquote-highlight {
+  border-left: 5px solid #f15e22;
+  padding-left: 10px; }
+
+.thumbnail img {
+  width: 100%;
+  height: auto; }
+.thumbnail h3 {
+  font-weight: lighter;
+  font-size: 90%;
+  color: #f15e22; }
+.thumbnail p {
+  margin: 0.5em 0 1em;
+  font-size: 90%;
+  font-weight: lighter; }
+.thumbnail.thumbnail-left {
+  float: left;
+  margin-right: 20px; }
+.thumbnail.thumbnail-right {
+  float: right;
+  margin-left: 20px; }
+.thumbnail.thumbnail-x {
+  width: 25%; }
+.thumbnail.thumbnail-xx {
+  width: 50%; }
+.thumbnail.thumbnail-xxx {
+  width: 75%; }
+.thumbnail.thumbnail-xxxx {
+  width: 100%; }
+.thumbnail.thumbnail-box {
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-sizing: border-box; }
+.thumbnail.thmb-top {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
 .cta-button {
   word-break: break-word;
   background: #f15e22;

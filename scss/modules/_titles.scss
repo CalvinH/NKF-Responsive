@@ -30,6 +30,17 @@
 			.small{font-size:80%;}
 		}
 	}
+
+	.title-twodeep {
+		
+		h2{color:$primary-color;  font-size:1.5rem; text-transform:uppercase;}
+		h3{color:$primary-color-lighter; font-size:1.25rem; font-weight:lighter;}
+	}
+	.title-content{ 
+		h2{color:$primary-color;  font-size:1.5rem; text-transform:uppercase;border-bottom:1px solid $primary-color;}
+		h3{color:$primary-color-lighter; font-size:1.25rem;}
+	}
+
 	.title-module {
 	text-align:right;
 	text-transform:uppercase;
